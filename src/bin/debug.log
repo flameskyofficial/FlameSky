@@ -1656,3 +1656,56 @@ Interested in working with us? See https://www.khanacademy.org/careers.
 Just peeking under the hood? Try starting with
 KAdefine.require("./javascript/shared-package/ka.js");
 ", source: https://www.khanacademy.org/ (440)
+[0207/151308.094:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0207/151501.287:ERROR:gpu_watchdog_thread.cc(373)] The GPU process hung. Terminating after 15000 ms.
+[0207/151515.081:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0207/151706.622:INFO:CONSOLE(0)] "The source list for Content Security Policy directive 'script-src' contains an invalid source: ''report-sample''. It will be ignored.", source: https://mail.google.com/mail/u/0/?ui=2&view=bsp&ver=ohhl4rw8mbn4 (0)
+[0207/151706.778:INFO:CONSOLE(0)] "The source list for Content Security Policy directive 'script-src' contains an invalid source: ''report-sample''. It will be ignored.", source: https://mail.google.com/mail/u/0/?ui=2&view=bsp&ver=ohhl4rw8mbn4 (0)
+[0207/151706.779:INFO:CONSOLE(0)] "The source list for Content Security Policy directive 'script-src' contains an invalid source: ''report-sample''. It will be ignored.", source: https://mail.google.com/mail/u/0/?ui=2&view=bsp&ver=ohhl4rw8mbn4 (0)
+[0207/151815.573:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0207/151816.844:INFO:CONSOLE(440)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (440)
+[0207/151936.522:INFO:CONSOLE(4245)] "JQMIGRATE: Logging is active", source: https://cdn.kastatic.org/genfiles/javascript/en/corelibs-legacy-package-e7fff6.js (4245)
+[0207/151939.866:ERROR:connection.cc(1947)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: CREATE VIEW MmapStatus (value) AS SELECT -1
+[0207/151940.210:INFO:CONSOLE(116)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://www.khanacademy.org').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflz9YJmO/www-widgetapi.js (116)
+[0207/151940.399:INFO:CONSOLE(116)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://www.khanacademy.org').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflz9YJmO/www-widgetapi.js (116)
+[0207/151940.648:INFO:CONSOLE(116)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://www.khanacademy.org').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflz9YJmO/www-widgetapi.js (116)
+[0207/151941.854:INFO:CONSOLE(116)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://www.khanacademy.org').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflz9YJmO/www-widgetapi.js (116)
+[0207/151944.885:ERROR:connection.cc(1947)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: DELETE FROM ItemTable WHERE key=?
+[0207/151945.748:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[0207/151945.826:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 17
+[0207/151946.034:INFO:CONSOLE(116)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://www.khanacademy.org').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflz9YJmO/www-widgetapi.js (116)
+[0207/151946.540:ERROR:sandbox_directory_database.cc(956)] SandboxDirectoryDatabase failed at: Init@y:\work\cef3_git\chromium\src\storage\browser\fileapi\sandbox_directory_database.cc:756 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0207/151946.555:WARNING:sandbox_directory_database.cc(768)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0207/151948.804:WARNING:extension_protocols.cc(448)] Failed to GetPathForExtension: pkedcjkdefgpdelpbcmbmeomcjbeemfm
+[0207/151948.804:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js
+[0207/151949.735:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0207/151950.728:WARNING:sandbox_directory_database.cc(777)] Failed to repair SandboxDirectoryDatabase.
+[0207/151950.728:WARNING:sandbox_directory_database.cc(780)] Clearing SandboxDirectoryDatabase.
+[0207/151952.841:ERROR:sandbox_directory_database.cc(956)] SandboxDirectoryDatabase failed at: Init@y:\work\cef3_git\chromium\src\storage\browser\fileapi\sandbox_directory_database.cc:756 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0207/151952.841:WARNING:sandbox_directory_database.cc(768)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0207/151953.668:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0207/151953.672:WARNING:audio_sync_reader.cc(188)] AudioSyncReader::Read timed out, audio glitch count=1
+[0207/151955.624:WARNING:extension_protocols.cc(448)] Failed to GetPathForExtension: pkedcjkdefgpdelpbcmbmeomcjbeemfm
+[0207/151955.624:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js
+[0207/151955.725:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0207/151956.994:WARNING:sandbox_directory_database.cc(777)] Failed to repair SandboxDirectoryDatabase.
+[0207/151956.994:WARNING:sandbox_directory_database.cc(780)] Clearing SandboxDirectoryDatabase.
+[0207/151958.748:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0207/153937.574:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0207/154126.132:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain

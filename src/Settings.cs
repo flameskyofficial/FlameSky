@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FlameSky
 {
-    public partial class Settings : Form
+    public partial class Settings : MaterialSkin.Controls.MaterialForm
     {
         public Settings()
         {

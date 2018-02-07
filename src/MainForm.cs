@@ -18,10 +18,11 @@ namespace FlameSky
     /// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
     /// If you would only like to support 64-bit machines, simply change the DLL references.
     /// </summary>
-    internal partial class MainForm : Form {
+    internal partial class MainForm : Form
+    {
 
         private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
-
+       
         public static MainForm Instance;
         string DefaultSearchEngine;
 
@@ -63,7 +64,7 @@ namespace FlameSky
         public Form splashscreen = new SplashScreen();
 
         private void MainForm_Load(object sender, EventArgs e) {
-
+            
             this.Hide();
                 InitTooltips(this.Controls);
                 InitHotkeys();
@@ -166,7 +167,7 @@ namespace FlameSky
             settings.CefCommandLineArgs.Add("enable-media-stream", "1");
             //The location where cache data will be stored on disk. If empty an in-memory cache will be used for some features and a temporary disk cache for others.
             //HTML5 databases such as localStorage will only persist across sessions if a cache path is specified. 
-            settings.CefCommandLineArgs.Add("--enable-system-flash", "1"); //Automatically discovered and load a system-wide installation of Pepper Flash.
+            settings.CefCommandLineArgs.Add("--enable-system-flash","1"); //Automatically discovered and load a system-wide installation of Pepper Flash.
           
 
 
@@ -583,6 +584,7 @@ namespace FlameSky
                     if (!Utils.IsFocussed(TxtURL))
                     {
                         SetFormURL(e.Address);
+                       
                         using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyBlackList.txt"))
                         {
                             string line;

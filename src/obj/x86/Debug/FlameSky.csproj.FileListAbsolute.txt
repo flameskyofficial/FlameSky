@@ -21,3 +21,4 @@ C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.exe.manifest
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.application
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.exe
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.pdb
+C:\Users\andre\source\repos\FlameSky 5\src\bin\MaterialSkin.dll
