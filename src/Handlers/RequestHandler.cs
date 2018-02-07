@@ -1,4 +1,5 @@
 ﻿using System.Collections.Specialized;
+using System.Security.Cryptography.X509Certificates;
 using CefSharp;
 
 namespace FlameSky {
@@ -263,27 +264,41 @@ namespace FlameSky {
 		//     the new URL and can be changed if desired
 		public void OnResourceRedirect(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, ref string newUrl) {
 		}
-		//
-		// Summary:
-		//     Called on the CEF IO thread when a resource response is received.  To allow
-		//     the resource to load normally return false.  To redirect or retry the resource
-		//     modify request (url, headers or post body) and return true.  The response
-		//     object cannot be modified in this callback.
-		//
-		// Parameters:
-		//   frame:
-		//     The frame that is being redirected.
-		//
-		//   request:
-		//     the request object
-		//
-		//   response:
-		//     the response object - cannot be modified in this callback
-		//
-		// Returns:
-		//     To allow the resource to load normally return false.  To redirect or retry
-		//     the resource modify request (url, headers or post body) and return true.
-		public bool OnResourceResponse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, IResponse response) {
+
+        public void OnResourceRedirect(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, IResponse response, ref string newUrl)
+        {
+            try
+            {
+                throw new System.NotImplementedException();
+            }
+            catch 
+            {
+
+            }
+         
+        }
+
+        //
+        // Summary:
+        //     Called on the CEF IO thread when a resource response is received.  To allow
+        //     the resource to load normally return false.  To redirect or retry the resource
+        //     modify request (url, headers or post body) and return true.  The response
+        //     object cannot be modified in this callback.
+        //
+        // Parameters:
+        //   frame:
+        //     The frame that is being redirected.
+        //
+        //   request:
+        //     the request object
+        //
+        //   response:
+        //     the response object - cannot be modified in this callback
+        //
+        // Returns:
+        //     To allow the resource to load normally return false.  To redirect or retry
+        //     the resource modify request (url, headers or post body) and return true.
+        public bool OnResourceResponse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, IResponse response) {
 
 
 			int code = response.StatusCode;
@@ -332,5 +347,9 @@ namespace FlameSky {
 			return false;
 		}
 
-	}
+        public bool OnSelectClientCertificate(IWebBrowser browserControl, IBrowser browser, bool isProxy, string host, int port, X509Certificate2Collection certificates, ISelectClientCertificateCallback callback)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }

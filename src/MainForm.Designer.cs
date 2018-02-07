@@ -51,7 +51,7 @@
             this.BtnCloseSearch = new System.Windows.Forms.Button();
             this.TxtSearch = new System.Windows.Forms.TextBox();
             this.PanelStatus = new System.Windows.Forms.Panel();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.MenuBar = new System.Windows.Forms.StatusStrip();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.newTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -101,7 +101,7 @@
             this.TabPages.SuspendLayout();
             this.PanelSearch.SuspendLayout();
             this.PanelStatus.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
+            this.MenuBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStripTab
@@ -135,7 +135,7 @@
             this.BtnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRefresh.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.BtnRefresh.Location = new System.Drawing.Point(54, 1);
+            this.BtnRefresh.Location = new System.Drawing.Point(56, 1);
             this.BtnRefresh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnRefresh.Name = "BtnRefresh";
             this.BtnRefresh.Size = new System.Drawing.Size(23, 23);
@@ -147,7 +147,7 @@
             // 
             this.BtnStop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnStop.BackgroundImage = global::FlameSky.Properties.Resources.FlameSkyStopIcon;
+            this.BtnStop.BackgroundImage = global::FlameSky.Properties.Resources.StopIcon;
             this.BtnStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnStop.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -362,16 +362,16 @@
             // 
             // PanelStatus
             // 
-            this.PanelStatus.Controls.Add(this.statusStrip1);
+            this.PanelStatus.Controls.Add(this.MenuBar);
             this.PanelStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelStatus.Location = new System.Drawing.Point(0, 651);
             this.PanelStatus.Name = "PanelStatus";
             this.PanelStatus.Size = new System.Drawing.Size(934, 20);
             this.PanelStatus.TabIndex = 8;
             // 
-            // statusStrip1
+            // MenuBar
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripDropDownButton1,
             this.toolStripDropDownButton2,
             this.toolStripDropDownButton3,
@@ -380,11 +380,11 @@
             this.toolStripSplitButton1,
             this.toolStripDropDownButton5,
             this.toolStripDropDownButton6});
-            this.statusStrip1.Location = new System.Drawing.Point(0, -2);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(934, 22);
-            this.statusStrip1.TabIndex = 0;
-            this.statusStrip1.Text = "statusStrip1";
+            this.MenuBar.Location = new System.Drawing.Point(0, -2);
+            this.MenuBar.Name = "MenuBar";
+            this.MenuBar.Size = new System.Drawing.Size(934, 22);
+            this.MenuBar.TabIndex = 0;
+            this.MenuBar.Text = "statusStrip1";
             // 
             // toolStripDropDownButton1
             // 
@@ -724,6 +724,7 @@
             this.toolStripDropDownButton6.Name = "toolStripDropDownButton6";
             this.toolStripDropDownButton6.Size = new System.Drawing.Size(100, 20);
             this.toolStripDropDownButton6.Text = "FlameSky Apps";
+            this.toolStripDropDownButton6.Visible = false;
             // 
             // SplashTimer
             // 
@@ -758,8 +759,8 @@
             this.PanelSearch.PerformLayout();
             this.PanelStatus.ResumeLayout(false);
             this.PanelStatus.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.MenuBar.ResumeLayout(false);
+            this.MenuBar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -785,7 +786,7 @@
 		private System.Windows.Forms.Button BtnPrevSearch;
 		private System.Windows.Forms.Button BtnNextSearch;
         private System.Windows.Forms.Panel PanelStatus;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip MenuBar;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStripMenuItem newTabToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem downloadsToolStripMenuItem;

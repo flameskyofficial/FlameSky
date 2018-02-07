@@ -166,9 +166,6 @@
   <data name="DownloadIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\032-down-arrow-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\makefg (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SplashScreenSparklers" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SplashScreenSparklers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,7 +175,7 @@
   <data name="RemoveTabIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\makefg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FlameSkyStopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="StopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FlameSkyStopIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

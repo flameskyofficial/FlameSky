@@ -153,16 +153,6 @@ namespace FlameSky.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FlameSkyStopIcon {
-            get {
-                object obj = ResourceManager.GetObject("FlameSkyStopIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ForwardIcon {
             get {
                 object obj = ResourceManager.GetObject("ForwardIcon", resourceCulture);

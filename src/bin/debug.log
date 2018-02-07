@@ -1622,3 +1622,37 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0207/130928:ERROR:ipc_channel_win.cc(217)] pipe error: 109
 [0207/131131:INFO:CONSOLE(0)] "The source list for Content Security Policy directive 'script-src' contains an invalid source: ''strict-dynamic''. It will be ignored.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&uc=1&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.41Z8rKx1XQQ.O%2Fm%3D__features__%2Fam%3DAAE%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo-9aMm3x1MgiL0Q16Hn9-7ySAbiAQ#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1517998291691&_gfid=I0_1517998291691&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=38986433 (0)
 [0207/131147:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[0207/145258.054:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0207/145509.770:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0207/145510.363:WARNING:backend_impl.cc(1802)] Destroying invalid entry.
+[0207/145522.113:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 21
+[0207/145522.584:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 25
+[0207/145523.208:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 31
+[0207/145523.289:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 33
+[0207/145527.851:ERROR:render_process_host_impl.cc(2077)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[0207/145534.231:ERROR:sandbox_directory_database.cc(956)] SandboxDirectoryDatabase failed at: Init@y:\work\cef3_git\chromium\src\storage\browser\fileapi\sandbox_directory_database.cc:756 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0207/145534.250:WARNING:sandbox_directory_database.cc(768)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0207/145538.422:WARNING:sandbox_directory_database.cc(777)] Failed to repair SandboxDirectoryDatabase.
+[0207/145538.438:WARNING:sandbox_directory_database.cc(780)] Clearing SandboxDirectoryDatabase.
+[0207/145540.482:ERROR:sandbox_directory_database.cc(956)] SandboxDirectoryDatabase failed at: Init@y:\work\cef3_git\chromium\src\storage\browser\fileapi\sandbox_directory_database.cc:756 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0207/145540.483:WARNING:sandbox_directory_database.cc(768)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0207/145544.608:WARNING:sandbox_directory_database.cc(777)] Failed to repair SandboxDirectoryDatabase.
+[0207/145544.608:WARNING:sandbox_directory_database.cc(780)] Clearing SandboxDirectoryDatabase.
+[0207/145600.181:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0207/145600.637:INFO:CONSOLE(440)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (440)

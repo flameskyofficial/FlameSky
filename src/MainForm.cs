@@ -448,7 +448,7 @@ namespace FlameSky
 			tabStrip.Tag = tab;
 
 			if (url.StartsWith("sharpbrowser:")) {
-				browser.RegisterAsyncJsObject("host", host, true);
+				browser.RegisterAsyncJsObject("host", host,null);
 			}
 			return tab;
 		}
