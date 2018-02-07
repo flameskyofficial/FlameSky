@@ -1,6 +1,7 @@
-![SharpBrowser](https://github.com/sharpbrowser/SharpBrowser/raw/master/images/logo3.png)
+![FlameSky](http://flamesky.weebly.com/uploads/1/4/5/8/14581514/editor/rounded-cornersflskynoshadow.png)
 
-SharpBrowser is the fastest open source C# web browser there is! Slightly faster than Google Chrome when rendering web pages due to lightweight CEF renderer. We compared every available .NET browsing browsing engine and finally settled on the high-performance [CefSharp](https://github.com/cefsharp/CefSharp/). Released under the permissive MIT license.
+FlameSky is an open source browser based on the Sharp Browser project. It is written in C# WinForms on Visual Studio, and has FlameSky's edits to the existing Sharp Browser Project.
+Released under the permissive MIT license.
 
 ## Features
 
@@ -11,10 +12,17 @@ SharpBrowser is the fastest open source C# web browser there is! Slightly faster
 - Developer tools
 - Search bar (also highlights all instances)
 - Download manager
+- Download Location Dialog (Asks where to download file)
+- Popups
+- Browsing History
+- Quick launcher (For important, useful sites)
 - Custom error pages
 - Custom context menu
+- Settings which allow customization of homepage, default search engine and has the option to not show splash screen at startup.
+- Multiple tabs and Multiple windows
 - Easily add vendor-specific branding, buttons or hotkeys
 - View online & offline webpages
+- Menu at the bottom left part of the page.
 
 ## Hotkeys
 
@@ -33,18 +41,21 @@ Ctrl+F		| Open search bar (Enter to find next, Esc to close)
 
 - SharpBrowser uses CefSharp 51, NET Framework 4.5.2
 - `MainForm.cs` - main web browser UI and related functionality
+- `SplashScreen.cs` - splash screen which shows the logo, version number, name of the project.
+- `Settings.cs` - web browser settings.
+- `BrowserHistory.cs` - shows the browser history.
 - `Handlers` - various handlers that we have registered with CefSharp that enable deeper integration between us and CefSharp
 - `Data/JSON.cs` - fast JSON serializer/deserializer
 - `bin` - Binaries are included in the `bin` folder due to the complex CefSharp setup required. Don't empty this folder.
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
 
 ## Credits
-
+- [Andrew Jose](https://github.com/andrewjoseofficial) - The FlameSky Open Source Project.
 - [Robin Rodricks](https://github.com/robinrodricks) - SharpBrowser project.
 - [Alex Maitland](https://github.com/amaitland) - CefSharp project, wrapper for CEF embeddable browser.
 - [Ahmet Uzun](https://github.com/postacik) - Original browser project.
 
-## Screenshots
+## Screenshots (To be uploaded. As of now these are the screenshots of SharpBrowser)
 
 ### Apple Homepage
 
