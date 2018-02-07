@@ -6,7 +6,7 @@ using CefSharp;
 using System.Windows.Forms;
 using CefSharp.WinForms;
 
-namespace SharpBrowser {
+namespace FlameSky {
 	internal class ContextMenuHandler : IContextMenuHandler {
 
 		private const int ShowDevTools = 26501;

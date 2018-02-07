@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace SharpBrowser {
+namespace FlameSky {
 
 	/// <summary>
 	/// functions in this class are accessible by JS using the code `host.X()`

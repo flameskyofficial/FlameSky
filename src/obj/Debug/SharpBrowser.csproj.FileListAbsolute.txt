@@ -1,0 +1,10 @@
+C:\Users\andre\Source\Repos\SharpBrowser2\src\bin\SharpBrowser.exe.config
+C:\Users\andre\Source\Repos\SharpBrowser2\src\bin\SharpBrowser.exe
+C:\Users\andre\Source\Repos\SharpBrowser2\src\bin\SharpBrowser.pdb
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.csprojResolveAssemblyReference.cache
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.MainForm.resources
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.Properties.Resources.resources
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.csproj.GenerateResource.Cache
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.csproj.CoreCompileInputs.cache
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.exe
+C:\Users\andre\Source\Repos\SharpBrowser2\src\obj\Debug\SharpBrowser.pdb

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using CefSharp;
 
 
-namespace SharpBrowser {
+namespace FlameSky {
     internal class KeyboardHandler : IKeyboardHandler
     {
         MainForm myForm;

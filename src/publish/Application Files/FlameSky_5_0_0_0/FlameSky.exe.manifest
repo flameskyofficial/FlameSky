@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FlameSky.exe" version="5.0.0.0" publicKeyToken="835446987d2c176a" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="FlameSky.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="FlameSky.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="163328">
+      <assemblyIdentity name="CefSharp" version="51.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IJV4XT/gQp6e2jjgKwzAsXoBW5m08k0zkNmQQn9qvvU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1174016">
+      <assemblyIdentity name="CefSharp.Core" version="51.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XSSgIwRDojeYaa3tKNcKzDL2TrjNZVZyxpVaES+xtoE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="22016">
+      <assemblyIdentity name="CefSharp.WinForms" version="51.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/0soBmcNDJDQ3iTiRQm1bH4NIXWY4o6bi+Qmuvs4Ot4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="5414328">
+      <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6VbEUOu+Idiph/TxCHQqjmhN8+IqfFViQ9DVbjZOIBY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TabStrip.dll" size="31744">
+      <assemblyIdentity name="TabStrip" version="2.0.6076.24311" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kENeLkEbE4e8RZKVMyv72hAX37XZxVYWSDc04Lq+l3E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FlameSky.exe.config" size="2120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XGui7YTLvkoyJXd8OUcP5SdcTZW8O3k6MVxHEU+LVY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlameSky.ico" size="310730">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yd3s/nnMCtfi/lT4+3cV5TJgwdFM1SsJNvl3U+WD3IM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADMIN-HP\andre" issuerKeyHash="84a7737d23af03b9be3f350bac69b3b0a2b44af3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>n1LEppFkS2+JYnsyAU+XTifkbndtilpk7xeJNkkrxUE=</DigestValue></Reference></SignedInfo><SignatureValue>YyUEHh38TGcywAwc+VqDB+tyxk+tUhQ3WhLbgoC5wV+1ruVxHLMemnJ3I0rRp+Refr/sgMUl/CwZt6H/q5uUk6tPwVsZPvNsA9FWKU7LYMqWiMEK3OScVoc20siFl8OLjiZdaDuNhbcr5FdC42GX8Yns9oCEcXrVeJJ0f1vFpyY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sc3vZ6hV7Xp30oFpMt7Wm5xCD6KYCSu0fottsbHDoWnwCU/aT13OMPkORiU7rfbwwQw2EuzWgBFX/5hvKPLKlw2J2XPAwxYYuOQefMmHl2MD8TX8Yq04EAL6ceMi38XfhF5RkA5FKduVmyv0VrQilPz5VD8oT+gObef5sxgqWV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="41c52b49368917ef645a8a6d776ee4274e974f01327b62896f4b6491a6c4529f" Description="" Url=""><as:assemblyIdentity name="FlameSky.exe" version="5.0.0.0" publicKeyToken="835446987d2c176a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADMIN-HP\andre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H3aVla88COoKQ7MGWPibzezzmQpksWx5/s9nIlPJ+TM=</DigestValue></Reference></SignedInfo><SignatureValue>bXa7j9jqFWXuaXnR5KHAsCldPj00x2pzUbKPw6KBwcrcAH53W/lg/WqCASyps3t/0Y/r0hy4S5aRmv/Hz94/vRw569L9CJipDk87yQS8Ay3BUwsuaYJKePJFch7ojRC10QtUsrdPkWaS/qcYnoMdxWOg5QuYJbih2Xsqi5x81yY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sc3vZ6hV7Xp30oFpMt7Wm5xCD6KYCSu0fottsbHDoWnwCU/aT13OMPkORiU7rfbwwQw2EuzWgBFX/5hvKPLKlw2J2XPAwxYYuOQefMmHl2MD8TX8Yq04EAL6ceMi38XfhF5RkA5FKduVmyv0VrQilPz5VD8oT+gObef5sxgqWV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQGc3lyF1rzZFIAW9IEFZGjzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBEAE0ASQBOAC0ASABQAFwAYQBuAGQAcgBlMB4XDTE4MDEyODE4MzM1OFoXDTE5MDEyOTAwMzM1OFowJzElMCMGA1UEAx4cAEEARABNAEkATgAtAEgAUABcAGEAbgBkAHIAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsc3vZ6hV7Xp30oFpMt7Wm5xCD6KYCSu0fottsbHDoWnwCU/aT13OMPkORiU7rfbwwQw2EuzWgBFX/5hvKPLKlw2J2XPAwxYYuOQefMmHl2MD8TX8Yq04EAL6ceMi38XfhF5RkA5FKduVmyv0VrQilPz5VD8oT+gObef5sxgqWV0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAnn4NKwaFjHKMRJwKvEAKiFfTGGN+haTz/PwVRdgrg+Khbh657RSq7sPxI3RayPdh61GU2ns35V7Ho0AzOYMy0k5V3Ab8IE5pX03kjVzk1R7UgHhAxyqBDHC6OMWh3ejHcVK0gEOWaCfMcM6/FRKFAjDWklcAMVSZBhGRHpuuJ3w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

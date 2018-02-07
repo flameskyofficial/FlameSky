@@ -8,7 +8,7 @@ using CefSharp;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace SharpBrowser {
+namespace FlameSky {
     internal class SchemeHandler : IResourceHandler, IDisposable
     {
         private static string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";

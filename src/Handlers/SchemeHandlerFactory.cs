@@ -1,6 +1,6 @@
 using CefSharp;
 
-namespace SharpBrowser {
+namespace FlameSky {
     internal class SchemeHandlerFactory : ISchemeHandlerFactory
     {
 

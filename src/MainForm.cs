@@ -1,279 +1,336 @@
-﻿using System;
-using System.Windows.Forms;
-using System.Threading;
-using System.Diagnostics;
-using System.Configuration;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using CefSharp;
+﻿using CefSharp;
 using CefSharp.WinForms;
 using FarsiLibrary.Win;
-using Timer = System.Windows.Forms.Timer;
-using System.Drawing;
-using System.Reflection;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Threading;
+using System.Web;
+using System.Windows.Forms;
 
-namespace SharpBrowser {
 
-	/// <summary>
-	/// The main SharpBrowser form, supporting multiple tabs.
-	/// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
-	/// If you would only like to support 64-bit machines, simply change the DLL references.
-	/// </summary>
-	internal partial class MainForm : Form {
-
-		private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
-
-		public static MainForm Instance;
-
-		public static string Branding = "SharpBrowser";
-		public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
-		public static string HomepageURL = "https://www.google.com";
-		public static string NewTabURL = "about:blank";
-		public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
-		public static string FileNotFoundURL = "sharpbrowser://storage/errors/notFound.html";
-		public static string CannotConnectURL = "sharpbrowser://storage/errors/cannotConnect.html";
-		public static string SearchURL = "https://www.google.com/#q=";
-
-		public bool WebSecurity = true;
-		public bool CrossDomainSecurity = true;
-		public bool WebGL = true;
-
-
-
-		public MainForm() {
-
-			Instance = this;
-
-			InitializeComponent();
-
-			InitBrowser();
-
-			SetFormTitle(null);
-
-		}
-
-		private void MainForm_Load(object sender, EventArgs e) {
-
-			InitAppIcon();
-			InitTooltips(this.Controls);
-			InitHotkeys();
-
-		}
-
-		#region App Icon
-
-		/// <summary>
-		/// embedding the resource using the Visual Studio designer results in a blurry icon.
-		/// the best way to get a non-blurry icon for Windows 7 apps.
-		/// </summary>
-		private void InitAppIcon() {
-			assembly = Assembly.GetAssembly(typeof(MainForm));
-			Icon = new Icon(GetResourceStream("sharpbrowser.ico"), new Size(64, 64));
-		}
-		
-		public static Assembly assembly = null;
-		public Stream GetResourceStream(string filename, bool withNamespace = true) {
-			try {
-				return assembly.GetManifestResourceStream("SharpBrowser.Resources." + filename);
-			} catch (System.Exception ex) { }
-			return null;
-		}
+namespace FlameSky
+{
 
-		#endregion
+    /// <summary>
+    /// The main SharpBrowser form, supporting multiple tabs.
+    /// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
+    /// If you would only like to support 64-bit machines, simply change the DLL references.
+    /// </summary>
+    internal partial class MainForm : Form {
 
-		#region Tooltips & Hotkeys
+        private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
 
-		/// <summary>
-		/// these hotkeys work when the user is focussed on the .NET form and its controls,
-		/// AND when the user is focussed on the browser (CefSharp portion)
-		/// </summary>
-		private void InitHotkeys() {
+        public static MainForm Instance;
+        string DefaultSearchEngine;
 
-			// browser hotkeys
-			KeyboardHandler.AddHotKey(this, CloseActiveTab, Keys.W, true);
-			KeyboardHandler.AddHotKey(this, CloseActiveTab, Keys.Escape, true);
-			KeyboardHandler.AddHotKey(this, AddBlankWindow, Keys.N, true);
-			KeyboardHandler.AddHotKey(this, AddBlankTab, Keys.T, true);
-			KeyboardHandler.AddHotKey(this, RefreshActiveTab, Keys.F5);
-			KeyboardHandler.AddHotKey(this, OpenDeveloperTools, Keys.F12);
-			KeyboardHandler.AddHotKey(this, NextTab, Keys.Tab, true);
-			KeyboardHandler.AddHotKey(this, PrevTab, Keys.Tab, true, true);
+        public static string Branding = "FlameSky";
+        public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
+        public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
+        public static string NewTabURL = "about:blank";
+        public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
+        public static string AdulteryURL = "sharpbrowser://storage/adulterywebsite.html";
+        public static string FileNotFoundURL = "sharpbrowser://storage/errors/notFound.html";
+        public static string CannotConnectURL = "sharpbrowser://storage/errors/cannotConnect.html";
 
-			// search hotkeys
-			KeyboardHandler.AddHotKey(this, OpenSearch, Keys.F, true);
-			KeyboardHandler.AddHotKey(this, CloseSearch, Keys.Escape);
-			KeyboardHandler.AddHotKey(this, StopActiveTab, Keys.Escape);
 
+        public static string SearchURL = FlameSky.Properties.Settings.Default.DefaultSearchEngine;
 
-		}
+        public bool WebSecurity = true;
+        public bool CrossDomainSecurity = true;
+        public bool WebGL = true;
 
-		/// <summary>
-		/// we activate all the tooltips stored in the Tag property of the buttons
-		/// </summary>
-		public void InitTooltips(System.Windows.Forms.Control.ControlCollection parent) {
-			foreach (Control ui in parent) {
-				Button btn = ui as Button;
-				if (btn != null) {
-					if (btn.Tag != null) {
-						ToolTip tip = new ToolTip();
-						tip.ReshowDelay = tip.InitialDelay = 200;
-						tip.ShowAlways = true;
-						tip.SetToolTip(btn, btn.Tag.ToString());
-					}
-				}
-				Panel panel = ui as Panel;
-				if (panel != null) {
-					InitTooltips(panel.Controls);
-				}
-			}
-		}
 
-		#endregion
 
-		#region Web Browser & Tabs
+        public MainForm() {
 
-		private FATabStripItem newStrip;
-		private FATabStripItem downloadsStrip;
+            Instance = this;
 
-		private string currentFullURL;
-		private string currentCleanURL;
-		private string currentTitle;
+            InitializeComponent();
 
-		public HostHandler host;
-		private DownloadHandler dHandler;
-		private ContextMenuHandler mHandler;
-		private LifeSpanHandler lHandler;
-		private KeyboardHandler kHandler;
-		private RequestHandler rHandler;
+            InitBrowser();
 
-		/// <summary>
-		/// this is done just once, to globally initialize CefSharp/CEF
-		/// </summary>
-		private void InitBrowser() {
+            SetFormTitle(null);
 
-			CefSettings settings = new CefSettings();
+        }
 
-			settings.RegisterScheme(new CefCustomScheme {
-				SchemeName = "sharpbrowser",
-				SchemeHandlerFactory = new SchemeHandlerFactory()
-			});
 
-			settings.UserAgent = UserAgent;
 
-			settings.IgnoreCertificateErrors = true;
-			
-			settings.CachePath = GetAppDir("Cache");
 
-			Cef.Initialize(settings);
 
-			dHandler = new DownloadHandler(this);
-			lHandler = new LifeSpanHandler(this);
-			mHandler = new ContextMenuHandler(this);
-			kHandler = new KeyboardHandler(this);
-			rHandler = new RequestHandler(this);
 
-			InitDownloads();
+        public Form splashscreen = new SplashScreen();
 
-			host = new HostHandler(this);
+        private void MainForm_Load(object sender, EventArgs e) {
 
-			AddNewBrowser(tabStrip1, HomepageURL);
+            this.Hide();
+                InitTooltips(this.Controls);
+                InitHotkeys();
+                
+            if (FlameSky.Properties.Settings.Default.ShowSplashScreenOnStartup)
+            {
+               
+                this.Hide();
+              
+                SplashTimer.Enabled = true;
+                splashscreen.Show();
+            }
+            else
+            {
+                this.Show();
 
-		}
+            }
+            
+              
 
-		/// <summary>
-		/// this is done every time a new tab is openede
-		/// </summary>
-		private void ConfigureBrowser(ChromiumWebBrowser browser) {
 
-			BrowserSettings config = new BrowserSettings();
+        }
 
-			config.FileAccessFromFileUrls = (!CrossDomainSecurity).ToCefState();
-			config.UniversalAccessFromFileUrls = (!CrossDomainSecurity).ToCefState();
-			config.WebSecurity = WebSecurity.ToCefState();
-			config.WebGl = WebGL.ToCefState();
 
-			browser.BrowserSettings = config;
 
-		}
+        #region Tooltips & Hotkeys
 
+        /// <summary>
+        /// these hotkeys work when the user is focussed on the .NET form and its controls,
+        /// AND when the user is focussed on the browser (CefSharp portion)
+        /// </summary>
+        private void InitHotkeys() {
 
-		private static string GetAppDir(string name) {
-			string winXPDir = @"C:\Documents and Settings\All Users\Application Data\";
-			if (Directory.Exists(winXPDir)) {
-				return winXPDir + Branding + @"\" + name + @"\";
-			}
-			return @"C:\ProgramData\" + Branding + @"\" + name + @"\";
+            // browser hotkeys
+            KeyboardHandler.AddHotKey(this, CloseActiveTab, Keys.W, true);
+            KeyboardHandler.AddHotKey(this, CloseActiveTab, Keys.Escape, true);
+            KeyboardHandler.AddHotKey(this, AddBlankWindow, Keys.N, true);
+            KeyboardHandler.AddHotKey(this, AddBlankTab, Keys.T, true);
+            KeyboardHandler.AddHotKey(this, RefreshActiveTab, Keys.F5);
+            KeyboardHandler.AddHotKey(this, OpenDeveloperTools, Keys.F12);
+            KeyboardHandler.AddHotKey(this, NextTab, Keys.Tab, true);
+            KeyboardHandler.AddHotKey(this, PrevTab, Keys.Tab, true, true);
+
+            // search hotkeys
+            KeyboardHandler.AddHotKey(this, OpenSearch, Keys.F, true);
+            KeyboardHandler.AddHotKey(this, CloseSearch, Keys.Escape);
+            KeyboardHandler.AddHotKey(this, StopActiveTab, Keys.Escape);
+
+
+        }
+
+        /// <summary>
+        /// we activate all the tooltips stored in the Tag property of the buttons
+        /// </summary>
+        public void InitTooltips(System.Windows.Forms.Control.ControlCollection parent) {
+            foreach (Control ui in parent) {
+                Button btn = ui as Button;
+                if (btn != null) {
+                    if (btn.Tag != null) {
+                        ToolTip tip = new ToolTip();
+                        tip.ReshowDelay = tip.InitialDelay = 200;
+                        tip.ShowAlways = true;
+                        tip.SetToolTip(btn, btn.Tag.ToString());
+                    }
+                }
+                Panel panel = ui as Panel;
+                if (panel != null) {
+                    InitTooltips(panel.Controls);
+                }
+            }
+        }
+
+        #endregion
 
-		}
+        #region Web Browser & Tabs
 
-		private void LoadURL(string url) {
-			Uri outUri;
-			string newUrl = url;
-			string urlLower = url.Trim().ToLower();
+        private FATabStripItem newStrip;
+        private FATabStripItem downloadsStrip;
 
-			// UI
-			SetTabTitle(CurBrowser, "Loading...");
+        private string currentFullURL;
+        private string currentCleanURL;
+        private string currentTitle;
 
-			// load page
-			if (urlLower == "localhost") {
+        public HostHandler host;
+        private DownloadHandler dHandler;
+        private ContextMenuHandler mHandler;
+        private LifeSpanHandler lHandler;
+        private KeyboardHandler kHandler;
+        private RequestHandler rHandler;
 
-				newUrl = "http://localhost/";
+        /// <summary>
+        /// this is done just once, to globally initialize CefSharp/CEF
+        /// </summary>
+        private void InitBrowser() {
 
-			} else if (url.CheckIfFilePath() || url.CheckIfFilePath2()) {
+            CefSettings settings = new CefSettings();
+            settings.RemoteDebuggingPort = 8088;
+            settings.CachePath = "cache";
+            settings.CefCommandLineArgs.Add("allow-running-insecure-content", "1");
+            settings.CefCommandLineArgs.Add("enable-media-stream", "1");
+            //The location where cache data will be stored on disk. If empty an in-memory cache will be used for some features and a temporary disk cache for others.
+            //HTML5 databases such as localStorage will only persist across sessions if a cache path is specified. 
+            settings.CefCommandLineArgs.Add("--enable-system-flash", "1"); //Automatically discovered and load a system-wide installation of Pepper Flash.
+          
 
-				newUrl = url.PathToURL();
 
-			} else {
 
-				Uri.TryCreate(url, UriKind.Absolute, out outUri);
+            settings.RegisterScheme(new CefCustomScheme {
+                SchemeName = "sharpbrowser",
+                SchemeHandlerFactory = new SchemeHandlerFactory()
+            });
 
-				if (!(urlLower.StartsWith("http") || urlLower.StartsWith("sharpbrowser"))) {
-					if (outUri == null || outUri.Scheme != Uri.UriSchemeFile) newUrl = "http://" + url;
-				}
+            settings.UserAgent = UserAgent;
 
-				if (urlLower.StartsWith("sharpbrowser:") ||
+            settings.IgnoreCertificateErrors = true;
 
-					// load URL if it seems valid
-					(Uri.TryCreate(newUrl, UriKind.Absolute, out outUri)
-					 && ((outUri.Scheme == Uri.UriSchemeHttp || outUri.Scheme == Uri.UriSchemeHttps) && newUrl.Contains(".") || outUri.Scheme == Uri.UriSchemeFile))) {
+            settings.CachePath = GetAppDir("Cache");
+            if (Cef.IsInitialized == false)
+            {
 
-				} else {
+                Cef.Initialize(settings);
+            }
 
-					// run search if unknown URL
-					newUrl = SearchURL + HttpUtility.UrlEncode(url);
+          
 
-				}
+            dHandler = new DownloadHandler(this);
+            lHandler = new LifeSpanHandler(this);
+            mHandler = new ContextMenuHandler(this);
+            kHandler = new KeyboardHandler(this);
+            rHandler = new RequestHandler(this);
 
-			}
+            InitDownloads();
 
-			// load URL
-			CurBrowser.Load(newUrl);
+            host = new HostHandler(this);
 
-			// set URL in UI
-			SetFormURL(newUrl);
+            AddNewBrowser(tabStrip1, HomepageURL);
 
-			// always enable back btn
-			EnableBackButton(true);
-			EnableForwardButton(false);
+        }
 
-		}
+        /// <summary>
+        /// this is done every time a new tab is openede
+        /// </summary>
+        private void ConfigureBrowser(ChromiumWebBrowser browser) {
 
-		private void SetFormTitle(string tabName) {
+            BrowserSettings config = new BrowserSettings();
 
-			if (tabName.CheckIfValid()) {
+            config.FileAccessFromFileUrls = (!CrossDomainSecurity).ToCefState();
+            config.UniversalAccessFromFileUrls = (!CrossDomainSecurity).ToCefState();
+            config.WebSecurity = WebSecurity.ToCefState();
+            config.WebGl = WebGL.ToCefState();
+            
+            browser.BrowserSettings = config;
 
-				this.Text = tabName + " - " + Branding;
-				currentTitle = tabName;
+        }
 
-			} else {
 
-				this.Text = Branding;
-				currentTitle = "New Tab";
-			}
+        private static string GetAppDir(string name) {
+            string winXPDir = @"C:\Documents and Settings\All Users\Application Data\";
+            if (Directory.Exists(winXPDir)) {
+                return winXPDir + Branding + @"\" + name + @"\";
+            }
+            return @"C:\ProgramData\" + Branding + @"\" + name + @"\";
 
-		}
+        }
+
+        private void LoadURL(string url) {
+            Uri outUri;
+            string newUrl = url;
+            string urlLower = url.Trim().ToLower();
+
+            // UI
+            SetTabTitle(CurBrowser, "Loading...");
+
+
+
+
+
+
+
+
+
+            // load page
+            if (urlLower == "localhost") {
+
+                newUrl = "http://localhost/";
+
+            } else if (url.CheckIfFilePath() || url.CheckIfFilePath2()) {
+
+                newUrl = url.PathToURL();
+
+            } else {
+
+                Uri.TryCreate(url, UriKind.Absolute, out outUri);
+
+                if (!(urlLower.StartsWith("http") || urlLower.StartsWith("sharpbrowser"))) {
+                    if (outUri == null || outUri.Scheme != Uri.UriSchemeFile) newUrl = "http://" + url;
+                }
+
+                if (urlLower.StartsWith("sharpbrowser:") ||
+
+                    // load URL if it seems valid
+                    (Uri.TryCreate(newUrl, UriKind.Absolute, out outUri)
+                     && ((outUri.Scheme == Uri.UriSchemeHttp || outUri.Scheme == Uri.UriSchemeHttps) && newUrl.Contains(".") || outUri.Scheme == Uri.UriSchemeFile))) {
+
+                } else {
+
+                    // run search if unknown URL
+                    newUrl = SearchURL + HttpUtility.UrlEncode(url);
+
+                }
+
+            }
+
+            // load URL
+            CurBrowser.Load(newUrl);
+
+            // set URL in UI
+            SetFormURL(newUrl);
+
+            // always enable back btn
+            EnableBackButton(true);
+            EnableForwardButton(false);
+
+        }
+
+        private void SetFormTitle(string tabName) {
+
+            if (tabName.CheckIfValid()) {
+
+                this.Text = tabName + " - " + Branding;
+                currentTitle = tabName;
+
+            } else {
+
+                this.Text = Branding;
+                currentTitle = "New Tab";
+            }
+
+        }
+        public void UpdateBrowserHistory( string URL, string DateAccessed, string TimeAccessed,string DocumentTitle)
+        {
+
+            try
+            {
+                if ( URL != "about:blank")
+
+                {
+
+                    File.AppendAllText(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", DateAccessed + "  " + TimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
+                   
+
+                   
+
+                }
+                else
+                {
+
+
+
+
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
 
 		private void SetFormURL(string URL) {
 
@@ -368,7 +425,9 @@ namespace SharpBrowser {
 			browser.TitleChanged += Browser_TitleChanged;
 			browser.LoadError += Browser_LoadError;
 			browser.AddressChanged += Browser_URLChanged;
-			browser.DownloadHandler = dHandler;
+            browser.DownloadHandler = dHandler;
+           
+            
 			browser.MenuHandler = mHandler;
 			browser.LifeSpanHandler = lHandler;
 			browser.KeyboardHandler = kHandler;
@@ -514,28 +573,45 @@ namespace SharpBrowser {
 		}
 
 		private void Browser_URLChanged(object sender, AddressChangedEventArgs e) {
-			InvokeIfNeeded(() => {
+			InvokeIfNeeded(() =>
+            {
 
-				// if current tab
-				if (sender == CurBrowser) {
+                // if current tab
+                if (sender == CurBrowser)
+                {
 
-					if (!Utils.IsFocussed(TxtURL)) {
-						SetFormURL(e.Address);
-					}
+                    if (!Utils.IsFocussed(TxtURL))
+                    {
+                        SetFormURL(e.Address);
+                        using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyBlackList.txt"))
+                        {
+                            string line;
+                            while ((line = r.ReadLine()) != null & e.Address != null)
+                            {
+                                if (e.Address != null & e.Address.Contains(line))
+                                {
+                                    CurBrowser.Load("http://www.flamesky.weebly.com/accessprohibitedsexualcontent.html");
+                                }
 
-					EnableBackButton(CurBrowser.CanGoBack);
-					EnableForwardButton(CurBrowser.CanGoForward);
+                            }
 
-					SetTabTitle((ChromiumWebBrowser)sender, "Loading...");
 
-					BtnRefresh.Visible = false;
-					BtnStop.Visible = true;
+                        }
 
-					CurTab.DateCreated = DateTime.Now;
+                        EnableBackButton(CurBrowser.CanGoBack);
+                        EnableForwardButton(CurBrowser.CanGoForward);
 
-				}
+                        SetTabTitle((ChromiumWebBrowser)sender, "Loading...");
 
-			});
+                        BtnRefresh.Visible = false;
+                        BtnStop.Visible = true;
+
+                        CurTab.DateCreated = DateTime.Now;
+
+                    }
+
+                }
+            });
 		}
 
 		private void Browser_LoadError(object sender, LoadErrorEventArgs e) {
@@ -546,10 +622,29 @@ namespace SharpBrowser {
 			InvokeIfNeeded(() => {
 
 				ChromiumWebBrowser browser = (ChromiumWebBrowser)sender;
-
+                
 				SetTabTitle(browser, e.Title);
+                try
+                {
+                    InvokeIfNeeded(() =>
+                    {
 
-			});
+                        string url = currentFullURL.ToString();
+
+                        string timeaccessed = DateTime.Now.ToString("h:mm:ss tt");
+                        string dateaccessed = DateTime.Today.ToString("dd/mm/yyyy");
+                        string DocumentTitle = e.Title.ToString();
+
+                        UpdateBrowserHistory(url, dateaccessed, timeaccessed,DocumentTitle);
+                    });
+                }
+                catch (Exception)
+                {
+
+                }
+                
+            });
+
 		}
 
 		private void SetTabTitle(ChromiumWebBrowser browser, string text) {
@@ -583,16 +678,42 @@ namespace SharpBrowser {
 
 				if (e.IsLoading) {
 
-					// set title
-					//SetTabTitle();
+                    try
+                    {
+                        LoadingIndicator.Image = FlameSky.Properties.Resources.CircularLoadingIndicator;
+                    }
+                    catch (Exception)
+                    {
 
-				} else {
+                    }
 
+                    
+                    
+
+
+
+                    // set title
+                    //SetTabTitle();
+
+                } else {
+                    
 					// after loaded / stopped
 					InvokeIfNeeded(() => {
-						BtnRefresh.Visible = true;
+
+
+                        try
+                        {
+                            LoadingIndicator.Image = FlameSky.Properties.Resources.LoadingCompletedIndicator;
+                        }
+                        catch (Exception)
+                        {
+
+                        }
+                        BtnRefresh.Visible = true;
 						BtnStop.Visible = false;
-					});
+                       
+
+                    });
 				}
 			}
 		}
@@ -605,6 +726,8 @@ namespace SharpBrowser {
 			}
 		}
 
+        
+
 		private void Browser_StatusMessage(object sender, StatusMessageEventArgs e) {
 		}
 
@@ -616,10 +739,26 @@ namespace SharpBrowser {
 
 		private void EnableBackButton(bool canGoBack) {
 			InvokeIfNeeded(() => BtnBack.Enabled = canGoBack);
+            if (BtnBack.Enabled)
+            {
+                BtnBack.BackgroundImage = FlameSky.Properties.Resources.BackIcon;
+            }
+            else
+            {
+                BtnBack.BackgroundImage = FlameSky.Properties.Resources.DisabledBackIcon;
+            }
 		}
 		private void EnableForwardButton(bool canGoForward) {
 			InvokeIfNeeded(() => BtnForward.Enabled = canGoForward);
-		}
+            if (BtnForward.Enabled)
+            {
+                BtnForward.BackgroundImage = FlameSky.Properties.Resources.ForwardIcon;
+            }
+            else
+            {
+                BtnForward.BackgroundImage = FlameSky.Properties.Resources.DisabledForwardIcon;
+            }
+        }
 
 		private void OnTabsChanged(TabStripItemChangedEventArgs e) {
 
@@ -745,6 +884,7 @@ namespace SharpBrowser {
 			}
 		}
 
+
 		private void OpenDeveloperTools() {
 			CurBrowser.ShowDevTools();
 		}
@@ -821,10 +961,18 @@ namespace SharpBrowser {
 
 		public string CalcDownloadPath(DownloadItem item) {
 
-			string itemName = item.SuggestedFileName != null ? item.SuggestedFileName.GetAfterLast(".") + " file" : "downloads";
+            string itemName = item.SuggestedFileName != null ? item.SuggestedFileName.GetAfterLast(".") + " file" : "downloads";
+            // Code taken from StackOverflow
+            SaveFileDialog DownloadFileDialogue = new SaveFileDialog();
+            DownloadFileDialogue.FileName = item.SuggestedFileName ;
+            
+            DownloadFileDialogue.ShowDialog();
+            this.OpenDownloadsTab();
 
-			string path = null;
-			if (path != null) {
+            string path = Path.GetFullPath(DownloadFileDialogue.FileName);
+
+            if (path != null) {
+
 				return path;
 			}
 
@@ -924,11 +1072,205 @@ namespace SharpBrowser {
 			}
 		}
 
-		#endregion
 
 
+        #endregion
 
-	}
+        private void tabStrip1_Changed(object sender, EventArgs e)
+        {
+
+        }
+
+        private void downloadsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddNewBrowserTab(DownloadsURL);
+        }
+
+        private void toolStripDropDownButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form SettingsForm = new Settings();
+            SettingsForm.Show();
+        }
+
+        private void newTabToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddNewBrowserTab(NewTabURL);
+        }
+
+        private void developerToolsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.ShowDevTools();
+        }
+
+        private void closeTabToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.CloseActiveTab();
+        }
+
+        private void historyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form history = new BrowserHistory();
+            history.Show();
+            
+        }
+
+        private void SplashTimer_Tick(object sender, EventArgs e)
+        {
+            splashscreen.Close();
+            this.Show();
+        }
+
+        private void whatsappWebToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://web.whatsapp.com");
+        }
+
+        private void facebookMessengerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://messenger.com");
+        }
+
+        private void weeblyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.instagram.com");
+        }
+
+        private void kidzWorldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.twitter.com");
+        }
+
+        private void duolingoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.duolingo.com");
+        }
+
+        private void googleScholarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://scholar.google.com");
+        }
+
+        private void googleClassroomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://classroom.google.com");
+        }
+
+        private void googleBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://books.google.com");
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void citationGeneratorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.citefast.com/");
+            
+        }
+
+        private void gulfNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.gulf-times.com/");
+        }
+
+        private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.google.com/en");
+        }
+
+        private void jerusalemPostToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.jpost.com");
+        }
+
+        private void alJazeeraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.aljazeera.com");
+        }
+
+        private void timesOfIsraelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.timesofisrael.com");
+        }
+
+        private void cNNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.cnn.com");
+        }
+
+        private void foxNewsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.foxnews.com");
+        }
+
+        private void russiaTodayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.rt.com");
+        }
+
+        private void googleDocsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://docs.google.com");
+        }
+
+        private void googleSlidesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.google.com/intl/en-GB/slides/about/");
+        }
+
+        private void googleFormsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.google.com/intl/en-GB/forms/about/");
+        }
+
+        private void googleDriveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://drive.google.com");
+        }
+
+        private void preziToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://prezi.com");
+        }
+
+        private void weeblyToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://weebly.com");
+        }
+
+        private void canvaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://canva.com");
+        }
+
+        private void toolStripStatusLabel1_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load(AdulteryURL);
+        }
+
+        private void newWindowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new MainForm().Show();
+        }
+
+        private void codecademyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.codecademy.com");
+        }
+
+        private void khanAcademyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.khanacademy.com");
+        }
+    }
 }
 
 /// <summary>

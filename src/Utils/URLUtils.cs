@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpBrowser {
+namespace FlameSky {
 	internal static class URLUtils {
 
 		public static string PathToURL(this string filePath, string removeBaseDir = null) {

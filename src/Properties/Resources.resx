@@ -117,4 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DisabledBackIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DisabledBackIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeveloperToolsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeveloperToolsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewWindowIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewWindowIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HistoryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HistoryIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuButtonIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up-arrow-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreenSwing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashScreenSwing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DisabledForwardIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DisabledForwardIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddTabIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconmonstr-folder-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RefreshIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CircularLoadingIndicator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CircularLoadingIndicator.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlameSky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlameSky.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoadingCompletedIndicator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoadingCompletedIndicator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForwardIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownloadIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\032-down-arrow-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplashScreenSparklers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SplashScreenSparklers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlameSkyLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rounded-cornersflskynoshadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveTabIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlameSkyStopIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlameSkyStopIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

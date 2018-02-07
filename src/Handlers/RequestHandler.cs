@@ -1,7 +1,7 @@
 ﻿using System.Collections.Specialized;
 using CefSharp;
 
-namespace SharpBrowser {
+namespace FlameSky {
 	internal class RequestHandler : IRequestHandler {
 		MainForm myForm;
 
