@@ -1,5 +1,11 @@
 ![FlameSky](http://flamesky.weebly.com/uploads/1/4/5/8/14581514/editor/rounded-cornersflskynoshadow.png)
 
+
+The FlameSky Open Source Project
+
+
+Version in Progress: 5
+
 FlameSky is an open source browser based on the Sharp Browser project. It is written in C# WinForms on Visual Studio, and has FlameSky's edits to the existing Sharp Browser Project.
 Released under the permissive MIT license.
 
@@ -7,6 +13,7 @@ Released under the permissive MIT license.
 
 - HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
 - Tabbed browsing
+- Google docs open in new window, to help people avoid distraction during work.
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
 - Developer tools
