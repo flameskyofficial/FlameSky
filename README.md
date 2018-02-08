@@ -45,7 +45,7 @@ Ctrl+F		| Open search bar (Enter to find next, Esc to close)
 
 ## Code
 
-- SharpBrowser uses CefSharp 51, NET Framework 4.5.2
+- FlameSky uses CefSharp 63, NET Framework 4.5.2
 - `MainForm.cs` - main web browser UI and related functionality
 - `SplashScreen.cs` - splash screen which shows the logo, version number, name of the project.
 - `Settings.cs` - web browser settings.
