@@ -5,8 +5,15 @@
 
 Version in Progress: 5
 
-FlameSky is an open source browser based on the Sharp Browser project. It is written in C# WinForms on Visual Studio, and has FlameSky's edits to the existing Sharp Browser Project.
-Released under the permissive MIT license.
+
+FlameSky is an open source web browser developed with goals such as:
+1. Create a browser that is advanced, and meets modern standards
+2. Create a browser with a native anti porn feature, and parental control feature 
+3. Create a browser which will be have solutions to the needs other browsers do not meet. 
+
+The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - who are called the FlameSky Community. The project's website is www.flameskyproject.weebly.com, and the product website  is www.flamesky.weebly.com (where approved releases are put). 
+
+FlameSky is maintained by Andrew Jose (who built Bouldercube (the former developer of FlameSky)'s  proprietary version, before he made FlameSky open source)
 
 ## Features
 
