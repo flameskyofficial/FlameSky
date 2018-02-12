@@ -47,6 +47,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.docsWorkModeenabled = new System.Windows.Forms.RadioButton();
+            this.docksWorkModedisabled = new System.Windows.Forms.RadioButton();
+            this.Label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -54,6 +58,7 @@
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -186,6 +191,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -197,6 +203,9 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.HideSplashScreenOption);
             this.groupBox3.Controls.Add(this.ShowSplashScreenOption);
             this.groupBox3.Controls.Add(this.label3);
@@ -244,6 +253,7 @@
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Location = new System.Drawing.Point(766, 424);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 23);
@@ -254,12 +264,66 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 434);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(257, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Unless you save all settings, they will not be in effect.";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Controls.Add(this.Label1);
+            this.groupBox4.Controls.Add(this.docksWorkModedisabled);
+            this.groupBox4.Controls.Add(this.docsWorkModeenabled);
+            this.groupBox4.Location = new System.Drawing.Point(6, 121);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(893, 75);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Google Docks Work Mode";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
+            // 
+            // docsWorkModeenabled
+            // 
+            this.docsWorkModeenabled.AutoSize = true;
+            this.docsWorkModeenabled.Location = new System.Drawing.Point(19, 33);
+            this.docsWorkModeenabled.Name = "docsWorkModeenabled";
+            this.docsWorkModeenabled.Size = new System.Drawing.Size(64, 17);
+            this.docsWorkModeenabled.TabIndex = 0;
+            this.docsWorkModeenabled.TabStop = true;
+            this.docsWorkModeenabled.Text = "Enabled";
+            this.docsWorkModeenabled.UseVisualStyleBackColor = true;
+            this.docsWorkModeenabled.CheckedChanged += new System.EventHandler(this.docsWorkModeenabled_CheckedChanged);
+            // 
+            // docksWorkModedisabled
+            // 
+            this.docksWorkModedisabled.AutoSize = true;
+            this.docksWorkModedisabled.Location = new System.Drawing.Point(100, 33);
+            this.docksWorkModedisabled.Name = "docksWorkModedisabled";
+            this.docksWorkModedisabled.Size = new System.Drawing.Size(66, 17);
+            this.docksWorkModedisabled.TabIndex = 1;
+            this.docksWorkModedisabled.TabStop = true;
+            this.docksWorkModedisabled.Text = "Disabled";
+            this.docksWorkModedisabled.UseVisualStyleBackColor = true;
+            this.docksWorkModedisabled.CheckedChanged += new System.EventHandler(this.docksWorkModedisabled_CheckedChanged);
+            // 
+            // Label1
+            // 
+            this.Label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(213, 24);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(548, 26);
+            this.Label1.TabIndex = 2;
+            this.Label1.Text = "This feature helps you work on Google Docs distraction free, by opening a new win" +
+    "dow optimized for Google Docs,\r\n with no room for distraction.";
             // 
             // Settings
             // 
@@ -285,6 +349,8 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -309,5 +375,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label Label1;
+        private System.Windows.Forms.RadioButton docksWorkModedisabled;
+        private System.Windows.Forms.RadioButton docsWorkModeenabled;
     }
 }

@@ -1709,3 +1709,437 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0207/151958.748:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
 [0207/153937.574:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0207/154126.132:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0209/015105.110:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0209/015105.643:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0209/015133.745:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0209/015133.745:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0209/015133.745:ERROR:disk_cache.cc(169)] Unable to create cache
+[0209/015133.745:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0209/015136.175:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0209/015137.222:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0209/015137.223:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0209/015137.224:ERROR:disk_cache.cc(169)] Unable to create cache
+[0209/015203.385:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0209/015204.960:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0209/015205.066:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0209/015216.426:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 57
+[0209/015216.573:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 59
+[0209/015216.943:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 63
+[0209/015225.422:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/ (0)
+[0209/015230.839:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[0209/015231.099:WARNING:delay_based_bwe.cc(326)] BWE Setting start bitrate to: 300000
+[0209/015231.625:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 103 to 127
+[0209/015231.637:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 104 to 125
+[0209/015237.417:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.468:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.469:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.469:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.469:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.470:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.489:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.490:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.490:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.491:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.491:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.492:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.492:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.492:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.493:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.493:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.494:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.494:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.494:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.495:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.495:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.496:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.496:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.496:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.497:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.497:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.497:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.498:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.498:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.498:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.499:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.499:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.500:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.500:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.500:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.501:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.501:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.501:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.502:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.502:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.502:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.503:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.503:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.503:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.504:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.504:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.504:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.505:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.505:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.505:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.505:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.506:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.506:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.506:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.507:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.507:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.507:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.508:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.508:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.508:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.509:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.509:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.509:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.509:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.510:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.510:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.510:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.511:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.511:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.511:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.512:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.512:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.512:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.513:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.513:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.513:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.513:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.514:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.514:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.514:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.515:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.515:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.515:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.516:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[0209/015237.516:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.516:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.517:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE creation_utc=?
+[0209/015237.517:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: database is locked, sql: INSERT INTO cookies (creation_utc, host_key, name, value, encrypted_value, path, expires_utc, secure, httponly, firstpartyonly, last_access_utc, has_expires, persistent, priority) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0209/015237.517:ERROR:connection.cc(1947)] Cookie sqlite error 5, errno 33: cannot commit transaction - SQL statements in progress, sql: COMMIT
+[0209/015313.004:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome (0)
+[0209/015333.421:ERROR:connection.cc(1947)] Cookie sqlite error 1, errno 33: cannot start a transaction within a transaction, sql: BEGIN TRANSACTION
+[0212/140218.051:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/140218.332:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/140227.130:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/140227.131:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/140227.131:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/140227.132:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/140229.251:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/140229.516:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/140229.516:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/140229.532:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/140237.959:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/140245.783:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0212/140247.712:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0212/140249.157:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0212/140250.818:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0212/140253.136:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0212/140253.302:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 25
+[0212/140253.544:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0212/140253.708:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0212/140301.341:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0212/140302.648:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 33
+[0212/140313.085:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0212/140313.085:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0212/140429.257:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://web.archive.org/web/*/https://www.getgobot.com/app/connect/weebly/751531669123180127/14581514/gobot.js (1)
+[0212/140517.852:ERROR:broker_win.cc(59)] Error reading broker pipe: The pipe has been ended. (0x6D)
+[0212/141152.434:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/141152.435:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/141154.033:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141154.036:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/141154.037:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141154.037:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/141156.069:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/141156.159:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0212/141156.164:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141156.164:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/141156.164:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141209.618:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/141216.897:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0212/141217.103:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0212/141217.128:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0212/141218.121:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0212/141229.544:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0212/141229.736:INFO:CONSOLE(443)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (443)
+[0212/141230.066:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0212/141242.021:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0212/141242.188:INFO:CONSOLE(444)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (444)
+[0212/141242.843:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0212/141246.301:INFO:CONSOLE(4245)] "JQMIGRATE: Logging is active", source: https://cdn.kastatic.org/genfiles/javascript/en/corelibs-legacy-package-e7fff6.js (4245)
+[0212/141256.446:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0212/141256.612:INFO:CONSOLE(444)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (444)
+[0212/141256.680:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0212/141324.322:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/141324.327:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/141325.639:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141325.641:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/141325.647:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141325.653:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/141327.693:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/141327.715:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141327.715:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/141327.715:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141340.311:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0212/141340.604:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0212/141340.733:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0212/141340.900:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0212/141341.750:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/141352.582:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d1099yxbcpf3k9.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/ (0)
+[0212/141356.712:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://bam.nr-data.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/#login (0)
+[0212/141402.400:INFO:CONSOLE(2)] "The SSL certificate used to load resources from https://d1099yxbcpf3k9.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/#login (2)
+[0212/141405.294:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://bam.nr-data.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/#login (0)
+[0212/141413.993:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d1099yxbcpf3k9.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/#login (0)
+[0212/141416.263:INFO:CONSOLE(2)] "The SSL certificate used to load resources from https://d1099yxbcpf3k9.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/#login (2)
+[0212/141419.272:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://bam.nr-data.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://susestudio.com/ (0)
+[0212/141612.821:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/141612.822:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/141614.540:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141614.541:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/141614.541:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141614.541:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/141616.577:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/141616.610:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141616.610:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/141616.611:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141630.359:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/141802.477:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/141802.478:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/141804.074:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141804.074:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/141804.074:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141804.074:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/141806.138:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/141806.170:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141806.171:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/141806.172:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141819.569:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/141919.225:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/141919.227:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/141920.795:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141920.795:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/141920.796:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141920.796:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/141922.838:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/141922.851:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/141922.851:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/141922.851:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/141936.343:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/142135.293:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/142135.304:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/142136.809:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/142136.815:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/142136.823:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/142136.823:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/142138.866:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/142138.901:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/142138.901:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/142138.902:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/142152.848:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/143546.462:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/143546.467:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/143548.199:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/143548.200:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/143548.204:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/143548.205:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/143550.244:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/143550.267:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='1P_JAR', domain='.google.com', path='/'}
+[0212/143550.267:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='NID', domain='.google.com', path='/'}
+[0212/143550.267:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0212/143550.273:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/143550.273:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/143550.273:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/143604.588:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/143923.993:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/143923.995:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/143925.468:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/143925.468:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/143925.469:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/143925.469:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/143927.509:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/143927.535:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0212/143927.540:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/143927.540:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/143927.540:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/143942.209:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/144042.523:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144042.524:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144042.681:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144047.321:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144047.321:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0212/144050.069:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 51
+[0212/144050.088:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144050.089:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144050.119:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144051.396:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0212/144051.396:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0212/144052.345:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144052.345:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144052.380:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144052.394:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 45
+[0212/144052.448:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 77
+[0212/144052.496:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 43
+[0212/144052.496:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0212/144052.604:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 79
+[0212/144052.618:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 81
+[0212/144052.634:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 41
+[0212/144052.637:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 83
+[0212/144052.638:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 87
+[0212/144052.638:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 85
+[0212/144052.638:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 89
+[0212/144052.638:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 91
+[0212/144052.764:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0212/144052.930:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 37
+[0212/144053.111:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0212/144053.317:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 27
+[0212/144053.389:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 25
+[0212/144053.392:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0212/144053.490:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144053.491:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0212/144053.949:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0212/144057.565:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0212/144057.566:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0212/144129.924:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/144129.924:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/144131.304:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/144131.304:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/144131.304:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/144131.304:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/144133.340:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/144133.363:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0212/144133.368:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/144133.369:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/144133.369:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/144145.645:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0212/144145.885:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0212/144148.418:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/144154.178:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144154.179:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144154.245:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144159.713:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144159.714:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144205.790:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144205.791:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144205.901:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144206.549:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144206.550:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144206.564:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144206.618:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144206.619:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144206.638:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144206.989:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144206.989:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144207.033:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144207.387:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0212/144207.387:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0212/144207.401:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0212/144208.647:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144208.647:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0212/144212.725:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0212/144212.725:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0212/144214.762:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0212/144214.762:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0212/144218.855:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0212/144218.855:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0212/145016.752:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0212/145016.754:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0212/145018.357:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/145018.358:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0212/145018.358:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/145018.358:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0212/145020.399:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0212/145020.435:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='1P_JAR', domain='.google.com', path='/'}
+[0212/145020.435:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='NID', domain='.google.com', path='/'}
+[0212/145020.435:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0212/145020.441:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0212/145020.441:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0212/145020.442:ERROR:disk_cache.cc(169)] Unable to create cache
+[0212/145028.348:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0212/145041.608:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0212/145041.746:INFO:CONSOLE(443)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (443)
+[0212/145041.848:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0212/145048.409:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-058ab6.js (1259)
+[0212/145048.552:INFO:CONSOLE(443)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (443)
+[0212/145048.634:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)

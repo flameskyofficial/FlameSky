@@ -46,6 +46,15 @@ namespace FlameSky
             {
                 HideSplashScreenOption.Checked = true;
             }
+            if (FlameSky.Properties.Settings.Default.GoogleDocsWorkModeEnabled)
+            {
+                docsWorkModeenabled.Checked = true;
+
+            }
+            else
+            {
+                docksWorkModedisabled.Checked = true;
+            }
         }
 
         private void SettingsHomepage_TextChanged(object sender, EventArgs e)
@@ -131,6 +140,29 @@ namespace FlameSky
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void docsWorkModeenabled_CheckedChanged(object sender, EventArgs e)
+        {
+            if (docsWorkModeenabled.Checked)
+            {
+                FlameSky.Properties.Settings.Default.GoogleDocsWorkModeEnabled = true;
+
+            }
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void docksWorkModedisabled_CheckedChanged(object sender, EventArgs e)
+        {
+            if(docksWorkModedisabled.Checked)
+            {
+                FlameSky.Properties.Settings.Default.GoogleDocsWorkModeEnabled = false;
+
+            }
         }
     }
 }

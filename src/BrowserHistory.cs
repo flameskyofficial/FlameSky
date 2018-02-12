@@ -21,15 +21,26 @@ namespace FlameSky
 
         private void BrowserHistory_Load(object sender, EventArgs e)
         {
-            using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt"))
-            {
-                string line;
-                while ((line = r.ReadLine()) != null)
+            try
+           {
+               using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt"))
                 {
-                    listBox1.Items.Add(line);
+                   string line;
+                   while ((line = r.ReadLine()) != null)
+                    {
+                        listBox1.Items.Add(line);
+                        
 
-                }
+                    }
+                    r.Close();
+              }
             }
+           catch (Exception)
+           {
+                
+                MessageBox.Show("The History section of the browser is occupied in another process, please wait and try again");
+                this.Close();
+           }
 
         }
 
@@ -88,10 +99,17 @@ namespace FlameSky
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", FileMode.Truncate, FileAccess.Write)
+            try
+            {
+                FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", FileMode.Truncate, FileAccess.Write)
+                {
+
+                };
+            }
+           catch (Exception)
             {
 
-            };
+            }
 
 
 

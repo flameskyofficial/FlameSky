@@ -163,6 +163,7 @@ namespace FlameSky
             CefSettings settings = new CefSettings();
             settings.RemoteDebuggingPort = 8088;
             settings.CachePath = "cache";
+            CefSharpSettings.LegacyJavascriptBindingEnabled = true;
             settings.CefCommandLineArgs.Add("allow-running-insecure-content", "1");
             settings.CefCommandLineArgs.Add("enable-media-stream", "1");
             //The location where cache data will be stored on disk. If empty an in-memory cache will be used for some features and a temporary disk cache for others.
@@ -585,20 +586,7 @@ namespace FlameSky
                     {
                         SetFormURL(e.Address);
                        
-                        using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyBlackList.txt"))
-                        {
-                            string line;
-                            while ((line = r.ReadLine()) != null & e.Address != null)
-                            {
-                                if (e.Address != null & e.Address.Contains(line))
-                                {
-                                    CurBrowser.Load("http://www.flamesky.weebly.com/accessprohibitedsexualcontent.html");
-                                }
-
-                            }
-
-
-                        }
+                       
 
                         EnableBackButton(CurBrowser.CanGoBack);
                         EnableForwardButton(CurBrowser.CanGoForward);
@@ -677,11 +665,27 @@ namespace FlameSky
 
 				EnableBackButton(e.CanGoBack);
 				EnableForwardButton(e.CanGoForward);
+               string CurURL = currentFullURL;
 
 				if (e.IsLoading) {
 
-                    try
+                   try
                     {
+                   //     using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyBlackList.txt"))
+                   //     {
+                    //        string line;
+                    //        while ((line = r.ReadLine()) != null & CurURL != null)
+                      //      {
+                        //        if (CurURL != null & CurURL.Contains(line))
+                        //        {
+                        //            CurBrowser.Load("http://www.flamesky.weebly.com/accessprohibitedsexualcontent.html");
+                        //        }
+
+                        //    }
+                        //    r.Close();
+
+
+                       // }
                         LoadingIndicator.Image = FlameSky.Properties.Resources.CircularLoadingIndicator;
                     }
                     catch (Exception)
@@ -706,6 +710,8 @@ namespace FlameSky
                         try
                         {
                             LoadingIndicator.Image = FlameSky.Properties.Resources.LoadingCompletedIndicator;
+                            
+                            
                         }
                         catch (Exception)
                         {
@@ -1271,6 +1277,21 @@ namespace FlameSky
         private void khanAcademyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CurBrowser.Load("http://www.khanacademy.com");
+        }
+
+        private void instagramToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.instagram.com");
+        }
+
+        private void collegeBoardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.collegeboard.org/");
+        }
+
+        private void gitHubToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.google.com");
         }
     }
 }

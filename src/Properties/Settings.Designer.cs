@@ -71,5 +71,17 @@ namespace FlameSky.Properties {
                 this["History"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool GoogleDocsWorkModeEnabled {
+            get {
+                return ((bool)(this["GoogleDocsWorkModeEnabled"]));
+            }
+            set {
+                this["GoogleDocsWorkModeEnabled"] = value;
+            }
+        }
     }
 }
