@@ -13,6 +13,7 @@ The FlameSky project's goals are:
 3. Create a browser which will be have solutions to the needs other browsers do not meet. 
 4. A browser that is well equipped with useful tools which will help users.
 5. A browser which is user-centric.
+6. A browser which will be useful and trustworthy that it can be confidently used by users as their main web browser.
 
 
 
