@@ -22,6 +22,7 @@ FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary
 ## Features
 
 - HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
+- Flash (only with PPAI systemwwide installation of Flash)
 - Tabbed browsing
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
@@ -33,11 +34,11 @@ FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary
 - Browsing History
 - Quick launcher (For important, useful sites)
 - Custom error pages
-- Custom context menu
+- Drop Down Menu.
 - Settings which allow customization of homepage, default search engine and has the option to not show splash screen at startup.
 - Multiple tabs and Multiple windows
-- Easily add vendor-specific branding, buttons or hotkeys
 - View online & offline webpages
+- PDF files supported
 - Menu at the bottom left part of the page.
 
 ## Hotkeys
