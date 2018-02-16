@@ -23,7 +23,6 @@ FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary
 
 - HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
 - Tabbed browsing
-- Google docs open in new window, to help people avoid distraction during work.
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
 - Developer tools
