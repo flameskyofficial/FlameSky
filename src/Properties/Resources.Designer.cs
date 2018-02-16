@@ -153,6 +153,16 @@ namespace FlameSky.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FlameSkyStopIcon {
+            get {
+                object obj = ResourceManager.GetObject("FlameSkyStopIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ForwardIcon {
             get {
                 object obj = ResourceManager.GetObject("ForwardIcon", resourceCulture);
@@ -183,9 +193,39 @@ namespace FlameSky.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap makefg__2_ {
+            get {
+                object obj = ResourceManager.GetObject("makefg (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap makefg__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("makefg (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MenuButtonIcon {
             get {
                 object obj = ResourceManager.GetObject("MenuButtonIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuIcon {
+            get {
+                object obj = ResourceManager.GetObject("MenuIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

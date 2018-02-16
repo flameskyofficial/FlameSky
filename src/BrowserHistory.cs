@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace FlameSky
 {
-    public partial class BrowserHistory : MaterialSkin.Controls.MaterialForm
+    public partial class BrowserHistory : MetroFramework.Forms.MetroForm
     {
         public BrowserHistory()
         {
@@ -99,6 +99,12 @@ namespace FlameSky
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
         {
+         
+
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
             try
             {
                 FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", FileMode.Truncate, FileAccess.Write)
@@ -106,7 +112,7 @@ namespace FlameSky
 
                 };
             }
-           catch (Exception)
+            catch (Exception)
             {
 
             }
@@ -114,7 +120,6 @@ namespace FlameSky
 
 
             this.Close();
-
 
         }
     }

@@ -2143,3 +2143,348 @@ Just peeking under the hood? Try starting with
 KAdefine.require("./javascript/shared-package/ka.js");
 ", source: https://www.khanacademy.org/ (443)
 [0212/145048.634:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0215/002023.506:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002023.528:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002024.178:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002030.246:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/002030.246:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/002031.535:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002031.605:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002031.620:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002033.468:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002033.469:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002033.589:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002033.857:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002033.857:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002033.871:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002033.889:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002033.891:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002033.906:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002034.641:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/002034.642:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/002036.758:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/002036.760:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/002037.842:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002037.842:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002037.942:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002041.133:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/002041.134:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/002048.926:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0215/002048.926:INFO:CONSOLE(1)] "'webkitURL' is deprecated. Please use 'URL' instead.", source:  (1)
+[0215/002758.907:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002758.930:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002800.146:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002809.158:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/002809.158:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/002813.273:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/002813.286:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/002815.346:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/002815.346:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/002819.410:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/002819.410:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/002821.141:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002821.141:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002821.164:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002823.522:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002823.523:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002823.867:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0215/002823.942:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002824.357:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002824.357:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002824.367:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002824.434:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002824.434:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002824.444:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002827.090:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002827.090:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002827.296:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002859.548:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002859.548:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002859.598:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002903.563:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002904.870:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002908.896:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002908.901:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002908.927:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002911.643:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002915.284:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002915.284:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002915.336:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002916.030:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002916.030:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002916.041:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002916.202:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002916.202:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002916.213:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/002919.530:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/002919.531:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/002919.561:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003220.723:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003220.932:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003221.286:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003233.471:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003233.471:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003240.729:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://drive.google.com/drive/u/0/my-drive' was loaded over HTTPS, but requested an insecure image 'http://web.archive.org/web/*/https://lh3.googleusercontent.com/-E1Ugsy-67JE/Viae2BmJxBI/AAAAAAAAAA8/otK-kD6gCdw/s16-c-k/16.png'. This content should also be served over HTTPS.", source: https://drive.google.com/drive/u/0/my-drive (0)
+[0215/003249.236:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003249.238:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003249.396:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003253.388:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003253.389:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003259.197:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://drive.google.com/drive/u/0/my-drive' was loaded over HTTPS, but requested an insecure image 'http://web.archive.org/web/*/https://lh3.googleusercontent.com/-E1Ugsy-67JE/Viae2BmJxBI/AAAAAAAAAA8/otK-kD6gCdw/s16-c-k/16.png'. This content should also be served over HTTPS.", source: https://drive.google.com/drive/u/0/my-drive (0)
+[0215/003306.887:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003306.888:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003306.938:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003309.789:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003309.790:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003310.073:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003317.425:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0215/003317.728:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003317.731:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/003318.487:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003318.488:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003318.499:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003318.506:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003318.506:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003318.518:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003320.673:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003320.673:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003320.688:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003321.915:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/003321.920:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/003324.541:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003324.541:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/003329.595:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/003329.595:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/003336.865:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.101:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.203:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.232:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.239:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.246:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.249:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.251:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.254:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.257:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.263:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.265:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.271:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.275:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.280:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.287:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.307:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.317:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.321:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.332:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.334:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.385:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.388:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.392:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.546:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.677:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.873:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.918:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.989:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003339.991:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.013:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.020:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.025:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.032:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.095:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.283:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003340.435:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.013:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.016:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.082:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.159:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.184:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.193:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.197:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003341.200:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/003404.626:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003404.626:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003404.649:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003415.790:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003415.790:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003415.804:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003434.540:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003434.540:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003434.636:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003438.847:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003438.847:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003438.909:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003500.589:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003500.589:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003500.733:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003504.698:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003504.700:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/003512.980:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003512.980:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003513.081:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003515.605:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003515.629:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003515.679:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003515.727:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003515.728:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003515.794:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003515.809:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003515.809:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003515.825:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/003515.842:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/003515.862:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/003515.864:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004212.747:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004212.771:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004213.001:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004217.260:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004217.270:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/004219.219:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004219.234:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004219.257:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004219.500:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004219.500:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004219.514:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004219.607:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004219.607:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004219.638:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004219.658:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004219.658:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004219.671:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004220.988:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004220.988:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004221.049:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004221.402:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/004221.403:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/004223.442:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004223.443:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/004227.510:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/004227.511:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/004232.579:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0215/004236.377:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004240.060:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004240.660:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004240.673:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004240.737:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004240.880:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004240.880:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004240.892:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004241.074:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004241.075:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004241.089:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004304.146:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0215/004304.189:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004304.189:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004304.240:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004306.704:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004306.704:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004307.101:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004307.298:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004307.298:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004307.341:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004307.531:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004307.532:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004307.551:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004307.643:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004307.646:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004307.671:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004308.728:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004308.729:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004308.770:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 79
+[0215/004308.787:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 77
+[0215/004308.850:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004321.137:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004325.685:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004326.003:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004326.003:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004326.032:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004326.153:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004326.153:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004326.165:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004326.245:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004326.246:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004326.256:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004327.157:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 33
+[0215/004716.749:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004716.769:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004716.929:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004721.770:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004721.771:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004729.414:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004729.418:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004729.469:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004730.971:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004730.971:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004731.010:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004732.812:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004732.813:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004732.823:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004732.833:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/004732.833:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/004732.843:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/004734.355:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004734.355:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/004738.418:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/004738.419:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/004740.480:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/004740.484:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/004744.539:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/004744.539:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/005037.260:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\q0xK-vemq_lVy_UBgDcECA.woff2 error:-4
+[0215/005037.297:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/005037.297:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/005037.319:INFO:CONSOLE(0)] "Access to Font at 'sharpbrowser://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1ILjIa-dReMWPbc3pFb9GFJnx5x2n7QJizfUbFHP48RM/edit?usp=drive_web&ouid=109211634823457160776 (0)
+[0215/005037.326:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/005037.490:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\q0xK-vemq_lVy_UBgDcECA.woff2 error:-4
+[0215/005039.133:INFO:CONSOLE(0)] "Access to Font at 'sharpbrowser://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1ILjIa-dReMWPbc3pFb9GFJnx5x2n7QJizfUbFHP48RM/edit (0)
+[0215/012153.239:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0215/012153.266:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0215/012154.097:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0215/012154.097:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0215/012154.807:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0215/012155.888:INFO:CONSOLE(1123)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/yts/jsbin/desktop_polymer-vflZH6F5e/desktop_polymer.js (1123)
+[0215/012157.972:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0215/012158.304:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/012158.304:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/012202.365:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/012202.366:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/012204.428:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0215/012204.428:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0215/012205.951:WARNING:audio_sync_reader.cc(172)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[0215/012205.971:WARNING:audio_sync_reader.cc(189)] AudioSyncReader::Read timed out, audio glitch count=1
+[0215/012208.523:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0215/012208.523:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0215/012211.615:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0217/002704.551:ERROR:entry_impl.cc(1037)] No file for 800005b2
+[0217/012203.454:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0217/012203.658:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0217/012213.851:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/012213.851:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0217/012213.854:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/012213.855:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0217/012216.045:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0217/012216.473:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/012216.473:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0217/012216.473:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/012226.971:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0217/013020.504:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0217/013020.505:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0217/013028.131:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/013028.131:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0217/013028.157:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/013028.157:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0217/013030.548:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0217/013031.307:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/013031.307:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0217/013031.307:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/013052.046:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0217/013234.493:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0217/013234.494:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0217/013237.405:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/013237.406:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0217/013237.407:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/013237.408:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0217/013239.446:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0217/013239.470:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0217/013239.475:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0217/013239.475:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_000
+[0217/013239.475:ERROR:disk_cache.cc(169)] Unable to create cache
+[0217/013246.761:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)

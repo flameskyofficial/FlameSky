@@ -151,22 +151,17 @@ namespace FlameSky {
 		public bool OnBeforePopup(IWebBrowser browserControl, IBrowser browser, IFrame frame, string targetUrl, string targetFrameName, WindowOpenDisposition targetDisposition, bool userGesture, IPopupFeatures popupFeatures, IWindowInfo windowInfo, IBrowserSettings browserSettings, ref bool noJavascriptAccess, out IWebBrowser newBrowser) {
 
             // open popup in new tab!
-           if (targetUrl.Contains("login") || targetUrl.Contains("logout") || targetUrl.Contains("signin") || targetUrl.Contains("signout")) //This will ensure that 'Sign in or Sign up with Google Popups open in CefSharp Default' because the method in the else block, failed to help users login through Google in sites like KhanAcademy.
+            if (targetUrl.Contains("login") || targetUrl.Contains("logout") || targetUrl.Contains("signin") || targetUrl.Contains("signout")) //This will ensure that 'Sign in or Sign up with Google Popups open in CefSharp Default' because the method in the else block, failed to help users login through Google in sites like KhanAcademy.
             {
                 newBrowser = null;
                 return false;
             }
-      
-            else{
-                if (FlameSky.Properties.Settings.Default.GoogleDocsWorkModeEnabled = true && targetUrl.Contains("google"))
-                {
-                    newBrowser = null;
-                    return false;
-                }
-                else
-                {
-                    newBrowser = myForm.AddNewBrowserTab(targetUrl);
-                }
+
+            else
+            {
+
+                newBrowser = myForm.AddNewBrowserTab(targetUrl);
+            }
                
 
                 return true;
@@ -175,4 +170,4 @@ namespace FlameSky {
             
 		}
     }
-}
+

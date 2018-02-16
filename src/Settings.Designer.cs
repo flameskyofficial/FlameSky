@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -47,10 +48,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.docsWorkModeenabled = new System.Windows.Forms.RadioButton();
-            this.docksWorkModedisabled = new System.Windows.Forms.RadioButton();
-            this.Label1 = new System.Windows.Forms.Label();
+            this.metroStyleManager1 = new MetroFramework.Components.MetroStyleManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -58,7 +56,7 @@
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -66,7 +64,7 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::FlameSky.Properties.Resources.FlameSkyLogo;
-            this.pictureBox2.Location = new System.Drawing.Point(875, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(868, 24);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(36, 37);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -81,10 +79,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(1, 78);
+            this.tabControl1.Location = new System.Drawing.Point(1, 67);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(914, 340);
+            this.tabControl1.Size = new System.Drawing.Size(914, 351);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -95,7 +93,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(906, 314);
+            this.tabPage1.Size = new System.Drawing.Size(906, 325);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -191,12 +189,11 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(906, 314);
+            this.tabPage2.Size = new System.Drawing.Size(906, 325);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Application";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -264,66 +261,18 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(12, 434);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(257, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Unless you save all settings, they will not be in effect.";
             // 
-            // groupBox4
+            // metroStyleManager1
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.Controls.Add(this.Label1);
-            this.groupBox4.Controls.Add(this.docksWorkModedisabled);
-            this.groupBox4.Controls.Add(this.docsWorkModeenabled);
-            this.groupBox4.Location = new System.Drawing.Point(6, 121);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(893, 75);
-            this.groupBox4.TabIndex = 1;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Google Docks Work Mode";
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // docsWorkModeenabled
-            // 
-            this.docsWorkModeenabled.AutoSize = true;
-            this.docsWorkModeenabled.Location = new System.Drawing.Point(19, 33);
-            this.docsWorkModeenabled.Name = "docsWorkModeenabled";
-            this.docsWorkModeenabled.Size = new System.Drawing.Size(64, 17);
-            this.docsWorkModeenabled.TabIndex = 0;
-            this.docsWorkModeenabled.TabStop = true;
-            this.docsWorkModeenabled.Text = "Enabled";
-            this.docsWorkModeenabled.UseVisualStyleBackColor = true;
-            this.docsWorkModeenabled.CheckedChanged += new System.EventHandler(this.docsWorkModeenabled_CheckedChanged);
-            // 
-            // docksWorkModedisabled
-            // 
-            this.docksWorkModedisabled.AutoSize = true;
-            this.docksWorkModedisabled.Location = new System.Drawing.Point(100, 33);
-            this.docksWorkModedisabled.Name = "docksWorkModedisabled";
-            this.docksWorkModedisabled.Size = new System.Drawing.Size(66, 17);
-            this.docksWorkModedisabled.TabIndex = 1;
-            this.docksWorkModedisabled.TabStop = true;
-            this.docksWorkModedisabled.Text = "Disabled";
-            this.docksWorkModedisabled.UseVisualStyleBackColor = true;
-            this.docksWorkModedisabled.CheckedChanged += new System.EventHandler(this.docksWorkModedisabled_CheckedChanged);
-            // 
-            // Label1
-            // 
-            this.Label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(213, 24);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(548, 26);
-            this.Label1.TabIndex = 2;
-            this.Label1.Text = "This feature helps you work on Google Docs distraction free, by opening a new win" +
-    "dow optimized for Google Docs,\r\n with no room for distraction.";
+            this.metroStyleManager1.Owner = null;
             // 
             // Settings
             // 
@@ -336,7 +285,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Settings";
-            this.Text = "Settings | FlameSky";
+            this.Style = MetroFramework.MetroColorStyle.Red;
+            this.Text = "Settings ";
+            this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.Settings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -349,8 +300,7 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,9 +325,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.RadioButton docksWorkModedisabled;
-        private System.Windows.Forms.RadioButton docsWorkModeenabled;
+        private MetroFramework.Components.MetroStyleManager metroStyleManager1;
     }
 }

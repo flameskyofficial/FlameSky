@@ -1,9 +1,11 @@
 ﻿using CefSharp;
 using CefSharp.WinForms;
+using CefSharp.WinForms.Example.Handlers;
 using FarsiLibrary.Win;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Threading;
 using System.Web;
@@ -20,7 +22,7 @@ namespace FlameSky
     /// </summary>
     internal partial class MainForm : Form
     {
-
+        
         private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
        
         public static MainForm Instance;
@@ -42,13 +44,15 @@ namespace FlameSky
         public bool CrossDomainSecurity = true;
         public bool WebGL = true;
 
-
+      
 
         public MainForm() {
 
             Instance = this;
 
             InitializeComponent();
+            
+            
 
             InitBrowser();
 
@@ -151,9 +155,11 @@ namespace FlameSky
         public HostHandler host;
         private DownloadHandler dHandler;
         private ContextMenuHandler mHandler;
+      
         private LifeSpanHandler lHandler;
         private KeyboardHandler kHandler;
         private RequestHandler rHandler;
+        private DisplayHandler dsphandler;
 
         /// <summary>
         /// this is done just once, to globally initialize CefSharp/CEF
@@ -161,6 +167,7 @@ namespace FlameSky
         private void InitBrowser() {
 
             CefSettings settings = new CefSettings();
+            
             settings.RemoteDebuggingPort = 8088;
             settings.CachePath = "cache";
             CefSharpSettings.LegacyJavascriptBindingEnabled = true;
@@ -169,8 +176,7 @@ namespace FlameSky
             //The location where cache data will be stored on disk. If empty an in-memory cache will be used for some features and a temporary disk cache for others.
             //HTML5 databases such as localStorage will only persist across sessions if a cache path is specified. 
             settings.CefCommandLineArgs.Add("--enable-system-flash","1"); //Automatically discovered and load a system-wide installation of Pepper Flash.
-          
-
+            
 
 
             settings.RegisterScheme(new CefCustomScheme {
@@ -192,11 +198,12 @@ namespace FlameSky
           
 
             dHandler = new DownloadHandler(this);
+            
             lHandler = new LifeSpanHandler(this);
             mHandler = new ContextMenuHandler(this);
             kHandler = new KeyboardHandler(this);
             rHandler = new RequestHandler(this);
-
+            
             InitDownloads();
 
             host = new HostHandler(this);
@@ -1101,8 +1108,7 @@ namespace FlameSky
 
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form SettingsForm = new Settings();
-            SettingsForm.Show();
+         
         }
 
         private void newTabToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1122,8 +1128,7 @@ namespace FlameSky
 
         private void historyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form history = new BrowserHistory();
-            history.Show();
+          
             
         }
 
@@ -1291,7 +1296,74 @@ namespace FlameSky
 
         private void gitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CurBrowser.Load("http://www.google.com");
+            CurBrowser.Load("http://www.github.com");
+        }
+
+        private void MainForm_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void AddressBarPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Menu_Click(object sender, EventArgs e)
+        {
+
+            // Credits to https://stackoverflow.com/questions/10803184/windows-forms-button-with-drop-down-menu Lars Tech
+            Point screenPoint = Menu.PointToScreen(new Point(Menu.Left, Menu.Bottom));
+            if (screenPoint.Y + MenuStripDropDown.Size.Height > Screen.PrimaryScreen.WorkingArea.Height)
+            {
+                MenuStripDropDown.Show(Menu, new Point(0, -MenuStripDropDown.Size.Height));
+            }
+            else
+            {
+                MenuStripDropDown.Show(Menu, new Point(0, Menu.Height));
+            }
+        }
+
+        private void newTabToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            AddNewBrowserTab(NewTabURL);
+        }
+
+        private void closeTabToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.CloseActiveTab();
+        }
+
+        private void newWindowToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            new MainForm().Show();
+        }
+
+        private void developerToolsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.ShowDevTools();
+        }
+
+        private void settingsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Form SettingsForm = new Settings();
+            SettingsForm.Show();
+        }
+
+        private void downloadsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            AddNewBrowserTab(DownloadsURL);
+        }
+
+        private void historyToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Form history = new BrowserHistory();
+            history.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
@@ -1313,7 +1385,7 @@ internal class SharpTab {
 
 	public FATabStripItem Tab;
 	public ChromiumWebBrowser Browser;
-
+    
 }
 
 /// <summary>

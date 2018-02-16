@@ -40,6 +40,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.TxtURL = new System.Windows.Forms.TextBox();
             this.PanelToolbar = new System.Windows.Forms.Panel();
+            this.Menu = new System.Windows.Forms.Button();
             this.AddressBarPanel = new System.Windows.Forms.Panel();
             this.LoadingIndicator = new System.Windows.Forms.PictureBox();
             this.TabPages = new FarsiLibrary.Win.FATabStrip();
@@ -50,52 +51,16 @@
             this.BtnPrevSearch = new System.Windows.Forms.Button();
             this.BtnCloseSearch = new System.Windows.Forms.Button();
             this.TxtSearch = new System.Windows.Forms.TextBox();
-            this.PanelStatus = new System.Windows.Forms.Panel();
-            this.MenuBar = new System.Windows.Forms.StatusStrip();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.SplashTimer = new System.Windows.Forms.Timer(this.components);
+            this.MenuStripDropDown = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.newTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.downloadsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.kidzWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.InstagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facebookMessengerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.instagramToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripDropDownButton3 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.googleClassroomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleBooksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleScholarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.citationGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.duolingoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.codecademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.khanAcademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.collegeBoardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripDropDownButton4 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.russiaTodayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.foxNewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gulfNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cNNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.timesOfIsraelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripDropDownButton5 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.canvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.weeblyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.preziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleFormsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleSlidesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.googleDocsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripDropDownButton6 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.SplashTimer = new System.Windows.Forms.Timer(this.components);
-            this.gitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -103,8 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).BeginInit();
             this.TabPages.SuspendLayout();
             this.PanelSearch.SuspendLayout();
-            this.PanelStatus.SuspendLayout();
-            this.MenuBar.SuspendLayout();
+            this.MenuStripDropDown.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStripTab
@@ -134,11 +98,11 @@
             // 
             this.BtnRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnRefresh.BackgroundImage = global::FlameSky.Properties.Resources.RefreshIcon;
+            this.BtnRefresh.BackgroundImage = global::FlameSky.Properties.Resources.makefg__2_1;
             this.BtnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRefresh.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.BtnRefresh.Location = new System.Drawing.Point(56, 1);
+            this.BtnRefresh.Location = new System.Drawing.Point(54, 1);
             this.BtnRefresh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnRefresh.Name = "BtnRefresh";
             this.BtnRefresh.Size = new System.Drawing.Size(23, 23);
@@ -150,7 +114,7 @@
             // 
             this.BtnStop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnStop.BackgroundImage = global::FlameSky.Properties.Resources.StopIcon;
+            this.BtnStop.BackgroundImage = global::FlameSky.Properties.Resources.FlameSkyStopIcon;
             this.BtnStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnStop.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -164,7 +128,7 @@
             // 
             // BtnForward
             // 
-            this.BtnForward.BackgroundImage = global::FlameSky.Properties.Resources.ForwardIcon;
+            this.BtnForward.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnForward.BackgroundImage")));
             this.BtnForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnForward.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnForward.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -178,7 +142,7 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.BackgroundImage = global::FlameSky.Properties.Resources.BackIcon;
+            this.BtnBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnBack.BackgroundImage")));
             this.BtnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBack.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -204,7 +168,7 @@
             this.TxtURL.Location = new System.Drawing.Point(30, 2);
             this.TxtURL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(796, 16);
+            this.TxtURL.Size = new System.Drawing.Size(793, 16);
             this.TxtURL.TabIndex = 5;
             this.TxtURL.Click += new System.EventHandler(this.txtUrl_Click);
             this.TxtURL.TextChanged += new System.EventHandler(this.txtUrl_TextChanged);
@@ -213,6 +177,7 @@
             // PanelToolbar
             // 
             this.PanelToolbar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.PanelToolbar.Controls.Add(this.Menu);
             this.PanelToolbar.Controls.Add(this.AddressBarPanel);
             this.PanelToolbar.Controls.Add(this.BtnForward);
             this.PanelToolbar.Controls.Add(this.BtnRefresh);
@@ -225,6 +190,22 @@
             this.PanelToolbar.Size = new System.Drawing.Size(934, 27);
             this.PanelToolbar.TabIndex = 6;
             // 
+            // Menu
+            // 
+            this.Menu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Menu.BackgroundImage = global::FlameSky.Properties.Resources.MenuIcon;
+            this.Menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Menu.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Menu.Location = new System.Drawing.Point(911, 1);
+            this.Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(23, 23);
+            this.Menu.TabIndex = 5;
+            this.Menu.UseVisualStyleBackColor = true;
+            this.Menu.Click += new System.EventHandler(this.Menu_Click);
+            // 
             // AddressBarPanel
             // 
             this.AddressBarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -236,8 +217,9 @@
             this.AddressBarPanel.Controls.Add(this.TxtURL);
             this.AddressBarPanel.Location = new System.Drawing.Point(83, 1);
             this.AddressBarPanel.Name = "AddressBarPanel";
-            this.AddressBarPanel.Size = new System.Drawing.Size(835, 23);
+            this.AddressBarPanel.Size = new System.Drawing.Size(828, 23);
             this.AddressBarPanel.TabIndex = 4;
+            this.AddressBarPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.AddressBarPanel_Paint);
             // 
             // LoadingIndicator
             // 
@@ -263,7 +245,7 @@
             this.TabPages.Location = new System.Drawing.Point(0, 27);
             this.TabPages.Name = "TabPages";
             this.TabPages.SelectedItem = this.tabStrip1;
-            this.TabPages.Size = new System.Drawing.Size(934, 624);
+            this.TabPages.Size = new System.Drawing.Size(934, 650);
             this.TabPages.TabIndex = 4;
             this.TabPages.Text = "faTabStrip1";
             this.TabPages.TabStripItemSelectionChanged += new FarsiLibrary.Win.TabStripItemChangedHandler(this.OnTabsChanged);
@@ -275,7 +257,7 @@
             this.tabStrip1.IsDrawn = true;
             this.tabStrip1.Name = "tabStrip1";
             this.tabStrip1.Selected = true;
-            this.tabStrip1.Size = new System.Drawing.Size(932, 594);
+            this.tabStrip1.Size = new System.Drawing.Size(932, 620);
             this.tabStrip1.TabIndex = 0;
             this.tabStrip1.Title = "Loading...";
             this.tabStrip1.Changed += new System.EventHandler(this.tabStrip1_Changed);
@@ -298,7 +280,7 @@
             this.PanelSearch.Controls.Add(this.BtnPrevSearch);
             this.PanelSearch.Controls.Add(this.BtnCloseSearch);
             this.PanelSearch.Controls.Add(this.TxtSearch);
-            this.PanelSearch.Location = new System.Drawing.Point(625, 41);
+            this.PanelSearch.Location = new System.Drawing.Point(3, 29);
             this.PanelSearch.Name = "PanelSearch";
             this.PanelSearch.Size = new System.Drawing.Size(307, 40);
             this.PanelSearch.TabIndex = 9;
@@ -363,418 +345,109 @@
             this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             this.TxtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtSearch_KeyDown);
             // 
-            // PanelStatus
-            // 
-            this.PanelStatus.Controls.Add(this.MenuBar);
-            this.PanelStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelStatus.Location = new System.Drawing.Point(0, 651);
-            this.PanelStatus.Name = "PanelStatus";
-            this.PanelStatus.Size = new System.Drawing.Size(934, 20);
-            this.PanelStatus.TabIndex = 8;
-            // 
-            // MenuBar
-            // 
-            this.MenuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripDropDownButton1,
-            this.toolStripDropDownButton2,
-            this.toolStripDropDownButton3,
-            this.toolStripStatusLabel2,
-            this.toolStripDropDownButton4,
-            this.toolStripSplitButton1,
-            this.toolStripDropDownButton5,
-            this.toolStripDropDownButton6});
-            this.MenuBar.Location = new System.Drawing.Point(0, -2);
-            this.MenuBar.Name = "MenuBar";
-            this.MenuBar.Size = new System.Drawing.Size(934, 22);
-            this.MenuBar.TabIndex = 0;
-            this.MenuBar.Text = "statusStrip1";
-            // 
-            // toolStripDropDownButton1
-            // 
-            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newTabToolStripMenuItem,
-            this.closeTabToolStripMenuItem,
-            this.newWindowToolStripMenuItem,
-            this.historyToolStripMenuItem,
-            this.settingsToolStripMenuItem,
-            this.developerToolsToolStripMenuItem,
-            this.downloadsToolStripMenuItem});
-            this.toolStripDropDownButton1.Image = global::FlameSky.Properties.Resources.MenuButtonIcon;
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(67, 20);
-            this.toolStripDropDownButton1.Text = "Menu";
-            this.toolStripDropDownButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.toolStripDropDownButton1.ToolTipText = "Menu";
-            this.toolStripDropDownButton1.Click += new System.EventHandler(this.toolStripDropDownButton1_Click);
-            // 
-            // newTabToolStripMenuItem
-            // 
-            this.newTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.AddTabIcon;
-            this.newTabToolStripMenuItem.Name = "newTabToolStripMenuItem";
-            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.newTabToolStripMenuItem.Text = "New Tab";
-            this.newTabToolStripMenuItem.Click += new System.EventHandler(this.newTabToolStripMenuItem_Click);
-            // 
-            // closeTabToolStripMenuItem
-            // 
-            this.closeTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.RemoveTabIcon;
-            this.closeTabToolStripMenuItem.Name = "closeTabToolStripMenuItem";
-            this.closeTabToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.closeTabToolStripMenuItem.Text = "Close Tab";
-            this.closeTabToolStripMenuItem.Click += new System.EventHandler(this.closeTabToolStripMenuItem_Click);
-            // 
-            // newWindowToolStripMenuItem
-            // 
-            this.newWindowToolStripMenuItem.Image = global::FlameSky.Properties.Resources.NewWindowIcon;
-            this.newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
-            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.newWindowToolStripMenuItem.Text = "New Window";
-            this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click);
-            // 
-            // historyToolStripMenuItem
-            // 
-            this.historyToolStripMenuItem.Image = global::FlameSky.Properties.Resources.HistoryIcon;
-            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-            this.historyToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.historyToolStripMenuItem.Text = "History";
-            this.historyToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click);
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.SettingsIcon;
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.settingsToolStripMenuItem.Text = "Settings";
-            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
-            // 
-            // developerToolsToolStripMenuItem
-            // 
-            this.developerToolsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DeveloperToolsIcon;
-            this.developerToolsToolStripMenuItem.Name = "developerToolsToolStripMenuItem";
-            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.developerToolsToolStripMenuItem.Text = "Developer Tools";
-            this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click);
-            // 
-            // downloadsToolStripMenuItem
-            // 
-            this.downloadsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DownloadIcon;
-            this.downloadsToolStripMenuItem.Name = "downloadsToolStripMenuItem";
-            this.downloadsToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.downloadsToolStripMenuItem.Text = "Downloads";
-            this.downloadsToolStripMenuItem.Click += new System.EventHandler(this.downloadsToolStripMenuItem_Click);
-            // 
-            // toolStripDropDownButton2
-            // 
-            this.toolStripDropDownButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kidzWorldToolStripMenuItem,
-            this.InstagramToolStripMenuItem,
-            this.facebookMessengerToolStripMenuItem,
-            this.whatsappWebToolStripMenuItem,
-            this.instagramToolStripMenuItem1});
-            this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
-            this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
-            this.toolStripDropDownButton2.Size = new System.Drawing.Size(87, 20);
-            this.toolStripDropDownButton2.Text = "Social Media";
-            // 
-            // kidzWorldToolStripMenuItem
-            // 
-            this.kidzWorldToolStripMenuItem.Name = "kidzWorldToolStripMenuItem";
-            this.kidzWorldToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.kidzWorldToolStripMenuItem.Text = "Twitter";
-            this.kidzWorldToolStripMenuItem.Click += new System.EventHandler(this.kidzWorldToolStripMenuItem_Click);
-            // 
-            // InstagramToolStripMenuItem
-            // 
-            this.InstagramToolStripMenuItem.Name = "InstagramToolStripMenuItem";
-            this.InstagramToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.InstagramToolStripMenuItem.Text = "Pinterest";
-            this.InstagramToolStripMenuItem.Click += new System.EventHandler(this.weeblyToolStripMenuItem_Click);
-            // 
-            // facebookMessengerToolStripMenuItem
-            // 
-            this.facebookMessengerToolStripMenuItem.Name = "facebookMessengerToolStripMenuItem";
-            this.facebookMessengerToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.facebookMessengerToolStripMenuItem.Text = "Facebook Messenger";
-            this.facebookMessengerToolStripMenuItem.Click += new System.EventHandler(this.facebookMessengerToolStripMenuItem_Click);
-            // 
-            // whatsappWebToolStripMenuItem
-            // 
-            this.whatsappWebToolStripMenuItem.Name = "whatsappWebToolStripMenuItem";
-            this.whatsappWebToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
-            this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click);
-            // 
-            // instagramToolStripMenuItem1
-            // 
-            this.instagramToolStripMenuItem1.Name = "instagramToolStripMenuItem1";
-            this.instagramToolStripMenuItem1.Size = new System.Drawing.Size(185, 22);
-            this.instagramToolStripMenuItem1.Text = "Instagram";
-            this.instagramToolStripMenuItem1.Click += new System.EventHandler(this.instagramToolStripMenuItem1_Click);
-            // 
-            // toolStripDropDownButton3
-            // 
-            this.toolStripDropDownButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.googleClassroomToolStripMenuItem,
-            this.googleBooksToolStripMenuItem,
-            this.googleScholarToolStripMenuItem,
-            this.citationGeneratorToolStripMenuItem,
-            this.duolingoToolStripMenuItem,
-            this.codecademyToolStripMenuItem,
-            this.khanAcademyToolStripMenuItem,
-            this.collegeBoardToolStripMenuItem});
-            this.toolStripDropDownButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton3.Image")));
-            this.toolStripDropDownButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton3.Name = "toolStripDropDownButton3";
-            this.toolStripDropDownButton3.Size = new System.Drawing.Size(73, 20);
-            this.toolStripDropDownButton3.Text = "Education";
-            // 
-            // googleClassroomToolStripMenuItem
-            // 
-            this.googleClassroomToolStripMenuItem.Name = "googleClassroomToolStripMenuItem";
-            this.googleClassroomToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.googleClassroomToolStripMenuItem.Text = "Google Classroom";
-            this.googleClassroomToolStripMenuItem.Click += new System.EventHandler(this.googleClassroomToolStripMenuItem_Click);
-            // 
-            // googleBooksToolStripMenuItem
-            // 
-            this.googleBooksToolStripMenuItem.Name = "googleBooksToolStripMenuItem";
-            this.googleBooksToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.googleBooksToolStripMenuItem.Text = "Google Books";
-            this.googleBooksToolStripMenuItem.Click += new System.EventHandler(this.googleBooksToolStripMenuItem_Click);
-            // 
-            // googleScholarToolStripMenuItem
-            // 
-            this.googleScholarToolStripMenuItem.Name = "googleScholarToolStripMenuItem";
-            this.googleScholarToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.googleScholarToolStripMenuItem.Text = "Google Scholar";
-            this.googleScholarToolStripMenuItem.Click += new System.EventHandler(this.googleScholarToolStripMenuItem_Click);
-            // 
-            // citationGeneratorToolStripMenuItem
-            // 
-            this.citationGeneratorToolStripMenuItem.Name = "citationGeneratorToolStripMenuItem";
-            this.citationGeneratorToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.citationGeneratorToolStripMenuItem.Text = "Citation Generator";
-            this.citationGeneratorToolStripMenuItem.Click += new System.EventHandler(this.citationGeneratorToolStripMenuItem_Click);
-            // 
-            // duolingoToolStripMenuItem
-            // 
-            this.duolingoToolStripMenuItem.Name = "duolingoToolStripMenuItem";
-            this.duolingoToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.duolingoToolStripMenuItem.Text = "Duolingo";
-            this.duolingoToolStripMenuItem.Click += new System.EventHandler(this.duolingoToolStripMenuItem_Click);
-            // 
-            // codecademyToolStripMenuItem
-            // 
-            this.codecademyToolStripMenuItem.Name = "codecademyToolStripMenuItem";
-            this.codecademyToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.codecademyToolStripMenuItem.Text = "Codecademy";
-            this.codecademyToolStripMenuItem.Click += new System.EventHandler(this.codecademyToolStripMenuItem_Click);
-            // 
-            // khanAcademyToolStripMenuItem
-            // 
-            this.khanAcademyToolStripMenuItem.Name = "khanAcademyToolStripMenuItem";
-            this.khanAcademyToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.khanAcademyToolStripMenuItem.Text = "KhanAcademy";
-            this.khanAcademyToolStripMenuItem.Click += new System.EventHandler(this.khanAcademyToolStripMenuItem_Click);
-            // 
-            // collegeBoardToolStripMenuItem
-            // 
-            this.collegeBoardToolStripMenuItem.Name = "collegeBoardToolStripMenuItem";
-            this.collegeBoardToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.collegeBoardToolStripMenuItem.Text = "College Board";
-            this.collegeBoardToolStripMenuItem.Click += new System.EventHandler(this.collegeBoardToolStripMenuItem_Click);
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(0, 17);
-            // 
-            // toolStripDropDownButton4
-            // 
-            this.toolStripDropDownButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.russiaTodayToolStripMenuItem,
-            this.foxNewsToolStripMenuItem,
-            this.gulfNToolStripMenuItem,
-            this.cNNToolStripMenuItem,
-            this.timesOfIsraelToolStripMenuItem,
-            this.alJazeeraToolStripMenuItem,
-            this.jerusalemPostToolStripMenuItem});
-            this.toolStripDropDownButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton4.Image")));
-            this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton4.Name = "toolStripDropDownButton4";
-            this.toolStripDropDownButton4.Size = new System.Drawing.Size(49, 20);
-            this.toolStripDropDownButton4.Text = "News";
-            // 
-            // russiaTodayToolStripMenuItem
-            // 
-            this.russiaTodayToolStripMenuItem.Name = "russiaTodayToolStripMenuItem";
-            this.russiaTodayToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.russiaTodayToolStripMenuItem.Text = "Russia Today";
-            this.russiaTodayToolStripMenuItem.Click += new System.EventHandler(this.russiaTodayToolStripMenuItem_Click);
-            // 
-            // foxNewsToolStripMenuItem
-            // 
-            this.foxNewsToolStripMenuItem.Name = "foxNewsToolStripMenuItem";
-            this.foxNewsToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.foxNewsToolStripMenuItem.Text = "Fox News";
-            this.foxNewsToolStripMenuItem.Click += new System.EventHandler(this.foxNewsToolStripMenuItem_Click);
-            // 
-            // gulfNToolStripMenuItem
-            // 
-            this.gulfNToolStripMenuItem.Name = "gulfNToolStripMenuItem";
-            this.gulfNToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.gulfNToolStripMenuItem.Text = "Gulf Times (Qatar)";
-            this.gulfNToolStripMenuItem.Click += new System.EventHandler(this.gulfNToolStripMenuItem_Click);
-            // 
-            // cNNToolStripMenuItem
-            // 
-            this.cNNToolStripMenuItem.Name = "cNNToolStripMenuItem";
-            this.cNNToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.cNNToolStripMenuItem.Text = "CNN";
-            this.cNNToolStripMenuItem.Click += new System.EventHandler(this.cNNToolStripMenuItem_Click);
-            // 
-            // timesOfIsraelToolStripMenuItem
-            // 
-            this.timesOfIsraelToolStripMenuItem.Name = "timesOfIsraelToolStripMenuItem";
-            this.timesOfIsraelToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.timesOfIsraelToolStripMenuItem.Text = "Times Of Israel";
-            this.timesOfIsraelToolStripMenuItem.Click += new System.EventHandler(this.timesOfIsraelToolStripMenuItem_Click);
-            // 
-            // alJazeeraToolStripMenuItem
-            // 
-            this.alJazeeraToolStripMenuItem.Name = "alJazeeraToolStripMenuItem";
-            this.alJazeeraToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.alJazeeraToolStripMenuItem.Text = "Al Jazeera";
-            this.alJazeeraToolStripMenuItem.Click += new System.EventHandler(this.alJazeeraToolStripMenuItem_Click);
-            // 
-            // jerusalemPostToolStripMenuItem
-            // 
-            this.jerusalemPostToolStripMenuItem.Name = "jerusalemPostToolStripMenuItem";
-            this.jerusalemPostToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.jerusalemPostToolStripMenuItem.Text = "Jerusalem Post";
-            this.jerusalemPostToolStripMenuItem.Click += new System.EventHandler(this.jerusalemPostToolStripMenuItem_Click);
-            // 
-            // toolStripSplitButton1
-            // 
-            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
-            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(61, 20);
-            this.toolStripSplitButton1.Text = "Google";
-            this.toolStripSplitButton1.ButtonClick += new System.EventHandler(this.toolStripSplitButton1_ButtonClick);
-            // 
-            // toolStripDropDownButton5
-            // 
-            this.toolStripDropDownButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.canvaToolStripMenuItem,
-            this.weeblyToolStripMenuItem,
-            this.preziToolStripMenuItem,
-            this.googleDriveToolStripMenuItem,
-            this.googleFormsToolStripMenuItem,
-            this.googleSlidesToolStripMenuItem,
-            this.googleDocsToolStripMenuItem,
-            this.gitHubToolStripMenuItem});
-            this.toolStripDropDownButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton5.Image")));
-            this.toolStripDropDownButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton5.Name = "toolStripDropDownButton5";
-            this.toolStripDropDownButton5.Size = new System.Drawing.Size(84, 20);
-            this.toolStripDropDownButton5.Text = "Productivity";
-            // 
-            // canvaToolStripMenuItem
-            // 
-            this.canvaToolStripMenuItem.Name = "canvaToolStripMenuItem";
-            this.canvaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.canvaToolStripMenuItem.Text = "Canva";
-            this.canvaToolStripMenuItem.Click += new System.EventHandler(this.canvaToolStripMenuItem_Click);
-            // 
-            // weeblyToolStripMenuItem
-            // 
-            this.weeblyToolStripMenuItem.Name = "weeblyToolStripMenuItem";
-            this.weeblyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.weeblyToolStripMenuItem.Text = "Weebly";
-            this.weeblyToolStripMenuItem.Click += new System.EventHandler(this.weeblyToolStripMenuItem_Click_1);
-            // 
-            // preziToolStripMenuItem
-            // 
-            this.preziToolStripMenuItem.Name = "preziToolStripMenuItem";
-            this.preziToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.preziToolStripMenuItem.Text = "Prezi";
-            this.preziToolStripMenuItem.Click += new System.EventHandler(this.preziToolStripMenuItem_Click);
-            // 
-            // googleDriveToolStripMenuItem
-            // 
-            this.googleDriveToolStripMenuItem.Name = "googleDriveToolStripMenuItem";
-            this.googleDriveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.googleDriveToolStripMenuItem.Text = "Google Drive";
-            this.googleDriveToolStripMenuItem.Click += new System.EventHandler(this.googleDriveToolStripMenuItem_Click);
-            // 
-            // googleFormsToolStripMenuItem
-            // 
-            this.googleFormsToolStripMenuItem.Name = "googleFormsToolStripMenuItem";
-            this.googleFormsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.googleFormsToolStripMenuItem.Text = "Google Forms";
-            this.googleFormsToolStripMenuItem.Click += new System.EventHandler(this.googleFormsToolStripMenuItem_Click);
-            // 
-            // googleSlidesToolStripMenuItem
-            // 
-            this.googleSlidesToolStripMenuItem.Name = "googleSlidesToolStripMenuItem";
-            this.googleSlidesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.googleSlidesToolStripMenuItem.Text = "Google Slides";
-            this.googleSlidesToolStripMenuItem.Click += new System.EventHandler(this.googleSlidesToolStripMenuItem_Click);
-            // 
-            // googleDocsToolStripMenuItem
-            // 
-            this.googleDocsToolStripMenuItem.Name = "googleDocsToolStripMenuItem";
-            this.googleDocsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.googleDocsToolStripMenuItem.Text = "Google Docs";
-            this.googleDocsToolStripMenuItem.Click += new System.EventHandler(this.googleDocsToolStripMenuItem_Click);
-            // 
-            // toolStripDropDownButton6
-            // 
-            this.toolStripDropDownButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton6.Image")));
-            this.toolStripDropDownButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton6.Name = "toolStripDropDownButton6";
-            this.toolStripDropDownButton6.Size = new System.Drawing.Size(100, 20);
-            this.toolStripDropDownButton6.Text = "FlameSky Apps";
-            this.toolStripDropDownButton6.Visible = false;
-            // 
             // SplashTimer
             // 
             this.SplashTimer.Interval = 4000;
             this.SplashTimer.Tick += new System.EventHandler(this.SplashTimer_Tick);
             // 
-            // gitHubToolStripMenuItem
+            // MenuStripDropDown
             // 
-            this.gitHubToolStripMenuItem.Name = "gitHubToolStripMenuItem";
-            this.gitHubToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.gitHubToolStripMenuItem.Text = "GitHub";
-            this.gitHubToolStripMenuItem.Click += new System.EventHandler(this.gitHubToolStripMenuItem_Click);
+            this.MenuStripDropDown.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newTabToolStripMenuItem,
+            this.closeTabToolStripMenuItem,
+            this.newWindowToolStripMenuItem,
+            this.downloadsToolStripMenuItem,
+            this.historyToolStripMenuItem,
+            this.settingsToolStripMenuItem,
+            this.developerToolsToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.MenuStripDropDown.Name = "contextMenuStrip1";
+            this.MenuStripDropDown.Size = new System.Drawing.Size(195, 202);
+            // 
+            // newTabToolStripMenuItem
+            // 
+            this.newTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.AddTabIcon;
+            this.newTabToolStripMenuItem.Name = "newTabToolStripMenuItem";
+            this.newTabToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + T";
+            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.newTabToolStripMenuItem.Text = "New Tab";
+            this.newTabToolStripMenuItem.Click += new System.EventHandler(this.newTabToolStripMenuItem_Click_1);
+            // 
+            // closeTabToolStripMenuItem
+            // 
+            this.closeTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.RemoveTabIcon;
+            this.closeTabToolStripMenuItem.Name = "closeTabToolStripMenuItem";
+            this.closeTabToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + W";
+            this.closeTabToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.closeTabToolStripMenuItem.Text = "Close Tab";
+            this.closeTabToolStripMenuItem.Click += new System.EventHandler(this.closeTabToolStripMenuItem_Click_1);
+            // 
+            // newWindowToolStripMenuItem
+            // 
+            this.newWindowToolStripMenuItem.Image = global::FlameSky.Properties.Resources.NewWindowIcon;
+            this.newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
+            this.newWindowToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + N";
+            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.newWindowToolStripMenuItem.Text = "New Window";
+            this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click_1);
+            // 
+            // developerToolsToolStripMenuItem
+            // 
+            this.developerToolsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DeveloperToolsIcon;
+            this.developerToolsToolStripMenuItem.Name = "developerToolsToolStripMenuItem";
+            this.developerToolsToolStripMenuItem.ShortcutKeyDisplayString = "F 12";
+            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.developerToolsToolStripMenuItem.Text = "Developer Tools";
+            this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.SettingsIcon;
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click_1);
+            // 
+            // downloadsToolStripMenuItem
+            // 
+            this.downloadsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DownloadIcon;
+            this.downloadsToolStripMenuItem.Name = "downloadsToolStripMenuItem";
+            this.downloadsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.J)));
+            this.downloadsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.downloadsToolStripMenuItem.Text = "Downloads";
+            this.downloadsToolStripMenuItem.Click += new System.EventHandler(this.downloadsToolStripMenuItem_Click_1);
+            // 
+            // historyToolStripMenuItem
+            // 
+            this.historyToolStripMenuItem.Image = global::FlameSky.Properties.Resources.HistoryIcon;
+            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.historyToolStripMenuItem.Text = "History";
+            this.historyToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click_1);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(934, 671);
-            this.Controls.Add(this.PanelSearch);
+            this.ClientSize = new System.Drawing.Size(934, 677);
             this.Controls.Add(this.TabPages);
             this.Controls.Add(this.PanelToolbar);
-            this.Controls.Add(this.PanelStatus);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Title";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.TextChanged += new System.EventHandler(this.MainForm_TextChanged);
             this.menuStripTab.ResumeLayout(false);
             this.PanelToolbar.ResumeLayout(false);
             this.AddressBarPanel.ResumeLayout(false);
@@ -784,10 +457,7 @@
             this.TabPages.ResumeLayout(false);
             this.PanelSearch.ResumeLayout(false);
             this.PanelSearch.PerformLayout();
-            this.PanelStatus.ResumeLayout(false);
-            this.PanelStatus.PerformLayout();
-            this.MenuBar.ResumeLayout(false);
-            this.MenuBar.PerformLayout();
+            this.MenuStripDropDown.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -812,54 +482,19 @@
 		private System.Windows.Forms.Button BtnCloseSearch;
 		private System.Windows.Forms.Button BtnPrevSearch;
 		private System.Windows.Forms.Button BtnNextSearch;
-        private System.Windows.Forms.Panel PanelStatus;
-        private System.Windows.Forms.StatusStrip MenuBar;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem newTabToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem downloadsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem closeTabToolStripMenuItem;
         private System.Windows.Forms.Panel AddressBarPanel;
         private System.Windows.Forms.PictureBox LoadingIndicator;
-        private System.Windows.Forms.ToolStripMenuItem developerToolsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem historyToolStripMenuItem;
         private System.Windows.Forms.Timer SplashTimer;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton2;
-        private System.Windows.Forms.ToolStripMenuItem InstagramToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem facebookMessengerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem whatsappWebToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kidzWorldToolStripMenuItem;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton3;
-        private System.Windows.Forms.ToolStripMenuItem googleClassroomToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleBooksToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleScholarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem citationGeneratorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem duolingoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton4;
-        private System.Windows.Forms.ToolStripMenuItem gulfNToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cNNToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem timesOfIsraelToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem alJazeeraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jerusalemPostToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem russiaTodayToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem foxNewsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton5;
-        private System.Windows.Forms.ToolStripMenuItem canvaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem weeblyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem preziToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleDriveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleFormsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleSlidesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem googleDocsToolStripMenuItem;
+        private System.Windows.Forms.Button Menu;
+        private System.Windows.Forms.ContextMenuStrip MenuStripDropDown;
+        private System.Windows.Forms.ToolStripMenuItem newTabToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem closeTabToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newWindowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem codecademyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem khanAcademyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton6;
-        private System.Windows.Forms.ToolStripMenuItem instagramToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem collegeBoardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gitHubToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem developerToolsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem downloadsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem historyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 

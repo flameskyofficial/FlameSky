@@ -101,6 +101,7 @@
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\JSON.cs" />
+    <Compile Include="Handlers\DisplayHandler.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -137,6 +138,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\FileIconUtils.cs" />
     <Compile Include="Utils\URLUtils.cs" />
+    <Compile Include="Walkthrough.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Walkthrough.Designer.cs">
+      <DependentUpon>Walkthrough.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BrowserHistory.resx">
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Walkthrough.resx">
+      <DependentUpon>Walkthrough.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>
@@ -210,6 +220,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
+    <None Include="Resources\makefg %282%292.png" />
+    <None Include="Resources\FlameSkyStopIcon1.png" />
+    <None Include="Resources\makefg %282%291.png" />
+    <None Include="Resources\Forward1.png" />
+    <None Include="Resources\Back1.png" />
+    <None Include="Resources\MenuIcon.png" />
     <None Include="Resources\FlameSkyStopIcon.png" />
     <None Include="Resources\NewWindowIcon.png" />
     <None Include="Resources\DeveloperToolsIcon.png" />
