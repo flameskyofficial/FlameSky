@@ -5,7 +5,7 @@
 
 Version in Progress: 5
 
-The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - who are called the FlameSky Community. The project's website is www.flameskyproject.weebly.com, and the product website  is www.flamesky.weebly.com (where approved releases are put).  
+The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flameskyproject.weebly.com, and the product website  is www.flamesky.weebly.com (where approved releases are put).  
 
 The FlameSky project's goals are:
 1. Create a browser that is advanced, and meets modern standards
