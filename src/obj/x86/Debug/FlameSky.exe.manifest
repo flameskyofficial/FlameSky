@@ -43,6 +43,186 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoUpdater.NET.dll" size="252928">
+      <assemblyIdentity name="AutoUpdater.NET" version="1.4.7.0" publicKeyToken="942F95247E354701" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vx4mO8l73+MtkEcSU9l3GhMuXMFUZQLtfI6UVI9kcqY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="da\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="da" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3EU8N0G9zuhZ2HeSkcguYmBqSZOj/my9lQtIGgNLhIw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xx57MN18ThjoIh7oOTxchCa79Yih0rWVuX5WVu0cz+M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LNTrUnheHMTebeTO/OQMwER8+W53WPDQdHtQSDTQL8Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1VnOsoEZ5I+N9Fr80CLiPfuqv58o+XPRSVAMdt+z3Ck=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="it" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>u4cYruiMMBkqpsamvKIegswFhS8FmWd+siLtuP15+KU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja-JP\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="ja-JP" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lyd1GJdFQYeEIMRiV4Td8xgot1iSgqf5xYISpSh+9gg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ko\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="ko" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lbcwPn+UuDcMCmxJoMAx7gM5+391xp/UGTFw4GzsrN8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="nl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cX8w+et21crt0aglYZwfS0m0aHZtD1UJkgIzFs1j6xY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pl\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="pl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X8siAeIvtk+V/JBSdyJVsYFBjnYLCo9fK5MQTWN4eSg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt\AutoUpdater.NET.resources.dll" size="6656">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="pt" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ONWn45No8rf5sjuzbHBmIJ52Iwj6W3pKn7HOytNMLNs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\AutoUpdater.NET.resources.dll" size="8704">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6c7XwFhxoLsAGgYT60N9E/Z2F/CYrtmWopBwYX39fVU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sv\AutoUpdater.NET.resources.dll" size="8192">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="sv" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KUSfZaB2XUkoxaOewaEEWQMHXEGsQqExZRQBPUw52DA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tr\AutoUpdater.NET.resources.dll" size="6656">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="tr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NNGgAdqNKy/uDWVbiDIuPQrThYMaDr1WG4CmnJoViFE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh\AutoUpdater.NET.resources.dll" size="7680">
+      <assemblyIdentity name="AutoUpdater.NET.resources" version="1.4.7.0" publicKeyToken="942F95247E354701" language="zh" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QFpBhbv82szOToazLIVnhVeznpuyL8WqVEm7Edawop0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="193024">
       <assemblyIdentity name="CefSharp" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
       <hash>
@@ -50,7 +230,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Fd6Dje54Ls9AzdPnsunPNhJg3XkfsF6+bp4zXmhwHRg=</dsig:DigestValue>
+        <dsig:DigestValue>JZj+oJWebTnbPyovmxke5M7LVEBpOoHlkQViW89Crw0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +242,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>c00woTb6hbFRIHkKoF4GndfZqSAofgwwAAm06SbzMdc=</dsig:DigestValue>
+        <dsig:DigestValue>zusvw6Z7j4oy8SK9+hXIDwyOYieornTxirMmz1xHfEM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,19 +254,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+dL+H/bVwrPWB8UM1ByQOPD0CNTYeImtuAbCJnbZkSA=</dsig:DigestValue>
+        <dsig:DigestValue>6X8ee2zp93oWRV2TKuod97u7goibl+mRmEIY6ExBuoE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11457976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11148728">
       <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DY3DX2Ktvg3dVkUCaOO2IzlWDjRfyR49+e/MbjQ9GI4=</dsig:DigestValue>
+        <dsig:DigestValue>yknHUpzoZ1v0EKfx+0kNOtjH+DJkUrjd09SouKMg0do=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

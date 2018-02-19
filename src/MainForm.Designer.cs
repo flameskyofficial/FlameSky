@@ -56,11 +56,41 @@
             this.newTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.downloadsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.russiaTodayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gulfTimesQatarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.foxNewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cNNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timesOfIsraelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.canvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.weeblyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.preziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.googleFormsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.googleDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.googleSlidesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.googleDocsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.googleClassroomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grammarlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.edxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.codecademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.khanAcademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.citationGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.pinterestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facebookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.instagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -69,6 +99,7 @@
             this.TabPages.SuspendLayout();
             this.PanelSearch.SuspendLayout();
             this.MenuStripDropDown.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStripTab
@@ -362,7 +393,7 @@
             this.developerToolsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.MenuStripDropDown.Name = "contextMenuStrip1";
-            this.MenuStripDropDown.Size = new System.Drawing.Size(195, 202);
+            this.MenuStripDropDown.Size = new System.Drawing.Size(195, 180);
             // 
             // newTabToolStripMenuItem
             // 
@@ -391,24 +422,6 @@
             this.newWindowToolStripMenuItem.Text = "New Window";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click_1);
             // 
-            // developerToolsToolStripMenuItem
-            // 
-            this.developerToolsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DeveloperToolsIcon;
-            this.developerToolsToolStripMenuItem.Name = "developerToolsToolStripMenuItem";
-            this.developerToolsToolStripMenuItem.ShortcutKeyDisplayString = "F 12";
-            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.developerToolsToolStripMenuItem.Text = "Developer Tools";
-            this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.SettingsIcon;
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.settingsToolStripMenuItem.Text = "Settings";
-            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click_1);
-            // 
             // downloadsToolStripMenuItem
             // 
             this.downloadsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DownloadIcon;
@@ -426,6 +439,24 @@
             this.historyToolStripMenuItem.Text = "History";
             this.historyToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click_1);
             // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.SettingsIcon;
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click_1);
+            // 
+            // developerToolsToolStripMenuItem
+            // 
+            this.developerToolsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DeveloperToolsIcon;
+            this.developerToolsToolStripMenuItem.Name = "developerToolsToolStripMenuItem";
+            this.developerToolsToolStripMenuItem.ShortcutKeyDisplayString = "F 12";
+            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.developerToolsToolStripMenuItem.Text = "Developer Tools";
+            this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
+            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
@@ -433,10 +464,251 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel2,
+            this.toolStripStatusLabel3,
+            this.toolStripStatusLabel4});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 655);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(934, 22);
+            this.statusStrip1.TabIndex = 7;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.alJazeeraToolStripMenuItem,
+            this.jerusalemPostToolStripMenuItem,
+            this.russiaTodayToolStripMenuItem,
+            this.gulfTimesQatarToolStripMenuItem,
+            this.foxNewsToolStripMenuItem,
+            this.cNNToolStripMenuItem,
+            this.timesOfIsraelToolStripMenuItem});
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(49, 20);
+            this.toolStripStatusLabel1.Text = "News";
+            // 
+            // alJazeeraToolStripMenuItem
+            // 
+            this.alJazeeraToolStripMenuItem.Name = "alJazeeraToolStripMenuItem";
+            this.alJazeeraToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.alJazeeraToolStripMenuItem.Text = "Al Jazeera";
+            this.alJazeeraToolStripMenuItem.Click += new System.EventHandler(this.alJazeeraToolStripMenuItem_Click_1);
+            // 
+            // jerusalemPostToolStripMenuItem
+            // 
+            this.jerusalemPostToolStripMenuItem.Name = "jerusalemPostToolStripMenuItem";
+            this.jerusalemPostToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.jerusalemPostToolStripMenuItem.Text = "Jerusalem Post";
+            this.jerusalemPostToolStripMenuItem.Click += new System.EventHandler(this.jerusalemPostToolStripMenuItem_Click_1);
+            // 
+            // russiaTodayToolStripMenuItem
+            // 
+            this.russiaTodayToolStripMenuItem.Name = "russiaTodayToolStripMenuItem";
+            this.russiaTodayToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.russiaTodayToolStripMenuItem.Text = "Russia Today";
+            this.russiaTodayToolStripMenuItem.Click += new System.EventHandler(this.russiaTodayToolStripMenuItem_Click);
+            // 
+            // gulfTimesQatarToolStripMenuItem
+            // 
+            this.gulfTimesQatarToolStripMenuItem.Name = "gulfTimesQatarToolStripMenuItem";
+            this.gulfTimesQatarToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.gulfTimesQatarToolStripMenuItem.Text = "Gulf Times (Qatar)";
+            this.gulfTimesQatarToolStripMenuItem.Click += new System.EventHandler(this.gulfTimesQatarToolStripMenuItem_Click);
+            // 
+            // foxNewsToolStripMenuItem
+            // 
+            this.foxNewsToolStripMenuItem.Name = "foxNewsToolStripMenuItem";
+            this.foxNewsToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.foxNewsToolStripMenuItem.Text = "Fox News";
+            this.foxNewsToolStripMenuItem.Click += new System.EventHandler(this.foxNewsToolStripMenuItem_Click_1);
+            // 
+            // cNNToolStripMenuItem
+            // 
+            this.cNNToolStripMenuItem.Name = "cNNToolStripMenuItem";
+            this.cNNToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.cNNToolStripMenuItem.Text = "CNN";
+            this.cNNToolStripMenuItem.Click += new System.EventHandler(this.cNNToolStripMenuItem_Click_1);
+            // 
+            // timesOfIsraelToolStripMenuItem
+            // 
+            this.timesOfIsraelToolStripMenuItem.Name = "timesOfIsraelToolStripMenuItem";
+            this.timesOfIsraelToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.timesOfIsraelToolStripMenuItem.Text = "Times Of Israel";
+            this.timesOfIsraelToolStripMenuItem.Click += new System.EventHandler(this.timesOfIsraelToolStripMenuItem_Click_1);
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.canvaToolStripMenuItem,
+            this.weeblyToolStripMenuItem,
+            this.preziToolStripMenuItem,
+            this.googleFormsToolStripMenuItem,
+            this.googleDriveToolStripMenuItem,
+            this.googleSlidesToolStripMenuItem,
+            this.googleDocsToolStripMenuItem});
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(102, 20);
+            this.toolStripStatusLabel2.Text = "Work and Tools";
+            // 
+            // canvaToolStripMenuItem
+            // 
+            this.canvaToolStripMenuItem.Name = "canvaToolStripMenuItem";
+            this.canvaToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.canvaToolStripMenuItem.Text = "Canva";
+            this.canvaToolStripMenuItem.Click += new System.EventHandler(this.canvaToolStripMenuItem_Click_1);
+            // 
+            // weeblyToolStripMenuItem
+            // 
+            this.weeblyToolStripMenuItem.Name = "weeblyToolStripMenuItem";
+            this.weeblyToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.weeblyToolStripMenuItem.Text = "Weebly";
+            this.weeblyToolStripMenuItem.Click += new System.EventHandler(this.weeblyToolStripMenuItem_Click_2);
+            // 
+            // preziToolStripMenuItem
+            // 
+            this.preziToolStripMenuItem.Name = "preziToolStripMenuItem";
+            this.preziToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.preziToolStripMenuItem.Text = "Prezi";
+            this.preziToolStripMenuItem.Click += new System.EventHandler(this.preziToolStripMenuItem_Click_1);
+            // 
+            // googleFormsToolStripMenuItem
+            // 
+            this.googleFormsToolStripMenuItem.Name = "googleFormsToolStripMenuItem";
+            this.googleFormsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleFormsToolStripMenuItem.Text = "Google Forms";
+            this.googleFormsToolStripMenuItem.Click += new System.EventHandler(this.googleFormsToolStripMenuItem_Click_1);
+            // 
+            // googleDriveToolStripMenuItem
+            // 
+            this.googleDriveToolStripMenuItem.Name = "googleDriveToolStripMenuItem";
+            this.googleDriveToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleDriveToolStripMenuItem.Text = "Google Drive";
+            this.googleDriveToolStripMenuItem.Click += new System.EventHandler(this.googleDriveToolStripMenuItem_Click_1);
+            // 
+            // googleSlidesToolStripMenuItem
+            // 
+            this.googleSlidesToolStripMenuItem.Name = "googleSlidesToolStripMenuItem";
+            this.googleSlidesToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleSlidesToolStripMenuItem.Text = "Google Slides";
+            this.googleSlidesToolStripMenuItem.Click += new System.EventHandler(this.googleSlidesToolStripMenuItem_Click_1);
+            // 
+            // googleDocsToolStripMenuItem
+            // 
+            this.googleDocsToolStripMenuItem.Name = "googleDocsToolStripMenuItem";
+            this.googleDocsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleDocsToolStripMenuItem.Text = "Google Docs";
+            this.googleDocsToolStripMenuItem.Click += new System.EventHandler(this.googleDocsToolStripMenuItem_Click_1);
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.googleClassroomToolStripMenuItem,
+            this.grammarlyToolStripMenuItem,
+            this.edxToolStripMenuItem,
+            this.codecademyToolStripMenuItem,
+            this.khanAcademyToolStripMenuItem,
+            this.citationGeneratorToolStripMenuItem});
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(73, 20);
+            this.toolStripStatusLabel3.Text = "Education";
+            // 
+            // googleClassroomToolStripMenuItem
+            // 
+            this.googleClassroomToolStripMenuItem.Name = "googleClassroomToolStripMenuItem";
+            this.googleClassroomToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.googleClassroomToolStripMenuItem.Text = "Google Classroom";
+            this.googleClassroomToolStripMenuItem.Click += new System.EventHandler(this.googleClassroomToolStripMenuItem_Click_1);
+            // 
+            // grammarlyToolStripMenuItem
+            // 
+            this.grammarlyToolStripMenuItem.Name = "grammarlyToolStripMenuItem";
+            this.grammarlyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.grammarlyToolStripMenuItem.Text = "Grammarly";
+            this.grammarlyToolStripMenuItem.Click += new System.EventHandler(this.grammarlyToolStripMenuItem_Click);
+            // 
+            // edxToolStripMenuItem
+            // 
+            this.edxToolStripMenuItem.Name = "edxToolStripMenuItem";
+            this.edxToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.edxToolStripMenuItem.Text = "Edx";
+            this.edxToolStripMenuItem.Click += new System.EventHandler(this.edxToolStripMenuItem_Click);
+            // 
+            // codecademyToolStripMenuItem
+            // 
+            this.codecademyToolStripMenuItem.Name = "codecademyToolStripMenuItem";
+            this.codecademyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.codecademyToolStripMenuItem.Text = "Codecademy";
+            this.codecademyToolStripMenuItem.Click += new System.EventHandler(this.codecademyToolStripMenuItem_Click_1);
+            // 
+            // khanAcademyToolStripMenuItem
+            // 
+            this.khanAcademyToolStripMenuItem.Name = "khanAcademyToolStripMenuItem";
+            this.khanAcademyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.khanAcademyToolStripMenuItem.Text = "Khan Academy";
+            this.khanAcademyToolStripMenuItem.Click += new System.EventHandler(this.khanAcademyToolStripMenuItem_Click_1);
+            // 
+            // citationGeneratorToolStripMenuItem
+            // 
+            this.citationGeneratorToolStripMenuItem.Name = "citationGeneratorToolStripMenuItem";
+            this.citationGeneratorToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.citationGeneratorToolStripMenuItem.Text = "Citefast (Citation Generator)";
+            this.citationGeneratorToolStripMenuItem.Click += new System.EventHandler(this.citationGeneratorToolStripMenuItem_Click_1);
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pinterestToolStripMenuItem,
+            this.twitterToolStripMenuItem,
+            this.facebookToolStripMenuItem,
+            this.instagramToolStripMenuItem,
+            this.whatsappWebToolStripMenuItem});
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(87, 20);
+            this.toolStripStatusLabel4.Text = "Social Media";
+            // 
+            // pinterestToolStripMenuItem
+            // 
+            this.pinterestToolStripMenuItem.Name = "pinterestToolStripMenuItem";
+            this.pinterestToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.pinterestToolStripMenuItem.Text = "Pinterest";
+            // 
+            // twitterToolStripMenuItem
+            // 
+            this.twitterToolStripMenuItem.Name = "twitterToolStripMenuItem";
+            this.twitterToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.twitterToolStripMenuItem.Text = "Twitter";
+            this.twitterToolStripMenuItem.Click += new System.EventHandler(this.twitterToolStripMenuItem_Click);
+            // 
+            // facebookToolStripMenuItem
+            // 
+            this.facebookToolStripMenuItem.Name = "facebookToolStripMenuItem";
+            this.facebookToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.facebookToolStripMenuItem.Text = "Facebook";
+            this.facebookToolStripMenuItem.Click += new System.EventHandler(this.facebookToolStripMenuItem_Click);
+            // 
+            // instagramToolStripMenuItem
+            // 
+            this.instagramToolStripMenuItem.Name = "instagramToolStripMenuItem";
+            this.instagramToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.instagramToolStripMenuItem.Text = "Instagram";
+            this.instagramToolStripMenuItem.Click += new System.EventHandler(this.instagramToolStripMenuItem_Click);
+            // 
+            // whatsappWebToolStripMenuItem
+            // 
+            this.whatsappWebToolStripMenuItem.Name = "whatsappWebToolStripMenuItem";
+            this.whatsappWebToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
+            this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click_1);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(934, 677);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.TabPages);
             this.Controls.Add(this.PanelToolbar);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -458,7 +730,10 @@
             this.PanelSearch.ResumeLayout(false);
             this.PanelSearch.PerformLayout();
             this.MenuStripDropDown.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -495,6 +770,36 @@
         private System.Windows.Forms.ToolStripMenuItem downloadsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripMenuItem alJazeeraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem russiaTodayToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gulfTimesQatarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem foxNewsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cNNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timesOfIsraelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jerusalemPostToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripMenuItem canvaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem weeblyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem preziToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem googleFormsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem googleDriveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem googleSlidesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem googleDocsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripStatusLabel3;
+        private System.Windows.Forms.ToolStripMenuItem googleClassroomToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem grammarlyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem edxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem codecademyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem khanAcademyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem citationGeneratorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripMenuItem pinterestToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem twitterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facebookToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem instagramToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem whatsappWebToolStripMenuItem;
     }
 }
 

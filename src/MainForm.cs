@@ -10,6 +10,7 @@ using System.IO;
 using System.Threading;
 using System.Web;
 using System.Windows.Forms;
+using AutoUpdaterDotNET;
 
 
 namespace FlameSky
@@ -68,7 +69,7 @@ namespace FlameSky
         public Form splashscreen = new SplashScreen();
 
         private void MainForm_Load(object sender, EventArgs e) {
-            
+             
             this.Hide();
                 InitTooltips(this.Controls);
                 InitHotkeys();
@@ -78,16 +79,23 @@ namespace FlameSky
                
                 this.Hide();
               
-                SplashTimer.Enabled = true;
-                splashscreen.Show();
+               
+
             }
             else
             {
                 this.Show();
-
+               
             }
-            
-              
+            SplashTimer.Enabled = true;
+            splashscreen.Show();
+            AutoUpdater.Start("https://raw.githubusercontent.com/andrewjoseofficial/FlameSky/master/Updater.xml");
+            AutoUpdater.ShowSkipButton = false;
+            AutoUpdater.ShowRemindLaterButton = true;
+            AutoUpdater.Mandatory = true;
+            AutoUpdater.ReportErrors = true;
+
+
 
 
         }
@@ -1364,6 +1372,126 @@ namespace FlameSky
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void jPostToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void jerusalemPostToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.jpost.com");
+        }
+
+        private void gulfTimesQatarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.gulf-times.com/");
+        }
+
+        private void foxNewsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.foxnews.com");
+        }
+
+        private void cNNToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.cnn.com");
+        }
+
+        private void timesOfIsraelToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.timesofisrael.com");
+        }
+
+        private void alJazeeraToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.aljazeera.com");
+        }
+
+        private void googleDocsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://docs.google.com");
+        }
+
+        private void googleSlidesToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.google.com/slides/about/");
+        }
+
+        private void googleDriveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://drive.google.com");
+        }
+
+        private void googleFormsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.google.com/forms/about/");
+        }
+
+        private void preziToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.prezi.com");
+        }
+
+        private void weeblyToolStripMenuItem_Click_2(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.weebly.com");
+        }
+
+        private void canvaToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://canva.com");
+        }
+
+        private void citationGeneratorToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("https://www.citefast.com/");
+        }
+
+        private void khanAcademyToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://khanacademy.org");
+        }
+
+        private void codecademyToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.codecademy.com");
+        }
+
+        private void edxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.edx.org");
+        }
+
+        private void grammarlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.grammarly.com");
+        }
+
+        private void googleClassroomToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://classroom.google.com");
+        }
+
+        private void instagramToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.instagram.com");
+        }
+
+        private void facebookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.facebook.com");
+        }
+
+        private void twitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://www.twitter.com");
+        }
+
+        private void whatsappWebToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://web.whatsapp.com");
         }
     }
 }
