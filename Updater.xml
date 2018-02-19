@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <version>5.0.0.1</version>
+    <url>https://github.com/andrewjoseofficial/FlameSky/releases/download/v5.0-alpha-1/FlameSkyAlpha5.1.exe</url>
+    <changelog>https://raw.githubusercontent.com/andrewjoseofficial/FlameSky/master/latestversionchangelog.txt</changelog>
+    <mandatory>true</mandatory>
+</item>

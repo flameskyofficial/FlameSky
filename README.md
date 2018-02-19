@@ -5,7 +5,7 @@
 
 Version in Progress: 5
 
-The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - who are called the FlameSky Community. The project's website is www.flameskyproject.weebly.com, and the product website  is www.flamesky.weebly.com (where approved releases are put).  
+The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flameskyproject.weebly.com, and the product website  is www.flamesky.weebly.com (where approved releases are put).  
 
 The FlameSky project's goals are:
 1. Create a browser that is advanced, and meets modern standards
@@ -22,6 +22,7 @@ FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary
 ## Features
 
 - HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
+- Flash (only with PPAI systemwwide installation of Flash)
 - Tabbed browsing
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
@@ -33,11 +34,11 @@ FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary
 - Browsing History
 - Quick launcher (For important, useful sites)
 - Custom error pages
-- Custom context menu
+- Drop Down Menu.
 - Settings which allow customization of homepage, default search engine and has the option to not show splash screen at startup.
 - Multiple tabs and Multiple windows
-- Easily add vendor-specific branding, buttons or hotkeys
 - View online & offline webpages
+- PDF files supported
 - Menu at the bottom left part of the page.
 
 ## Hotkeys
@@ -66,8 +67,13 @@ Ctrl+F		| Open search bar (Enter to find next, Esc to close)
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
 
 ## Credits
-- [Andrew Jose](https://github.com/andrewjoseofficial) - The FlameSky Open Source Project.
+- Contributors to FlameSky
+- [Andrew Jose](https://github.com/andrewjoseofficial) - Founding maintainer, who forked from SharpBrowser
 - [Robin Rodricks](https://github.com/robinrodricks) - SharpBrowser project.
 - [Alex Maitland](https://github.com/amaitland) - CefSharp project, wrapper for CEF embeddable browser.
 - [Ahmet Uzun](https://github.com/postacik) - Original browser project.
+
+## Maintainer, CEO and Founder
+[Andrew Jose](https://github.com/andrewjoseofficial)
+
 
