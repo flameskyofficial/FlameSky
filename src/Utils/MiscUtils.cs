@@ -11,7 +11,7 @@ using CefSharp;
 namespace FlameSky {
 	internal static class Utils {
 
-		public static bool IsFocussed(TextBox tb) {
+		public static bool IsFocussed(ComboBox tb) {
 			return tb.Focused;
 		}
 
@@ -24,10 +24,10 @@ namespace FlameSky {
 			};
 		}
 
-		public static bool IsFullySelected(TextBox tb) {
-			return tb.SelectionLength == tb.TextLength;
+		public static bool IsFullySelected(ComboBox tb) {
+			return tb.SelectionLength == tb.Text.Length;
 		}
-		public static bool HasSelection(TextBox tb) {
+		public static bool HasSelection(ComboBox tb) {
 			return tb.SelectionLength > 0;
 		}
 

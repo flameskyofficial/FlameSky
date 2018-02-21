@@ -119,3 +119,4 @@ C:\Users\andre\source\repos\FlameSky 5\src\bin\ru\AutoUpdater.NET.resources.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\sv\AutoUpdater.NET.resources.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\tr\AutoUpdater.NET.resources.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\zh\AutoUpdater.NET.resources.dll
+C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.FlameSkyNotes.resources

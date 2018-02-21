@@ -69,7 +69,9 @@ namespace FlameSky
         public Form splashscreen = new SplashScreen();
 
         private void MainForm_Load(object sender, EventArgs e) {
-             
+         
+            
+
             this.Hide();
                 InitTooltips(this.Controls);
                 InitHotkeys();
@@ -93,7 +95,7 @@ namespace FlameSky
             AutoUpdater.ShowSkipButton = false;
             AutoUpdater.ShowRemindLaterButton = true;
             AutoUpdater.Mandatory = true;
-            AutoUpdater.ReportErrors = true;
+            
 
 
 
@@ -330,7 +332,8 @@ namespace FlameSky
                 {
 
                     File.AppendAllText(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", DateAccessed + "  " + TimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
-                   
+                    FlameSky.Properties.Settings.Default.URLHistory.Add(URL);
+                    FlameSky.Properties.Settings.Default.Save();
 
                    
 
@@ -877,28 +880,7 @@ namespace FlameSky
 		}
 		private void TxtURL_KeyDown(object sender, KeyEventArgs e) {
 
-			// if ENTER or CTRL+ENTER pressed
-			if (e.IsHotkey(Keys.Enter) || e.IsHotkey(Keys.Enter, true)) {
-				LoadURL(TxtURL.Text);
-
-				// im handling this
-				e.Handled = true;
-				e.SuppressKeyPress = true;
-
-				// defocus from url textbox
-				this.Focus();
-			}
-
-			// if full URL copied
-			if (e.IsHotkey(Keys.C, true) && Utils.IsFullySelected(TxtURL)) {
-
-				// copy the real URL, not the pretty one
-				Clipboard.SetText(CurBrowser.Address, TextDataFormat.UnicodeText);
-
-				// im handling this
-				e.Handled = true;
-				e.SuppressKeyPress = true;
-			}
+			
 		}
 
 		private void txtUrl_Click(object sender, EventArgs e) {
@@ -1492,6 +1474,49 @@ namespace FlameSky
         private void whatsappWebToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             CurBrowser.Load("http://web.whatsapp.com");
+        }
+
+        private void dualWorldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtURL_KeyDown_1(object sender, KeyEventArgs e)
+        {
+            // if ENTER or CTRL+ENTER pressed
+            if (e.IsHotkey(Keys.Enter) || e.IsHotkey(Keys.Enter, true))
+            {
+                LoadURL(TxtURL.Text);
+
+                // im handling this
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+
+                // defocus from url textbox
+                this.Focus();
+            }
+
+            // if full URL copied
+            if (e.IsHotkey(Keys.C, true) && Utils.IsFullySelected(TxtURL))
+            {
+
+                // copy the real URL, not the pretty one
+                Clipboard.SetText(CurBrowser.Address, TextDataFormat.UnicodeText);
+
+                // im handling this
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void LoadingIndicator_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -38,10 +38,10 @@
             this.BtnForward = new System.Windows.Forms.Button();
             this.BtnBack = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.TxtURL = new System.Windows.Forms.TextBox();
             this.PanelToolbar = new System.Windows.Forms.Panel();
             this.Menu = new System.Windows.Forms.Button();
             this.AddressBarPanel = new System.Windows.Forms.Panel();
+            this.TxtURL = new System.Windows.Forms.ComboBox();
             this.LoadingIndicator = new System.Windows.Forms.PictureBox();
             this.TabPages = new FarsiLibrary.Win.FATabStrip();
             this.tabStrip1 = new FarsiLibrary.Win.FATabStripItem();
@@ -62,6 +62,8 @@
             this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -190,21 +192,6 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // TxtURL
-            // 
-            this.TxtURL.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtURL.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtURL.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtURL.Location = new System.Drawing.Point(30, 2);
-            this.TxtURL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(793, 16);
-            this.TxtURL.TabIndex = 5;
-            this.TxtURL.Click += new System.EventHandler(this.txtUrl_Click);
-            this.TxtURL.TextChanged += new System.EventHandler(this.txtUrl_TextChanged);
-            this.TxtURL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtURL_KeyDown);
-            // 
             // PanelToolbar
             // 
             this.PanelToolbar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -244,31 +231,61 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AddressBarPanel.BackColor = System.Drawing.SystemColors.Window;
             this.AddressBarPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AddressBarPanel.Controls.Add(this.LoadingIndicator);
             this.AddressBarPanel.Controls.Add(this.TxtURL);
+            this.AddressBarPanel.Controls.Add(this.LoadingIndicator);
             this.AddressBarPanel.Location = new System.Drawing.Point(83, 1);
             this.AddressBarPanel.Name = "AddressBarPanel";
             this.AddressBarPanel.Size = new System.Drawing.Size(828, 23);
             this.AddressBarPanel.TabIndex = 4;
             this.AddressBarPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.AddressBarPanel_Paint);
             // 
+            // TxtURL
+            // 
+            this.TxtURL.AutoCompleteCustomSource.AddRange(new string[] {
+            "www.facebook.com",
+            "mail.google.com",
+            "www.khanacademy.org",
+            "www.weebly.com",
+            "www.google.com",
+            "www.timesofisrael.com",
+            "www.aljazeera.com",
+            "www.flamesky.weebly.com",
+            "www.github.com",
+            "www.instagram.com",
+            "web.whatsapp.com",
+            "www.messenger.com",
+            "www.pastorjerome.org"});
+            this.TxtURL.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.TxtURL.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.TxtURL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TxtURL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TxtURL.FormattingEnabled = true;
+            this.TxtURL.Location = new System.Drawing.Point(23, 0);
+            this.TxtURL.Name = "TxtURL";
+            this.TxtURL.Size = new System.Drawing.Size(803, 21);
+            this.TxtURL.TabIndex = 1;
+            this.TxtURL.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.TxtURL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtURL_KeyDown_1);
+            // 
             // LoadingIndicator
             // 
-            this.LoadingIndicator.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.LoadingIndicator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LoadingIndicator.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.LoadingIndicator.Location = new System.Drawing.Point(1, -1);
+            this.LoadingIndicator.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LoadingIndicator.Location = new System.Drawing.Point(0, 0);
             this.LoadingIndicator.Name = "LoadingIndicator";
-            this.LoadingIndicator.Size = new System.Drawing.Size(23, 23);
+            this.LoadingIndicator.Size = new System.Drawing.Size(23, 21);
             this.LoadingIndicator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LoadingIndicator.TabIndex = 0;
             this.LoadingIndicator.TabStop = false;
+            this.LoadingIndicator.Click += new System.EventHandler(this.LoadingIndicator_Click);
             // 
             // TabPages
             // 
+            this.TabPages.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TabPages.ContextMenuStrip = this.menuStripTab;
-            this.TabPages.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabPages.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TabPages.Items.AddRange(new FarsiLibrary.Win.FATabStripItem[] {
             this.tabStrip1,
@@ -276,7 +293,7 @@
             this.TabPages.Location = new System.Drawing.Point(0, 27);
             this.TabPages.Name = "TabPages";
             this.TabPages.SelectedItem = this.tabStrip1;
-            this.TabPages.Size = new System.Drawing.Size(934, 650);
+            this.TabPages.Size = new System.Drawing.Size(934, 628);
             this.TabPages.TabIndex = 4;
             this.TabPages.Text = "faTabStrip1";
             this.TabPages.TabStripItemSelectionChanged += new FarsiLibrary.Win.TabStripItemChangedHandler(this.OnTabsChanged);
@@ -288,7 +305,7 @@
             this.tabStrip1.IsDrawn = true;
             this.tabStrip1.Name = "tabStrip1";
             this.tabStrip1.Selected = true;
-            this.tabStrip1.Size = new System.Drawing.Size(932, 620);
+            this.tabStrip1.Size = new System.Drawing.Size(932, 598);
             this.tabStrip1.TabIndex = 0;
             this.tabStrip1.Title = "Loading...";
             this.tabStrip1.Changed += new System.EventHandler(this.tabStrip1_Changed);
@@ -466,16 +483,37 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSplitButton1,
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4});
+            this.statusStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.statusStrip1.Location = new System.Drawing.Point(0, 655);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(934, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dualWorldToolStripMenuItem});
+            this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 20);
+            this.toolStripSplitButton1.Text = "FlameSky Apps";
+            // 
+            // dualWorldToolStripMenuItem
+            // 
+            this.dualWorldToolStripMenuItem.Name = "dualWorldToolStripMenuItem";
+            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.dualWorldToolStripMenuItem.Text = "FlameSky Notes";
+            this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -723,7 +761,6 @@
             this.menuStripTab.ResumeLayout(false);
             this.PanelToolbar.ResumeLayout(false);
             this.AddressBarPanel.ResumeLayout(false);
-            this.AddressBarPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingIndicator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).EndInit();
             this.TabPages.ResumeLayout(false);
@@ -750,7 +787,6 @@
 		private System.Windows.Forms.Button BtnBack;
 		private System.Windows.Forms.Button BtnStop;
 		private System.Windows.Forms.Button BtnRefresh;
-		private System.Windows.Forms.TextBox TxtURL;
 		private System.Windows.Forms.Panel PanelToolbar;
 		private System.Windows.Forms.Panel PanelSearch;
 		private System.Windows.Forms.TextBox TxtSearch;
@@ -800,6 +836,9 @@
         private System.Windows.Forms.ToolStripMenuItem facebookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem instagramToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem whatsappWebToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem dualWorldToolStripMenuItem;
+        private System.Windows.Forms.ComboBox TxtURL;
     }
 }
 

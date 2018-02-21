@@ -101,6 +101,12 @@
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\JSON.cs" />
+    <Compile Include="FlameSkyNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlameSkyNotes.Designer.cs">
+      <DependentUpon>FlameSkyNotes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\DisplayHandler.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -140,6 +146,9 @@
     <Compile Include="Utils\URLUtils.cs" />
     <EmbeddedResource Include="BrowserHistory.resx">
       <DependentUpon>BrowserHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlameSkyNotes.resx">
+      <DependentUpon>FlameSkyNotes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -214,6 +223,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
+    <None Include="Resources\FlameSkyAppsIcon.png" />
     <None Include="Resources\makefg %282%292.png" />
     <None Include="Resources\FlameSkyStopIcon1.png" />
     <None Include="Resources\makefg %282%291.png" />

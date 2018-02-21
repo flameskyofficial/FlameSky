@@ -61,14 +61,13 @@ namespace FlameSky.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public global::System.Collections.Specialized.StringCollection History {
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
+            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />")]
+        public global::System.Collections.Specialized.StringCollection URLHistory {
             get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["History"]));
-            }
-            set {
-                this["History"] = value;
+                return ((global::System.Collections.Specialized.StringCollection)(this["URLHistory"]));
             }
         }
     }

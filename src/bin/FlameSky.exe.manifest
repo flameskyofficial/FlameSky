@@ -259,14 +259,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11148728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11160504">
       <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yknHUpzoZ1v0EKfx+0kNOtjH+DJkUrjd09SouKMg0do=</dsig:DigestValue>
+        <dsig:DigestValue>F9Gv6W338c3BWxaHpMX2ot1yQM4Px03XBgrnQjICxPE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -330,13 +330,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FlameSky.exe.config" size="2263">
+  <file name="FlameSky.exe.config" size="3037">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9QHsuYuXUIyoKxIjR6s6eu1Jp11sIrqDmeYzqZsXdMU=</dsig:DigestValue>
+      <dsig:DigestValue>aI9X8QOeTPsenq7a3pCVdMvVy93xhfcajLxgcTGaWgE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FlameSky.ico" size="310730">
