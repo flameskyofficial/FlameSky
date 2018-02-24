@@ -9,7 +9,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 Examples of behavior that contributes to creating a positive environment include:
 
 * Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
+* Respecting the culture, customs and values of the state of Qatar, (where the project admin resides).
 * Gracefully accepting constructive criticism
 * Focusing on what is best for the community
 * Showing empathy towards other community members
@@ -17,6 +17,7 @@ Examples of behavior that contributes to creating a positive environment include
 Examples of unacceptable behavior by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
+* Dishonoring the customs of the state of Qatar (where the project is developed)
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic address, without explicit permission
@@ -33,6 +34,10 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
 ## Code
+
+Code once contributed, is forever contributed. A contributor cannot withdraw his/her code. If the contributor, however posted copyrighted code, he or she may inform the admin to remove his/her contribution. Code removal is at the maintainer's discretion
+
+
 If a user is removed for violation of code of conduct, his code cannot be removed from the project, because once code is contributed, it is forever contributed.
 
 ## Attribution
