@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# The FlameSky Code of Conduct
 
 ## Our Pledge
 
