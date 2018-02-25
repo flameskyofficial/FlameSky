@@ -9,7 +9,7 @@ The FlameSky web browser is developed by the contributors to FlameSky (those who
 
 The FlameSky project's goals are:
 1. Create a browser that is advanced, and meets modern standards
-2. Create a browser with a native anti porn feature, and parental control feature 
+2. Create a browser with a native anti porn feature (optional), and parental control feature 
 3. Create a browser which will be have solutions to the needs other browsers do not meet. 
 4. A browser that is well equipped with useful tools which will help users.
 5. A browser which is user-centric.
