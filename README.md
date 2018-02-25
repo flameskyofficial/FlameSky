@@ -77,7 +77,7 @@ Ctrl+F		| Open search bar (Enter to find next, Esc to close)
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
 
 ## Credits
-- Contributors to FlameSky
+- [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors) - The volunteers who contributed code to this project
 - [Andrew Jose](https://github.com/andrewjoseofficial) - Founding maintainer, who forked from SharpBrowser
 - [Robin Rodricks](https://github.com/robinrodricks) - SharpBrowser project.
 - [Alex Maitland](https://github.com/amaitland) - CefSharp project, wrapper for CEF embeddable browser.
