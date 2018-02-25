@@ -22,6 +22,13 @@ The FlameSky project's goals are:
 
 FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary versions (FlameSky 3.7 and below, and Cubicle Web Browser), before he made FlameSky open source)}
 
+# How must I as a developer, look at this project?
+
+To make a successful product, we believe one must build it as if they are building it for themselves. Developers are encouraged to work on this web browser as if it is something they will use. Working in this project, will also help one get contributions counted (which one can show in his/her resume). 
+
+# What role does FlameSky Organization play?
+FlameSky Organization is just the administrators of FlameSky. Andrew Jose, is the CEO of FlameSky (CEO is the admin). His job is to market this software as much as possible.
+
 ## Features
 
 - HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
