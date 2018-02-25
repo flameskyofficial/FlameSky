@@ -30,7 +30,7 @@ namespace FlameSky
         string DefaultSearchEngine;
 
         public static string Branding = "FlameSky";
-        public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
+        public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36 FlameSky/5.0" ;
         public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
         public static string NewTabURL = "about:blank";
         public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
@@ -45,18 +45,32 @@ namespace FlameSky
         public bool CrossDomainSecurity = true;
         public bool WebGL = true;
 
-      
 
+        public string browserhistory = @"c:\ProgramData\FlameSky\BrowserHistory.txt";
+      
         public MainForm() {
 
             Instance = this;
 
             InitializeComponent();
             
+            if (File.Exists(browserhistory) == false) {
+                using (StreamWriter sw = File.CreateText(browserhistory))
+                {
+
+                }
+
+            }
+            else {
+
+            }
             
-
-            InitBrowser();
-
+            
+          
+            
+                InitBrowser();
+            
+            
             SetFormTitle(null);
 
         }
@@ -66,37 +80,30 @@ namespace FlameSky
 
 
 
-        public Form splashscreen = new SplashScreen();
+       
 
         private void MainForm_Load(object sender, EventArgs e) {
-         
-            
 
-            this.Hide();
+
+
+            
                 InitTooltips(this.Controls);
                 InitHotkeys();
                 
-            if (FlameSky.Properties.Settings.Default.ShowSplashScreenOnStartup)
-            {
-               
-                this.Hide();
-              
-               
-
-            }
-            else
-            {
-                this.Show();
-               
-            }
-            SplashTimer.Enabled = true;
-            splashscreen.Show();
-            AutoUpdater.Start("https://raw.githubusercontent.com/andrewjoseofficial/FlameSky/master/Updater.xml");
+          
+            
+            AutoUpdater.Start("https://raw.githubusercontent.com/flameskyofficial/FlameSky/master/Updater.xml");
             AutoUpdater.ShowSkipButton = false;
             AutoUpdater.ShowRemindLaterButton = true;
             AutoUpdater.Mandatory = true;
+
+
+             
             
 
+
+
+           
 
 
 
@@ -204,8 +211,8 @@ namespace FlameSky
 
                 Cef.Initialize(settings);
             }
+            
 
-          
 
             dHandler = new DownloadHandler(this);
             
@@ -219,6 +226,7 @@ namespace FlameSky
             host = new HostHandler(this);
 
             AddNewBrowser(tabStrip1, HomepageURL);
+           
 
         }
 
@@ -322,30 +330,30 @@ namespace FlameSky
             }
 
         }
-        public void UpdateBrowserHistory( string URL, string DateAccessed, string TimeAccessed,string DocumentTitle)
+        public void UpdateBrowserHistory(string URL, string DateAccessed, string TimeAccessed, string DocumentTitle)
         {
 
             try
             {
-                if ( URL != "about:blank")
+                if (URL != "about:blank")
 
                 {
 
-                    File.AppendAllText(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", DateAccessed + "  " + TimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
-                    FlameSky.Properties.Settings.Default.URLHistory.Add(URL);
-                    FlameSky.Properties.Settings.Default.Save();
-
+                    File.AppendAllText(browserhistory, DateAccessed + "  " + TimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
                    
 
-                }
-                else
-                {
+
+                    }
 
 
 
 
-                }
+                
+            
             }
+            
+
+        
             catch (Exception)
             {
 
@@ -603,8 +611,8 @@ namespace FlameSky
                     if (!Utils.IsFocussed(TxtURL))
                     {
                         SetFormURL(e.Address);
-                       
-                       
+
+
 
                         EnableBackButton(CurBrowser.CanGoBack);
                         EnableForwardButton(CurBrowser.CanGoForward);
@@ -615,9 +623,16 @@ namespace FlameSky
                         BtnStop.Visible = true;
 
                         CurTab.DateCreated = DateTime.Now;
+                        string address = e.Address;
+                        
+
+                        
+
+
+
+
 
                     }
-
                 }
             });
 		}
@@ -683,36 +698,36 @@ namespace FlameSky
 
 				EnableBackButton(e.CanGoBack);
 				EnableForwardButton(e.CanGoForward);
-               string CurURL = currentFullURL;
+               
+                string CurURL = currentFullURL;
 
 				if (e.IsLoading) {
 
-                   try
-                    {
-                   //     using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyBlackList.txt"))
-                   //     {
-                    //        string line;
-                    //        while ((line = r.ReadLine()) != null & CurURL != null)
-                      //      {
-                        //        if (CurURL != null & CurURL.Contains(line))
-                        //        {
-                        //            CurBrowser.Load("http://www.flamesky.weebly.com/accessprohibitedsexualcontent.html");
-                        //        }
+                    try {
+                        
 
-                        //    }
-                        //    r.Close();
+                            
+                                   
 
 
-                       // }
                         LoadingIndicator.Image = FlameSky.Properties.Resources.CircularLoadingIndicator;
+
+
+
+
                     }
+  
+                    
                     catch (Exception)
                     {
 
+
+                     
+                        
                     }
 
-                    
-                    
+
+
 
 
 
@@ -728,8 +743,13 @@ namespace FlameSky
                         try
                         {
                             LoadingIndicator.Image = FlameSky.Properties.Resources.LoadingCompletedIndicator;
-                            
-                            
+                            if (TxtURL.Items.Contains(currentFullURL) != true)
+                            {
+                                TxtURL.Items.Add(currentFullURL);
+                            }
+                           
+
+
                         }
                         catch (Exception)
                         {
@@ -738,6 +758,7 @@ namespace FlameSky
                         BtnRefresh.Visible = true;
 						BtnStop.Visible = false;
                        
+
 
                     });
 				}
@@ -1124,7 +1145,7 @@ namespace FlameSky
 
         private void SplashTimer_Tick(object sender, EventArgs e)
         {
-            splashscreen.Close();
+           
             this.Show();
         }
 
@@ -1298,7 +1319,7 @@ namespace FlameSky
         {
 
         }
-
+        #region DropDownMenu
         private void Menu_Click(object sender, EventArgs e)
         {
 
@@ -1355,6 +1376,9 @@ namespace FlameSky
         {
             Application.Exit();
         }
+#endregion
+
+        #region Quicklaunch
 
         private void jPostToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1485,6 +1509,7 @@ namespace FlameSky
         {
 
         }
+#endregion
 
         private void TxtURL_KeyDown_1(object sender, KeyEventArgs e)
         {

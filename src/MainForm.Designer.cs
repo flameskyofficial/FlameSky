@@ -254,9 +254,17 @@
             "www.instagram.com",
             "web.whatsapp.com",
             "www.messenger.com",
-            "www.pastorjerome.org"});
+            "www.pastorjerome.org",
+            "www.github.com",
+            "www.canva.com",
+            "www.youtube.com",
+            "www.twitter.com",
+            "www.friv.com",
+            "www.dailymail.com",
+            "www.foxnews.com",
+            "docs.google.com"});
             this.TxtURL.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.TxtURL.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.TxtURL.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.TxtURL.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtURL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TxtURL.FormattingEnabled = true;

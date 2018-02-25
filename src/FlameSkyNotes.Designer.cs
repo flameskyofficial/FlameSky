@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 407);
             this.Name = "FlameSkyNotes";
-            this.Text = "FlameSkyNotes";
+            this.Text = "FlameSky Notes";
             this.ResumeLayout(false);
 
         }

@@ -2,7 +2,6 @@ C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.BrowserHistory
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.MainForm.resources
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.Properties.Resources.resources
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.Settings.resources
-C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.SplashScreen.resources
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.csproj.GenerateResource.Cache
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.csproj.CoreCompileInputs.cache
 C:\Users\andre\source\repos\FlameSky 5\src\bin\FlameSky.exe.config
@@ -101,7 +100,6 @@ C:\Users\andre\source\repos\FlameSky 5\src\bin\CefSharp.WinForms.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\MetroFramework.Design.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\MetroFramework.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\MetroFramework.Fonts.dll
-C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.csprojResolveAssemblyReference.cache
 C:\Users\andre\source\repos\FlameSky 5\src\bin\AutoUpdater.NET.dll
 C:\Users\andre\source\repos\FlameSky 5\src\bin\AutoUpdater.NET.pdb
 C:\Users\andre\source\repos\FlameSky 5\src\bin\AutoUpdater.NET.xml

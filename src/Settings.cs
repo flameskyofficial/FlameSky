@@ -37,16 +37,6 @@ namespace FlameSky
                 SettingsScholar.Checked = true;
             }
 
-            if (FlameSky.Properties.Settings.Default.ShowSplashScreenOnStartup)
-            {
-                ShowSplashScreenOption.Checked = true;
-
-            }
-            else
-            {
-                HideSplashScreenOption.Checked = true;
-            }
-           
             
         }
 
@@ -105,20 +95,7 @@ namespace FlameSky
 
         
 
-        private void ShowSplashScreenOption_CheckedChanged(object sender, EventArgs e)
-        {
-            if (ShowSplashScreenOption.Checked)
-            {
-                FlameSky.Properties.Settings.Default.ShowSplashScreenOnStartup = true;
-                
-            }
-        }
-
-        private void HideSplashScreenOption_CheckedChanged(object sender, EventArgs e)
-        {
-            FlameSky.Properties.Settings.Default.ShowSplashScreenOnStartup = false;
-            
-        }
+        
 
         private void button2_Click_1(object sender, EventArgs e)
         {

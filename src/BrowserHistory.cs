@@ -23,7 +23,7 @@ namespace FlameSky
         {
             try
            {
-               using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt"))
+               using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\BrowserHistory.txt"))
                 {
                    string line;
                    while ((line = r.ReadLine()) != null)
@@ -47,7 +47,7 @@ namespace FlameSky
         private void button1_Click(object sender, EventArgs e)
 
         {
-            File.WriteAllText(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", String.Empty);
+            File.WriteAllText(@"C:\ProgramData\FlameSky\BrowserHistory.txt", String.Empty);
 
 
         }
@@ -107,10 +107,17 @@ namespace FlameSky
         {
             try
             {
-                FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\FlameSkyHistory.txt", FileMode.Truncate, FileAccess.Write)
+                FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\BrowserHistory.txt", FileMode.Truncate, FileAccess.Write)
                 {
 
                 };
+
+                Properties.Settings.Default.URLHistory.Clear();
+                Properties.Settings.Default.Save();
+                
+               
+
+
             }
             catch (Exception)
             {
@@ -122,6 +129,13 @@ namespace FlameSky
             this.Close();
 
         }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
     
