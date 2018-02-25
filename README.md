@@ -6,6 +6,8 @@
 Version in Progress: 5.0.0.0.1
 
 Developer: [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors)
+
+
 The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flamesky.weebly.com
 
 The FlameSky project's goals are:
