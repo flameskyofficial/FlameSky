@@ -131,7 +131,7 @@
             // 
             this.BtnRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnRefresh.BackgroundImage = global::FlameSky.Properties.Resources.makefg__2_1;
+            this.BtnRefresh.BackgroundImage = global::FlameSky.Properties.Resources.RefreshIcon;
             this.BtnRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRefresh.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;

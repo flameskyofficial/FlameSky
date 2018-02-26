@@ -203,26 +203,6 @@ namespace FlameSky.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap makefg__2_ {
-            get {
-                object obj = ResourceManager.GetObject("makefg (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap makefg__2_1 {
-            get {
-                object obj = ResourceManager.GetObject("makefg (2)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap MenuButtonIcon {
             get {
                 object obj = ResourceManager.GetObject("MenuButtonIcon", resourceCulture);
@@ -296,16 +276,6 @@ namespace FlameSky.Properties {
         internal static System.Drawing.Bitmap SplashScreenSwing {
             get {
                 object obj = ResourceManager.GetObject("SplashScreenSwing", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap StopIcon {
-            get {
-                object obj = ResourceManager.GetObject("StopIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
