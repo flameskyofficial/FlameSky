@@ -36,8 +36,10 @@ namespace CefSharp.WinForms.Example.Handlers
 
         void IDisplayHandler.OnFullscreenModeChange(IWebBrowser browserControl, IBrowser browser, bool fullscreen)
         {
+            // get browser
             var chromiumWebBrowser = (ChromiumWebBrowser)browserControl;
 
+            // invoke on UI thread if needed
             chromiumWebBrowser.InvokeOnUiThreadIfRequired(() =>
             {
                 if (fullscreen)
@@ -46,12 +48,13 @@ namespace CefSharp.WinForms.Example.Handlers
 
                     parent.Controls.Remove(chromiumWebBrowser);
 
-                    fullScreenForm = new Form();
-                    fullScreenForm.FormBorderStyle = FormBorderStyle.None;
-                    fullScreenForm.WindowState = FormWindowState.Maximized;
+                    fullScreenForm = new Form()
+                    {
+                        FormBorderStyle = FormBorderStyle.None,
+                        WindowState = FormWindowState.Maximized
+                    };
 
                     fullScreenForm.Controls.Add(chromiumWebBrowser);
-
                     fullScreenForm.ShowDialog(parent.FindForm());
                 }
                 else

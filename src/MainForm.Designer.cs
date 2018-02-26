@@ -106,24 +106,25 @@
             // 
             // menuStripTab
             // 
+            this.menuStripTab.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripTab.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuCloseTab,
             this.menuCloseOtherTabs});
             this.menuStripTab.Name = "menuStripTab";
-            this.menuStripTab.Size = new System.Drawing.Size(170, 48);
+            this.menuStripTab.Size = new System.Drawing.Size(198, 52);
             // 
             // menuCloseTab
             // 
             this.menuCloseTab.Name = "menuCloseTab";
             this.menuCloseTab.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F4)));
-            this.menuCloseTab.Size = new System.Drawing.Size(169, 22);
+            this.menuCloseTab.Size = new System.Drawing.Size(197, 24);
             this.menuCloseTab.Text = "Close tab";
             this.menuCloseTab.Click += new System.EventHandler(this.menuCloseTab_Click);
             // 
             // menuCloseOtherTabs
             // 
             this.menuCloseOtherTabs.Name = "menuCloseOtherTabs";
-            this.menuCloseOtherTabs.Size = new System.Drawing.Size(169, 22);
+            this.menuCloseOtherTabs.Size = new System.Drawing.Size(197, 24);
             this.menuCloseOtherTabs.Text = "Close other tabs";
             this.menuCloseOtherTabs.Click += new System.EventHandler(this.menuCloseOtherTabs_Click);
             // 
@@ -270,7 +271,7 @@
             this.TxtURL.FormattingEnabled = true;
             this.TxtURL.Location = new System.Drawing.Point(23, 0);
             this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(803, 21);
+            this.TxtURL.Size = new System.Drawing.Size(803, 27);
             this.TxtURL.TabIndex = 1;
             this.TxtURL.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.TxtURL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtURL_KeyDown_1);
@@ -396,7 +397,7 @@
             this.TxtSearch.Location = new System.Drawing.Point(10, 6);
             this.TxtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtSearch.Name = "TxtSearch";
-            this.TxtSearch.Size = new System.Drawing.Size(181, 25);
+            this.TxtSearch.Size = new System.Drawing.Size(181, 31);
             this.TxtSearch.TabIndex = 6;
             this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             this.TxtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtSearch_KeyDown);
@@ -408,6 +409,7 @@
             // 
             // MenuStripDropDown
             // 
+            this.MenuStripDropDown.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.MenuStripDropDown.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newTabToolStripMenuItem,
             this.closeTabToolStripMenuItem,
@@ -418,14 +420,14 @@
             this.developerToolsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.MenuStripDropDown.Name = "contextMenuStrip1";
-            this.MenuStripDropDown.Size = new System.Drawing.Size(195, 180);
+            this.MenuStripDropDown.Size = new System.Drawing.Size(233, 212);
             // 
             // newTabToolStripMenuItem
             // 
             this.newTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.AddTabIcon;
             this.newTabToolStripMenuItem.Name = "newTabToolStripMenuItem";
             this.newTabToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + T";
-            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.newTabToolStripMenuItem.Text = "New Tab";
             this.newTabToolStripMenuItem.Click += new System.EventHandler(this.newTabToolStripMenuItem_Click_1);
             // 
@@ -434,7 +436,7 @@
             this.closeTabToolStripMenuItem.Image = global::FlameSky.Properties.Resources.RemoveTabIcon;
             this.closeTabToolStripMenuItem.Name = "closeTabToolStripMenuItem";
             this.closeTabToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + W";
-            this.closeTabToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.closeTabToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.closeTabToolStripMenuItem.Text = "Close Tab";
             this.closeTabToolStripMenuItem.Click += new System.EventHandler(this.closeTabToolStripMenuItem_Click_1);
             // 
@@ -443,7 +445,7 @@
             this.newWindowToolStripMenuItem.Image = global::FlameSky.Properties.Resources.NewWindowIcon;
             this.newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
             this.newWindowToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + N";
-            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.newWindowToolStripMenuItem.Text = "New Window";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click_1);
             // 
@@ -452,7 +454,7 @@
             this.downloadsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DownloadIcon;
             this.downloadsToolStripMenuItem.Name = "downloadsToolStripMenuItem";
             this.downloadsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.J)));
-            this.downloadsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.downloadsToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.downloadsToolStripMenuItem.Text = "Downloads";
             this.downloadsToolStripMenuItem.Click += new System.EventHandler(this.downloadsToolStripMenuItem_Click_1);
             // 
@@ -460,7 +462,7 @@
             // 
             this.historyToolStripMenuItem.Image = global::FlameSky.Properties.Resources.HistoryIcon;
             this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-            this.historyToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.historyToolStripMenuItem.Text = "History";
             this.historyToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click_1);
             // 
@@ -469,7 +471,7 @@
             this.settingsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.SettingsIcon;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click_1);
             // 
@@ -478,20 +480,21 @@
             this.developerToolsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.DeveloperToolsIcon;
             this.developerToolsToolStripMenuItem.Name = "developerToolsToolStripMenuItem";
             this.developerToolsToolStripMenuItem.ShortcutKeyDisplayString = "F 12";
-            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.developerToolsToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.developerToolsToolStripMenuItem.Text = "Developer Tools";
             this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSplitButton1,
             this.toolStripStatusLabel1,
@@ -499,9 +502,9 @@
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4});
             this.statusStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.statusStrip1.Location = new System.Drawing.Point(0, 655);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 651);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(934, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(934, 26);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -513,13 +516,13 @@
             this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 20);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 24);
             this.toolStripSplitButton1.Text = "FlameSky Apps";
             // 
             // dualWorldToolStripMenuItem
             // 
             this.dualWorldToolStripMenuItem.Name = "dualWorldToolStripMenuItem";
-            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.dualWorldToolStripMenuItem.Text = "FlameSky Notes";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
             // 
@@ -534,55 +537,55 @@
             this.cNNToolStripMenuItem,
             this.timesOfIsraelToolStripMenuItem});
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(49, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(59, 24);
             this.toolStripStatusLabel1.Text = "News";
             // 
             // alJazeeraToolStripMenuItem
             // 
             this.alJazeeraToolStripMenuItem.Name = "alJazeeraToolStripMenuItem";
-            this.alJazeeraToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.alJazeeraToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.alJazeeraToolStripMenuItem.Text = "Al Jazeera";
             this.alJazeeraToolStripMenuItem.Click += new System.EventHandler(this.alJazeeraToolStripMenuItem_Click_1);
             // 
             // jerusalemPostToolStripMenuItem
             // 
             this.jerusalemPostToolStripMenuItem.Name = "jerusalemPostToolStripMenuItem";
-            this.jerusalemPostToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.jerusalemPostToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.jerusalemPostToolStripMenuItem.Text = "Jerusalem Post";
             this.jerusalemPostToolStripMenuItem.Click += new System.EventHandler(this.jerusalemPostToolStripMenuItem_Click_1);
             // 
             // russiaTodayToolStripMenuItem
             // 
             this.russiaTodayToolStripMenuItem.Name = "russiaTodayToolStripMenuItem";
-            this.russiaTodayToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.russiaTodayToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.russiaTodayToolStripMenuItem.Text = "Russia Today";
             this.russiaTodayToolStripMenuItem.Click += new System.EventHandler(this.russiaTodayToolStripMenuItem_Click);
             // 
             // gulfTimesQatarToolStripMenuItem
             // 
             this.gulfTimesQatarToolStripMenuItem.Name = "gulfTimesQatarToolStripMenuItem";
-            this.gulfTimesQatarToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.gulfTimesQatarToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.gulfTimesQatarToolStripMenuItem.Text = "Gulf Times (Qatar)";
             this.gulfTimesQatarToolStripMenuItem.Click += new System.EventHandler(this.gulfTimesQatarToolStripMenuItem_Click);
             // 
             // foxNewsToolStripMenuItem
             // 
             this.foxNewsToolStripMenuItem.Name = "foxNewsToolStripMenuItem";
-            this.foxNewsToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.foxNewsToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.foxNewsToolStripMenuItem.Text = "Fox News";
             this.foxNewsToolStripMenuItem.Click += new System.EventHandler(this.foxNewsToolStripMenuItem_Click_1);
             // 
             // cNNToolStripMenuItem
             // 
             this.cNNToolStripMenuItem.Name = "cNNToolStripMenuItem";
-            this.cNNToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.cNNToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.cNNToolStripMenuItem.Text = "CNN";
             this.cNNToolStripMenuItem.Click += new System.EventHandler(this.cNNToolStripMenuItem_Click_1);
             // 
             // timesOfIsraelToolStripMenuItem
             // 
             this.timesOfIsraelToolStripMenuItem.Name = "timesOfIsraelToolStripMenuItem";
-            this.timesOfIsraelToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.timesOfIsraelToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.timesOfIsraelToolStripMenuItem.Text = "Times Of Israel";
             this.timesOfIsraelToolStripMenuItem.Click += new System.EventHandler(this.timesOfIsraelToolStripMenuItem_Click_1);
             // 
@@ -597,55 +600,55 @@
             this.googleSlidesToolStripMenuItem,
             this.googleDocsToolStripMenuItem});
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(102, 20);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(125, 24);
             this.toolStripStatusLabel2.Text = "Work and Tools";
             // 
             // canvaToolStripMenuItem
             // 
             this.canvaToolStripMenuItem.Name = "canvaToolStripMenuItem";
-            this.canvaToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.canvaToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.canvaToolStripMenuItem.Text = "Canva";
             this.canvaToolStripMenuItem.Click += new System.EventHandler(this.canvaToolStripMenuItem_Click_1);
             // 
             // weeblyToolStripMenuItem
             // 
             this.weeblyToolStripMenuItem.Name = "weeblyToolStripMenuItem";
-            this.weeblyToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.weeblyToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.weeblyToolStripMenuItem.Text = "Weebly";
             this.weeblyToolStripMenuItem.Click += new System.EventHandler(this.weeblyToolStripMenuItem_Click_2);
             // 
             // preziToolStripMenuItem
             // 
             this.preziToolStripMenuItem.Name = "preziToolStripMenuItem";
-            this.preziToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.preziToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.preziToolStripMenuItem.Text = "Prezi";
             this.preziToolStripMenuItem.Click += new System.EventHandler(this.preziToolStripMenuItem_Click_1);
             // 
             // googleFormsToolStripMenuItem
             // 
             this.googleFormsToolStripMenuItem.Name = "googleFormsToolStripMenuItem";
-            this.googleFormsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleFormsToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.googleFormsToolStripMenuItem.Text = "Google Forms";
             this.googleFormsToolStripMenuItem.Click += new System.EventHandler(this.googleFormsToolStripMenuItem_Click_1);
             // 
             // googleDriveToolStripMenuItem
             // 
             this.googleDriveToolStripMenuItem.Name = "googleDriveToolStripMenuItem";
-            this.googleDriveToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleDriveToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.googleDriveToolStripMenuItem.Text = "Google Drive";
             this.googleDriveToolStripMenuItem.Click += new System.EventHandler(this.googleDriveToolStripMenuItem_Click_1);
             // 
             // googleSlidesToolStripMenuItem
             // 
             this.googleSlidesToolStripMenuItem.Name = "googleSlidesToolStripMenuItem";
-            this.googleSlidesToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleSlidesToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.googleSlidesToolStripMenuItem.Text = "Google Slides";
             this.googleSlidesToolStripMenuItem.Click += new System.EventHandler(this.googleSlidesToolStripMenuItem_Click_1);
             // 
             // googleDocsToolStripMenuItem
             // 
             this.googleDocsToolStripMenuItem.Name = "googleDocsToolStripMenuItem";
-            this.googleDocsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.googleDocsToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.googleDocsToolStripMenuItem.Text = "Google Docs";
             this.googleDocsToolStripMenuItem.Click += new System.EventHandler(this.googleDocsToolStripMenuItem_Click_1);
             // 
@@ -659,48 +662,48 @@
             this.khanAcademyToolStripMenuItem,
             this.citationGeneratorToolStripMenuItem});
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(73, 20);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(89, 24);
             this.toolStripStatusLabel3.Text = "Education";
             // 
             // googleClassroomToolStripMenuItem
             // 
             this.googleClassroomToolStripMenuItem.Name = "googleClassroomToolStripMenuItem";
-            this.googleClassroomToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.googleClassroomToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.googleClassroomToolStripMenuItem.Text = "Google Classroom";
             this.googleClassroomToolStripMenuItem.Click += new System.EventHandler(this.googleClassroomToolStripMenuItem_Click_1);
             // 
             // grammarlyToolStripMenuItem
             // 
             this.grammarlyToolStripMenuItem.Name = "grammarlyToolStripMenuItem";
-            this.grammarlyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.grammarlyToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.grammarlyToolStripMenuItem.Text = "Grammarly";
             this.grammarlyToolStripMenuItem.Click += new System.EventHandler(this.grammarlyToolStripMenuItem_Click);
             // 
             // edxToolStripMenuItem
             // 
             this.edxToolStripMenuItem.Name = "edxToolStripMenuItem";
-            this.edxToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.edxToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.edxToolStripMenuItem.Text = "Edx";
             this.edxToolStripMenuItem.Click += new System.EventHandler(this.edxToolStripMenuItem_Click);
             // 
             // codecademyToolStripMenuItem
             // 
             this.codecademyToolStripMenuItem.Name = "codecademyToolStripMenuItem";
-            this.codecademyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.codecademyToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.codecademyToolStripMenuItem.Text = "Codecademy";
             this.codecademyToolStripMenuItem.Click += new System.EventHandler(this.codecademyToolStripMenuItem_Click_1);
             // 
             // khanAcademyToolStripMenuItem
             // 
             this.khanAcademyToolStripMenuItem.Name = "khanAcademyToolStripMenuItem";
-            this.khanAcademyToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.khanAcademyToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.khanAcademyToolStripMenuItem.Text = "Khan Academy";
             this.khanAcademyToolStripMenuItem.Click += new System.EventHandler(this.khanAcademyToolStripMenuItem_Click_1);
             // 
             // citationGeneratorToolStripMenuItem
             // 
             this.citationGeneratorToolStripMenuItem.Name = "citationGeneratorToolStripMenuItem";
-            this.citationGeneratorToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.citationGeneratorToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.citationGeneratorToolStripMenuItem.Text = "Citefast (Citation Generator)";
             this.citationGeneratorToolStripMenuItem.Click += new System.EventHandler(this.citationGeneratorToolStripMenuItem_Click_1);
             // 
@@ -713,40 +716,40 @@
             this.instagramToolStripMenuItem,
             this.whatsappWebToolStripMenuItem});
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(87, 20);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(109, 24);
             this.toolStripStatusLabel4.Text = "Social Media";
             // 
             // pinterestToolStripMenuItem
             // 
             this.pinterestToolStripMenuItem.Name = "pinterestToolStripMenuItem";
-            this.pinterestToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.pinterestToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.pinterestToolStripMenuItem.Text = "Pinterest";
             // 
             // twitterToolStripMenuItem
             // 
             this.twitterToolStripMenuItem.Name = "twitterToolStripMenuItem";
-            this.twitterToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.twitterToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.twitterToolStripMenuItem.Text = "Twitter";
             this.twitterToolStripMenuItem.Click += new System.EventHandler(this.twitterToolStripMenuItem_Click);
             // 
             // facebookToolStripMenuItem
             // 
             this.facebookToolStripMenuItem.Name = "facebookToolStripMenuItem";
-            this.facebookToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.facebookToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.facebookToolStripMenuItem.Text = "Facebook";
             this.facebookToolStripMenuItem.Click += new System.EventHandler(this.facebookToolStripMenuItem_Click);
             // 
             // instagramToolStripMenuItem
             // 
             this.instagramToolStripMenuItem.Name = "instagramToolStripMenuItem";
-            this.instagramToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.instagramToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.instagramToolStripMenuItem.Text = "Instagram";
             this.instagramToolStripMenuItem.Click += new System.EventHandler(this.instagramToolStripMenuItem_Click);
             // 
             // whatsappWebToolStripMenuItem
             // 
             this.whatsappWebToolStripMenuItem.Name = "whatsappWebToolStripMenuItem";
-            this.whatsappWebToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.whatsappWebToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
             this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
             this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click_1);
             // 
