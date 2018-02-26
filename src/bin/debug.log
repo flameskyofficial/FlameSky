@@ -3478,3 +3478,113 @@ KAdefine.require("./javascript/shared-package/ka.js");
 %cSee https://www.facebook.com/selfxss for more information.", source: https://www.facebook.com/rsrc.php/v3/yW/r/thuBCnfP3YT.js (198)
 [0226/021248.074:INFO:CONSOLE(198)] "
 %c", source: https://www.facebook.com/rsrc.php/v3/yW/r/thuBCnfP3YT.js (198)
+[0226/203704.795:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0226/203704.795:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0226/203705.591:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/203705.592:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/203706.017:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/203706.234:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
+[0226/203706.867:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0226/203707.215:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 87
+[0226/203708.999:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(71,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0226/203805.979:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://player.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203806.061:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://static-cdn.jtvnw.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203806.076:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.jtvnw.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203806.139:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(71,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0226/203806.978:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203807.034:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203807.078:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://c.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203807.172:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/203807.173:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/203807.314:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/203807.462:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://api.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203808.317:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=JYk8LCsC&kxt=https%3A%2F%2Fwww.twitch.tv&kxcl=cdn&kxp= (0)
+[0226/203808.415:INFO:CONSOLE(28)] "failed to resolve properties promise", source: https://player.twitch.tv/js/player.js (28)
+[0226/203810.272:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/203815.655:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/203816.166:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203817.711:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/203818.231:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203822.151:ERROR:broker_win.cc(138)] Error sending sync broker message
+[0226/203905.989:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203906.049:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/203906.085:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://static-cdn.jtvnw.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203906.192:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/203906.194:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/203906.267:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/203906.590:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://api.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/203907.299:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=JYk8LCsC&kxt=https%3A%2F%2Fwww.twitch.tv&kxcl=cdn&kxp= (0)
+[0226/203907.719:INFO:CONSOLE(28)] "failed to resolve properties promise", source: https://player.twitch.tv/js/player.js (28)
+[0226/203909.698:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/203914.825:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/203915.729:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204746.596:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://static-cdn.jtvnw.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/204746.802:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://player.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/204747.423:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204747.483:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204747.723:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/204747.723:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/204747.753:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/204747.950:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://api.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/204748.175:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=JYk8LCsC&kxt=https%3A%2F%2Fwww.twitch.tv&kxcl=cdn&kxp= (0)
+[0226/204749.470:INFO:CONSOLE(28)] "failed to resolve properties promise", source: https://player.twitch.tv/js/player.js (28)
+[0226/204751.012:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204756.125:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204756.594:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204758.726:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204759.162:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204802.530:ERROR:broker_win.cc(138)] Error sending sync broker message
+[0226/204843.014:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204843.069:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204843.196:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/204843.196:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/204843.244:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/204843.522:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://api.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/204844.232:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=JYk8LCsC&kxt=https%3A%2F%2Fwww.twitch.tv&kxcl=cdn&kxp= (0)
+[0226/204845.010:INFO:CONSOLE(28)] "failed to resolve properties promise", source: https://player.twitch.tv/js/player.js (28)
+[0226/204846.644:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204852.439:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204852.819:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/204854.512:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/204855.087:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/205129.854:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://player.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/205129.918:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://static-cdn.jtvnw.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/205130.558:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/205130.626:INFO:CONSOLE(28)] "setStatsEnabled has been deprecated.", source: https://player.twitch.tv/js/player.js (28)
+[0226/205130.745:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/205130.745:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/205130.772:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/205131.310:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://api.twitch.tv will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.twitch.tv/ (0)
+[0226/205131.804:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.amazon-adsystem.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=JYk8LCsC&kxt=https%3A%2F%2Fwww.twitch.tv&kxcl=cdn&kxp= (0)
+[0226/205132.298:INFO:CONSOLE(28)] "failed to resolve properties promise", source: https://player.twitch.tv/js/player.js (28)
+[0226/205133.936:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/205139.750:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/205140.294:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/205143.170:INFO:CONSOLE(1)] "build: local", source:  (1)
+[0226/205143.691:INFO:CONSOLE(28)] "getClip() is deprecated. Use getPlaylist().getClip() instead.", source: https://player.twitch.tv/js/player.js (28)
+[0226/205147.909:INFO:CONSOLE(0)] "Uncaught (in promise) TypeError: Failed to fetch", source: https://www.twitch.tv/ (0)
+[0226/205148.008:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0226/205148.337:WARNING:spdy_session.cc(2861)] Received WINDOW_UPDATE for invalid stream 23
+[0226/205148.339:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0226/205148.341:WARNING:audio_sync_reader.cc(172)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[0226/205148.349:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0226/205148.359:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0226/205148.360:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0226/205148.656:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/205148.656:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/205148.744:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/205148.846:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
+[0226/205149.953:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0226/205507.423:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0226/205507.424:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0226/205507.707:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0226/205507.708:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0226/205507.804:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0226/205507.859:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
+[0226/205508.885:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)

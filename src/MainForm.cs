@@ -45,16 +45,30 @@ namespace FlameSky
         public bool CrossDomainSecurity = true;
         public bool WebGL = true;
 
-
-        public string browserhistory = @"c:\ProgramData\FlameSky\BrowserHistory.txt";
+        public string AppPath = GetConfPath("FlameSky");
+        public string browserhistory = GetConfPath("FlameSky\\BrowserHistory.txt");
       
         public MainForm() {
 
             Instance = this;
 
             InitializeComponent();
-            
-            if (File.Exists(browserhistory) == false) {
+
+            // Check AppData path
+            if (!Directory.Exists(AppPath))
+            {
+                try
+                {
+                    Directory.CreateDirectory(AppPath);
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show(this, error.Message, "FlameSky", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+
+            // Check Browser history
+            if (!File.Exists(browserhistory)) {
                 using (StreamWriter sw = File.CreateText(browserhistory))
                 {
 
@@ -176,7 +190,7 @@ namespace FlameSky
         private LifeSpanHandler lHandler;
         private KeyboardHandler kHandler;
         private RequestHandler rHandler;
-        private DisplayHandler dsphandler;
+        private DisplayHandler Dsphandler;
 
         /// <summary>
         /// this is done just once, to globally initialize CefSharp/CEF
@@ -214,13 +228,14 @@ namespace FlameSky
             
 
 
-            dHandler = new DownloadHandler(this);
-            
+            dHandler = new DownloadHandler(this);        
             lHandler = new LifeSpanHandler(this);
             mHandler = new ContextMenuHandler(this);
             kHandler = new KeyboardHandler(this);
             rHandler = new RequestHandler(this);
-            
+            Dsphandler = new DisplayHandler();
+
+
             InitDownloads();
 
             host = new HostHandler(this);
@@ -460,6 +475,7 @@ namespace FlameSky
 			browser.LifeSpanHandler = lHandler;
 			browser.KeyboardHandler = kHandler;
 			browser.RequestHandler = rHandler;
+            browser.DisplayHandler = Dsphandler;
 
 			// new tab obj
 			SharpTab tab = new SharpTab {
@@ -1542,6 +1558,16 @@ namespace FlameSky
         private void LoadingIndicator_Click(object sender, EventArgs e)
         {
 
+        }
+
+        /**
+         * Gets the applications AppData directory
+         * @param string directory
+         * @return string directory
+         */
+        private static string GetConfPath(string directory)
+        {
+            return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), directory);
         }
     }
 }
