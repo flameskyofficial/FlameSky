@@ -3588,3 +3588,116 @@ C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, us
 [0226/205507.804:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
 [0226/205507.859:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
 [0226/205508.885:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/003103.382:ERROR:entry_impl.cc(1037)] No file for 8000015e
+[0227/003211.788:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0227/003211.792:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0227/003213.496:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0227/003213.496:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0227/003214.600:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0227/003215.698:INFO:CONSOLE(1124)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfljZ7yx_/desktop_polymer.js (1124)
+[0227/003219.376:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/003219.698:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/003219.698:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/003219.778:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 37
+[0227/003219.899:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0227/003219.928:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0227/003223.827:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/003223.828:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/003225.918:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/003225.918:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/003230.079:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/003230.079:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/003427.350:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0227/003427.470:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/005257.080:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/113314.591:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0227/113317.413:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0227/113317.414:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0227/113318.470:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0227/113318.470:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0227/113318.874:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0227/113320.278:INFO:CONSOLE(1124)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfljZ7yx_/desktop_polymer.js (1124)
+[0227/113322.526:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/113322.913:ERROR:entry_impl.cc(1037)] No file for 80000230
+[0227/113322.924:ERROR:entry_impl.cc(1037)] No file for 8000022c
+[0227/113322.936:ERROR:entry_impl.cc(1037)] No file for 8000022a
+[0227/113322.941:INFO:CONSOLE(11)] "Uncaught ReferenceError: yt is not defined", source: https://www.youtube.com/embed/?controls=0&enablejsapi=1&iv_load_policy=3&modestbranding=1&mute=1&nologo=1&rel=0&showinfo=0&wmode=transparent&widget_referrer=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fsz%3D850x250%26gdfp_req%3D1%26ad_rule%3D0%26iu%3D%2F4061%2Fcom.ythome%26impl%3Difr%26scp%3Dssl%253D1%2526dc_yt%253D1%2526kage%253D17%2526kar%253D2%2526kauth%253D1%2526kga%253D1000%2526kgender%253Dm%2526kgg%253D1%2526klg%253Den%2526kmyd%253Dvideo-masthead%2526ytdevice%253D1%2526ytex&origin=https%3A%2F%2Fwww.youtube.com&widgetid=1 (11)
+[0227/113323.807:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/113323.807:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/113327.929:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/113327.929:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/113329.997:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/113329.997:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/113334.151:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/113334.152:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/113810.206:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/113818.456:INFO:CONSOLE(14)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/watch?v=enfELcLr4q0 (14)
+[0227/113820.202:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0227/113820.203:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0227/113820.815:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0227/113822.236:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0227/113822.236:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0227/113826.139:INFO:CONSOLE(0)] "The resource https://r3---sn-9uxa-qviz.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it wasn't preloaded for nothing.", source: https://www.youtube.com/watch?v=enfELcLr4q0 (0)
+[0227/113826.145:INFO:CONSOLE(0)] "The resource https://r3---sn-9uxa-qviz.googlevideo.com/generate_204?conn2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it wasn't preloaded for nothing.", source: https://www.youtube.com/watch?v=enfELcLr4q0 (0)
+[0227/113826.778:WARNING:backend_impl.cc(1615)] Messed up entry found.
+[0227/113826.778:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0227/113828.456:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/113828.456:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/113832.765:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/113832.765:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/113834.880:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/113834.881:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/113838.959:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/113838.959:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/114028.036:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/114028.036:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0227/133805.763:INFO:CONSOLE(0)] "Failed to load sharpbrowser://storage/errors/cannotConnect.html: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.81qcNVAdPP0.O%2Fm%3D__features__%2Fam%3DAAE%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo-rnjHqcvRAlxtG-9gMfTrV90boIA#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1519727867358&_gfid=I0_1519727867358&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=40906174 (0)
+[0227/134358.441:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0227/134358.612:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0227/134358.698:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0227/134400.059:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0227/134400.237:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0227/134405.278:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/ (0)
+[0227/134407.584:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[0227/134407.648:WARNING:delay_based_bwe.cc(326)] BWE Setting start bitrate to: 300000
+[0227/134407.772:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 103 to 127
+[0227/134407.773:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 104 to 125
+[0227/134443.561:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0227/134444.165:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0227/134444.376:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0227/134449.757:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/ (0)
+[0227/134450.625:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[0227/134450.626:WARNING:delay_based_bwe.cc(326)] BWE Setting start bitrate to: 300000
+[0227/134450.631:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 103 to 127
+[0227/134450.631:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 104 to 125
+[0227/134624.081:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0227/134624.279:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0227/134624.483:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0227/134625.548:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0227/134629.899:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[0227/134629.901:WARNING:delay_based_bwe.cc(326)] BWE Setting start bitrate to: 300000
+[0227/134629.906:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 103 to 127
+[0227/134629.906:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 104 to 125
+[0227/134832.760:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0227/134832.908:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0227/134834.168:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0227/134835.295:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0227/134835.502:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0227/134836.216:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0227/134836.396:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 37
+[0227/134836.804:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0227/134857.417:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/134857.621:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0227/134859.017:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0227/134917.891:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/134917.891:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/134922.167:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/134922.169:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/134923.834:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0227/134924.168:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0227/134924.229:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/134924.229:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/134924.372:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0227/134924.673:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0227/134928.378:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/134928.378:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.

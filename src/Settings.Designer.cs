@@ -218,7 +218,6 @@
             this.Name = "Settings";
             this.Style = MetroFramework.MetroColorStyle.Red;
             this.Text = "Settings ";
-            this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.Settings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabControl1.ResumeLayout(false);

@@ -30,7 +30,7 @@ namespace FlameSky
         string DefaultSearchEngine;
 
         public static string Branding = "FlameSky";
-        public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36 FlameSky/5.0" ;
+        public static string UserAgent = "Mozilla/5.0 (Windows 7; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.1.3282.186 Safari/537.36 FlameSky/5.0";
         public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
         public static string NewTabURL = "about:blank";
         public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
@@ -696,9 +696,17 @@ namespace FlameSky
 			// save text
 			browser.Tag = text;
 
-			// get tab of given browser
-			FATabStripItem tabStrip = (FATabStripItem)browser.Parent;
-			tabStrip.Title = text;
+            // get tab of given browser
+            try // deals with the exception issue that arose when full screen was tried.
+            {
+                FATabStripItem tabStrip = (FATabStripItem)browser.Parent;
+                tabStrip.Title = text;
+            }
+            catch (Exception)
+            {
+
+            }
+			 
 
 
 			// if current tab
@@ -1518,7 +1526,7 @@ namespace FlameSky
 
         private void dualWorldToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new FlameSkyNotes().Show();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

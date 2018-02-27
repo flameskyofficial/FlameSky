@@ -22,6 +22,16 @@ The FlameSky project's goals are:
 
 FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary versions (FlameSky 3.7 and below, and Cubicle Web Browser), before he made FlameSky open source)}
 
+# Who are contributors, and what is 'FlameSky Contributors'?
+Because FlameSky is an open source project, it is built by volunteers who invest time in building the browser and exercising the skills (by contributing) simultaneously. Contributors include those listed in https://github.com/flameskyofficial/FlameSky/graphs/contributors . 
+
+FlameSky Contributors is a collective identity for those who contribute. Due to the difficulty in accrediting everyone individual by individual, this collective identity is used
+
+# Why is SharpBrowser considered a 'FlameSky Contributor'?
+
+Sharpbrowontributor'?ser, is considered a contributor, because this software was a fork of their software until FlameSky ended its relationship as a fork of SharpBrowser.
+
+
 # How must I as a developer, look at this project?
 
 To make a successful product, we believe one must build it as if they are building it for themselves. Developers are encouraged to work on this web browser as if it is something they will use. Working in this project, will also help one get contributions counted (which one can show in his/her resume). 
