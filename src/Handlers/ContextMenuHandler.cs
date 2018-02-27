@@ -5,6 +5,9 @@ using System.Text;
 using CefSharp;
 using System.Windows.Forms;
 using CefSharp.WinForms;
+using System.Net;
+using System.IO;
+using System.Drawing;
 
 namespace FlameSky {
 	internal class ContextMenuHandler : IContextMenuHandler {
@@ -18,7 +21,10 @@ namespace FlameSky {
 		private const int OpenLinkInNewTab = 26507;
 		private const int CloseTab = 40007;
 		private const int RefreshTab = 40008;
-		MainForm myForm;
+        private const int CopyImageLink = 00001;
+        private const int CopyImage = 00002;
+
+        MainForm myForm;
 
 		private string lastSelText = "";
 
@@ -49,10 +55,12 @@ namespace FlameSky {
 			}
 
 			if (parameters.HasImageContents && parameters.SourceUrl.CheckIfValid()) {
-				
-				// RIGHT CLICKED ON IMAGE
 
-			}
+                // RIGHT CLICKED ON IMAGE
+                model.AddItem((CefMenuCommand)00001, "Copy image link");
+                model.AddItem((CefMenuCommand)00002, "Copy image");
+
+            }
 
 			if (parameters.SelectionText != null) {
 
@@ -104,6 +112,20 @@ namespace FlameSky {
 					myForm.RefreshActiveTab();
 				});
 			}
+            if (id == CopyImageLink)
+            {
+                Clipboard.SetText(parameters.SourceUrl);
+            }
+            if (id == CopyImage)
+            {
+                WebClient wc = new WebClient();
+
+                using (MemoryStream stream = new MemoryStream(wc.DownloadData(parameters.SourceUrl)))
+                {
+                    Image img = Bitmap.FromStream(stream);
+                    Clipboard.SetImage(img);
+                }
+            }
 
 			return false;
 		}

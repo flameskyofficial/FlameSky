@@ -3588,3 +3588,166 @@ C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, us
 [0226/205507.804:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
 [0226/205507.859:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
 [0226/205508.885:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/120420.561:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(30,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(35,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/120422.728:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(71,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/120423.045:ERROR:shader_disk_cache.cc(238)] Failed to create shader cache entry: -2
+[0227/120427.954:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(48,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(53,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/120435.435:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://a7544042.cdn.optimizely.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: about:blank (0)
+[0227/120435.436:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://a7544042.cdn.optimizely.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://a7544042.cdn.optimizely.com/client_storage/a7544042.html (0)
+[0227/120435.534:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.btstatic.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120435.870:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://s.thebrighttag.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120436.141:INFO:CONSOLE(0)] "Failed to load sharpbrowser://storage/errors/cannotConnect.html: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.", source: https://www.cars.com/ (0)
+[0227/120436.344:INFO:CONSOLE(36)] "TypeError: Cannot read property 'pcid' of null", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.350:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.350:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.350:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.350:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.350:INFO:CONSOLE(36)] "defineSlot('6427/homepage/hero.cta', Native, 'dev-gpt-5523842586')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.369:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.370:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.370:INFO:CONSOLE(36)] "setTargeting('detail', 'hero')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.370:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.370:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.370:INFO:CONSOLE(36)] "display('dev-gpt-5523842586')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.573:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.573:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.574:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.574:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.574:INFO:CONSOLE(36)] "defineSlot('6427/homepage/spons.silhouette', Native, 'dev-gpt-682874898737')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.574:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.774:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.774:INFO:CONSOLE(36)] "setTargeting('detail', 'sponsored_silhouette')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.774:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.774:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.774:INFO:CONSOLE(36)] "display('dev-gpt-682874898737')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.775:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "defineSlot('6427/homepage/spons.vehicle.ga', Native, 'dev-gpt-1454866330876')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120436.975:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.175:INFO:CONSOLE(36)] "setTargeting('detail', 'grandawareness')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.175:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.175:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.175:INFO:CONSOLE(36)] "display('dev-gpt-1454866330876')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.175:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.176:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.375:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.376:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.376:INFO:CONSOLE(36)] "defineSlot('/6427/homepage/spons.review', Native, 'dev-gpt-1302020204891')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.376:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.376:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.575:INFO:CONSOLE(36)] "setTargeting('detail', 'targetedawareness')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.575:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.576:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.576:INFO:CONSOLE(36)] "display('dev-gpt-1302020204891')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.578:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.578:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.776:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.776:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.776:INFO:CONSOLE(36)] "defineSlot('/6427/homepage/iab.10', [[970,90],[970,66],[728,90],[1,1]], 'dev-gpt-480753452755')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.777:INFO:CONSOLE(36)] "defineSizeMapping([[[1024,1],[[970,90],[970,66],[728,90],[1,1]]],[[504,1],[728,90]],[[0,0],[320,50]]])", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.777:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.976:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.977:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.977:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.977:INFO:CONSOLE(36)] "display('dev-gpt-480753452755')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.980:INFO:CONSOLE(36)] "", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120437.980:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.176:INFO:CONSOLE(36)] "AD CALL", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.176:INFO:CONSOLE(36)] "**************************************", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.177:INFO:CONSOLE(36)] "defineSlot('/6427/homepage/iab.20', [[300,250],[1,1]], 'dev-gpt-1014525422899')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.177:INFO:CONSOLE(36)] "defineSizeMapping([[[1024,1],[[300,250],[1,1]]],[[504,1],[[300,250],[1,1]]],[[0,0],[]]])", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.177:INFO:CONSOLE(36)] "setTargeting('aff', 'national')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.177:INFO:CONSOLE(36)] "setTargeting('layout', 'largedesktop')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.377:INFO:CONSOLE(36)] "setTargeting('ksg', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.377:INFO:CONSOLE(36)] "setTargeting('kuid', '')
+", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.378:INFO:CONSOLE(36)] "display('dev-gpt-1014525422899')", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.380:INFO:CONSOLE(36)] "slotRenderEnded event is empty: ", source: https://www.cars.com/feo-cdn/_/k/Ren-UTF-8~_k9LrDGlKszY144bTL5mPZ7CmuMQr9KI6nAm01OrucM.js (36)
+[0227/120438.380:INFO:CONSOLE(2)] "DTM change.PageState fired on body.", source: https://assets.adobedtm.com/36e159fa28ebd11f42c753477615b777373ed969/scripts/satellite-5731f16664746d2dfc001e56.js (2)
+[0227/120438.380:INFO:CONSOLE(3)] "[object Object]", source: https://assets.adobedtm.com/36e159fa28ebd11f42c753477615b777373ed969/scripts/satellite-5731f16664746d2dfc001e56.js (3)
+[0227/120438.577:INFO:CONSOLE(4)] "testing pageNameLinkNames: or undefined", source: https://assets.adobedtm.com/36e159fa28ebd11f42c753477615b777373ed969/scripts/satellite-5731f16664746d2dfc001e56.js (4)
+[0227/120438.608:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d1n00d49gkbray.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120438.608:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://static.adsafeprotected.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120438.777:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://cdnssl.clicktale.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120438.779:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d2s3bizpgknsvz.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120438.779:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dds6m601du5ji.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.cars.com/ (0)
+[0227/120438.895:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0227/120439.259:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://r.casalemedia.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://us-sonar.sociomantic.com/html/2010-07-01/usrm-test?aid=11909855221967156605&fpc=1510375104437127004&v=adv2.08.1-18:1.0.0-32:v1.01-47:v1.00&hs=true&ums=10651408516720355968&umi=0 (0)
+[0227/120439.669:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d.agkn.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://5095325.fls.doubleclick.net/activityi;dc_pre=CJGMhb75xdkCFQGJmgodhS0Ezg;src=5095325;type=shopp0;cat=homep001;u1=Chrome;u3=;u4=;u5=;u6=;u7=;u8=;u9=;u10=desktop;u11=2383923516644807834;u12=;u13=;ord=1193016320;prd= (0)
+[0227/120439.750:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d.agkn.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://5095325.fls.doubleclick.net/activityi;dc_pre=COT5jb75xdkCFRnfmgodHSwGYg;src=5095325;type=shopp0;cat=first001;u1=Chrome;u2=;u3=;u4=;u5=;u6=;u7=;u8=;u9=;u10=desktop;u11=2383923516644807834;u12=;u13=%20;ord=1193016320;prd= (0)
+[0227/120439.941:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://aa.agkn.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://5095325.fls.doubleclick.net/activityi;dc_pre=CJGMhb75xdkCFQGJmgodhS0Ezg;src=5095325;type=shopp0;cat=homep001;u1=Chrome;u3=;u4=;u5=;u6=;u7=;u8=;u9=;u10=desktop;u11=2383923516644807834;u12=;u13=;ord=1193016320;prd= (0)
+[0227/120440.093:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://aa.agkn.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://5095325.fls.doubleclick.net/activityi;dc_pre=COT5jb75xdkCFRnfmgodHSwGYg;src=5095325;type=shopp0;cat=first001;u1=Chrome;u2=;u3=;u4=;u5=;u6=;u7=;u8=;u9=;u10=desktop;u11=2383923516644807834;u12=;u13=%20;ord=1193016320;prd= (0)
+[0227/120445.732:INFO:CONSOLE(3)] "Uncaught TypeError: Cannot read property 'tagName' of null", source: https://www.cars.com/ (3)
+[0227/120449.273:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://lumiere-a.akamaihd.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.google.se/search?q=cars&hl=en&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq3rm4-cXZAhVMblAKHfHwAQIQ_AUICigB&biw=1918&bih=939#imgrc=5H3Xh2ViF3hA4M: (0)
+[0227/120452.855:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?q=cars&hl=en&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq3rm4-cXZAhVMblAKHfHwAQIQ_AUICigB&biw=1918&bih=939#imgrc=QQqCWJTd0GuG5M:' was loaded over HTTPS, but requested an insecure image 'http://static1.uk.businessinsider.com/image/5930253cda6dde1d615cc44a/the-10-most-beautiful-cars-on-sale-today.jpg'. This content should also be served over HTTPS.", source: https://www.google.se/search?q=cars&hl=en&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq3rm4-cXZAhVMblAKHfHwAQIQ_AUICigB&biw=1918&bih=939#imgrc=QQqCWJTd0GuG5M: (0)
+[0227/120452.958:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://article.images.consumerreports.org will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.google.se/search?q=cars&hl=en&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiq3rm4-cXZAhVMblAKHfHwAQIQ_AUICigB&biw=1918&bih=939#imgrc=QQqCWJTd0GuG5M: (0)
+[0227/120457.973:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M:' was loaded over HTTPS, but requested an insecure image 'http://4recentcars.com/wp-content/uploads/2018/02/wallpaper-hd-car-luxury-super-sports-cars-wallpaper-hd-car-wallpapers-of-wallpaper-hd-car.jpg'. This content should also be served over HTTPS.", source: https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M: (0)
+[0227/120457.973:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M:' was loaded over HTTPS, but requested an insecure image 'http://www.qygjxz.com/data/out/49/5463409-cool-cars-wallpaper.jpg'. This content should also be served over HTTPS.", source: https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M: (0)
+[0227/120457.994:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M:' was loaded over HTTPS, but requested an insecure image 'http://wallpaper-gallery.net/images/cars-wallpaper/cars-wallpaper-6.jpg'. This content should also be served over HTTPS.", source: https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M: (0)
+[0227/120458.194:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M:' was loaded over HTTPS, but requested an insecure image 'http://wallpaper-gallery.net/image.php?pic=/images/cars-wallpaper/cars-wallpaper-6.jpg'. This content should also be served over HTTPS.", source: https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M: (0)
+[0227/120458.394:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M:' was loaded over HTTPS, but requested an insecure image 'http://wallpaper-gallery.net/single/cars-wallpaper/cars-wallpaper-6.html'. This content should also be served over HTTPS.", source: https://www.google.se/search?hl=en&dcr=0&biw=1918&bih=939&tbm=isch&sa=1&ei=PjuVWtugHs7VwALVw5PoBg&q=cars+wallpaper&oq=cars+wallpaper&gs_l=psy-ab.3..0l10.24138.25352.0.25519.10.3.0.7.7.0.67.183.3.3.0....0...1c.1.64.psy-ab..0.10.202...0i67k1.0.bKb6ji9wUvw#imgrc=UGnpW394BZ_C1M: (0)
+[0227/120500.385:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: http://4recentcars.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[0227/120500.699:INFO:CONSOLE(476)] "Powered by AMP ⚡ HTML – Version 1518441587106", source: https://cdn.ampproject.org/v0.js (476)
+[0227/120555.576:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(30,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(35,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/120557.148:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(71,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/120958.007:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(30,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(35,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/121059.380:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(30,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(35,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/121259.044:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(30,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(35,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0227/121300.659:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(51,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(56,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
