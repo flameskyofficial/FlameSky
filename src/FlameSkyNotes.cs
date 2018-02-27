@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace FlameSky
 {
-    public partial class FlameSkyNotes : Form
+    public partial class FlameSkyNotes : MetroFramework.Forms.MetroForm
     {
         public FlameSkyNotes()
         {
             InitializeComponent();
+        }
+
+        private void FlameSkyNotes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnRead_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
