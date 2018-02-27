@@ -12,7 +12,7 @@ The FlameSky web browser is developed by the contributors to FlameSky (those who
 
 The FlameSky project's goals are:
 1. Create a browser that is advanced, and meets modern standards
-2. Create a browser with a native anti porn feature (optional), and parental control feature 
+2. A swiss army knife like browser.
 3. Create a browser which will be have solutions to the needs other browsers do not meet. 
 4. A browser that is well equipped with useful tools which will help users.
 5. A browser which is user-centric.
@@ -29,8 +29,11 @@ FlameSky Contributors is a collective identity for those who contribute. Due to 
 
 # Why is SharpBrowser considered a 'FlameSky Contributor'?
 
-Sharpbrowontributor'?ser, is considered a contributor, because this software was a fork of their software until FlameSky ended its relationship as a fork of SharpBrowser.
+Sharpbrowser, is considered a contributor, because this software was a fork of their software until FlameSky ended its relationship as a fork of SharpBrowser.
 
+# Some talents we need
+1) People who can work with XML and C# simultaneously
+2) People who know how to work with databases.
 
 # How must I as a developer, look at this project?
 
