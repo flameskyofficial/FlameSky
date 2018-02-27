@@ -3588,3 +3588,25 @@ C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, us
 [0226/205507.804:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
 [0226/205507.859:INFO:CONSOLE(1122)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfllx-q4O/desktop_polymer.js (1122)
 [0226/205508.885:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/003103.382:ERROR:entry_impl.cc(1037)] No file for 8000015e
+[0227/003211.788:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0227/003211.792:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0227/003213.496:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0227/003213.496:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0227/003214.600:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0227/003215.698:INFO:CONSOLE(1124)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vfljZ7yx_/desktop_polymer.js (1124)
+[0227/003219.376:INFO:CONSOLE(88)] "Unrecognized feature: 'autoplay'.", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflOozvUR/www-widgetapi.js (88)
+[0227/003219.698:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/003219.698:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/003219.778:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 37
+[0227/003219.899:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0227/003219.928:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0227/003223.827:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/003223.828:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/003225.918:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0227/003225.918:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0227/003230.079:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0227/003230.079:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0227/003427.350:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0227/003427.470:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0227/005257.080:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
