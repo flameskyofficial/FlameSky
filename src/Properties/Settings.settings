@@ -14,5 +14,8 @@
   &lt;string&gt;www.flamesky.weebly.com&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
+    <Setting Name="BrowserHistoryFilepath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -3701,3 +3701,198 @@ C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, us
 [0227/134924.673:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
 [0227/134928.378:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
 [0227/134928.378:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0301/012555.769:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/012555.865:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/012613.265:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/012613.274:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/012613.275:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/012613.286:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/012615.514:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/012615.927:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/012615.937:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/012615.941:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/012627.971:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/012635.171:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0301/012635.347:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0301/012635.464:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0301/012635.546:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0301/012635.794:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0301/012635.897:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0301/012648.065:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/012648.088:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0301/012648.099:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0301/012704.224:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012704.238:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012710.443:INFO:CONSOLE(69)] "Uncaught TypeError: Cannot read property 'classList' of undefined", source: https://www.google.com/docs/about/js/site.en.min.js (69)
+[0301/012711.180:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012712.059:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012717.879:INFO:CONSOLE(69)] "Uncaught TypeError: Cannot read property 'classList' of undefined", source: https://www.google.com/docs/about/js/site.en.min.js (69)
+[0301/012718.015:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012825.655:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/012825.665:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/012833.466:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/012833.505:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/012833.505:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/012833.506:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/012835.386:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/012835.411:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/012835.424:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/012835.439:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/012852.196:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/012919.650:ERROR:ssl_client_socket_impl.cc(1084)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0301/012919.655:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012919.681:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012924.668:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012926.545:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012928.552:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.016:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.047:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.051:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.096:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.124:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.147:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.148:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.158:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012956.167:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('sharpbrowser://storage').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/012959.850:INFO:CONSOLE(69)] "Uncaught TypeError: Cannot read property 'classList' of undefined", source: https://www.google.com/docs/about/js/site.en.min.js (69)
+[0301/013001.428:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/013001.513:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/013204.100:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/013204.100:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/013214.289:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013214.289:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/013214.306:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013214.307:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/013216.248:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/013216.281:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013216.293:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/013216.293:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013233.343:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0301/013233.343:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0301/013233.596:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0301/013240.522:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0301/013240.540:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0301/013242.562:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0301/013242.586:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0301/013242.603:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0301/013242.604:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0301/013242.615:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 27
+[0301/013242.622:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 25
+[0301/013242.628:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0301/013242.629:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0301/013242.629:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0301/013242.711:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/013242.732:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0301/013242.771:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: sharpbrowser://storage/errors/cannotConnect.html (1)
+[0301/013242.780:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0301/013242.788:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0301/013248.826:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0301/013248.831:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0301/013253.004:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0301/013253.014:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0301/013358.725:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/013358.728:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/013407.040:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013407.041:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/013407.044:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013407.045:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/013409.099:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/013409.140:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013409.154:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/013409.155:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013420.791:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0301/013426.739:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/013430.938:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/013430.957:INFO:CONSOLE(97)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://accounts.google.com') does not match the recipient window's origin ('https://www.google.com').", source: https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.26uoO64A5Ds.O/m=auth/rt=j/sv=1/d=1/ed=1/am=AQE/rs=AGLTcCM9RFIK4z0tR8qjKeDQKHVlfJCGJg/cb=gapi.loaded_0 (97)
+[0301/013431.427:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/013527.981:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/013527.988:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/013537.297:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013537.297:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/013537.301:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013537.302:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/013539.340:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/013539.372:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/013539.375:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/013539.388:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/013550.975:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0301/013552.078:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0301/013552.368:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 27
+[0301/013552.846:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0301/013552.987:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 37
+[0301/013553.186:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0301/013553.792:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 43
+[0301/013555.477:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/013559.105:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/ (0)
+[0301/013600.566:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[0301/013600.603:WARNING:delay_based_bwe.cc(326)] BWE Setting start bitrate to: 300000
+[0301/013600.720:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 103 to 127
+[0301/013600.726:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 104 to 125
+[0301/013628.868:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/013628.881:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/013629.284:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dzz1zjxa9ulpk.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.whatismybrowser.com/detect/what-version-of-firefox-do-i-have (0)
+[0301/014409.500:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/014409.513:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/014418.659:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/014418.670:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/014418.674:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/014418.675:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/014420.622:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/014420.665:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/014420.683:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/014420.691:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/014436.456:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/014837.047:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/014837.076:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/014845.830:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/014845.842:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/014845.842:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/014845.843:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/014847.957:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/014848.089:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/014848.090:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/014848.090:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/014905.861:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/014920.834:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/014923.658:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0301/014923.661:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0301/014923.694:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0301/014923.705:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_COULD_NOT_OPEN
+[0301/014923.706:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_COULD_NOT_OPEN
+[0301/014923.709:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_COULD_NOT_OPEN
+[0301/014927.507:INFO:CONSOLE(0)] "Blink deferred a task in order to make scrolling smoother. Your timer and network tasks should take less than 50ms to run to avoid this. Please see https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail and https://crbug.com/574343#c40 for more information.", source: https://www.google.com/search?hl=en&source=hp&ei=0zGXWr_PLoffU8qhhOgK&q=ho&oq=ho&gs_l=psy-ab.3..0i131k1j0l5j0i131k1j0j0i131k1j0.27502.27937.0.28166.5.3.0.0.0.0.399.399.3-1.1.0....0...1c.1.64.psy-ab..4.1.398.0...0.cQmgnxJWAYM (0)
+[0301/014930.151:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0301/014932.637:INFO:CONSOLE(139)] "JQMIGRATE: Migrate is installed with logging active, version 3.0.1", source: https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%7Cmediawiki.legacy.wikibits&only=scripts&skin=vector&version=1sg7377 (139)
+[0301/015253.662:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/015253.673:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/015301.193:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015301.204:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/015301.204:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015301.220:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/015303.266:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/015303.297:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015303.306:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/015303.322:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015319.733:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/015604.208:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/015604.214:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/015617.124:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015617.152:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/015617.181:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015617.203:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/015619.267:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/015619.304:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015619.316:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/015619.317:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015635.259:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0301/015753.248:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0301/015753.257:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0301/015804.348:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015804.363:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0301/015804.382:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015804.397:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0301/015806.343:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0301/015806.372:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0301/015806.382:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0301/015806.383:ERROR:disk_cache.cc(169)] Unable to create cache
+[0301/015822.933:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
