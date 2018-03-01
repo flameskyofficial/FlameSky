@@ -2,6 +2,7 @@
 using CefSharp.WinForms;
 using CefSharp.WinForms.Example.Handlers;
 using FarsiLibrary.Win;
+using System.Threading;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -37,6 +38,7 @@ namespace FlameSky
         public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
         public static string NewTabURL = "about:blank";
         public static string DownloadsURL = "flamesky://storage/downloads.html";
+
         public static string AdulteryURL = "flamesky://storage/adulterywebsite.html";
         public static string FileNotFoundURL = "flamesky://storage/errors/notFound.html";
         public static string CannotConnectURL = "flamesky://storage/errors/cannotConnect.html";
@@ -108,14 +110,20 @@ namespace FlameSky
             
                 InitTooltips(this.Controls);
                 InitHotkeys();
-                
-          
-            
-            AutoUpdater.Start("https://raw.githubusercontent.com/flameskyofficial/FlameSky/master/Updater.xml");
-            AutoUpdater.ShowSkipButton = false;
-            AutoUpdater.ShowRemindLaterButton = true;
-            AutoUpdater.Mandatory = true;
 
+            new Thread(() => // Handles autoupdate in a new thread
+            {
+                Thread.CurrentThread.IsBackground = true;
+                AutoUpdater.Start("https://raw.githubusercontent.com/flameskyofficial/FlameSky/master/Updater.xml");// Checks from this link if there is a latest version of the browser 
+                AutoUpdater.ShowSkipButton = false;
+                AutoUpdater.AppTitle = "FlameSky Update";
+                AutoUpdater.ShowRemindLaterButton = true;
+                AutoUpdater.Mandatory = true;
+
+               
+            }).Start();
+
+            
 
              
             
@@ -1028,7 +1036,7 @@ namespace FlameSky
 
             if (path != null) {
 
-				return path;
+				return null;
 			}
 
 			return null;
@@ -1051,12 +1059,22 @@ namespace FlameSky
 		}
 
 		public void OpenDownloadsTab() {
-			if (downloadsStrip != null && ((ChromiumWebBrowser)downloadsStrip.Controls[0]).Address == DownloadsURL) {
-				TabPages.SelectedItem = downloadsStrip;
-			} else {
-				ChromiumWebBrowser brw = AddNewBrowserTab(DownloadsURL);
-				downloadsStrip = (FATabStripItem)brw.Parent;
-			}
+            try
+            {
+                if (downloadsStrip != null && ((ChromiumWebBrowser)downloadsStrip.Controls[0]).Address == DownloadsURL)
+                {
+                    TabPages.SelectedItem = downloadsStrip;
+                }
+                else
+                {
+                    ChromiumWebBrowser brw = AddNewBrowserTab(DownloadsURL);
+                    downloadsStrip = (FATabStripItem)brw.Parent;
+                }
+            }
+
+            catch(Exception){
+
+            }
 		}
 
 		#endregion

@@ -12,6 +12,7 @@ namespace FlameSky
 {
     public partial class FlameSkyNotes : MetroFramework.Forms.MetroForm
     {
+        DataTable table;
         public FlameSkyNotes()
         {
             InitializeComponent();
@@ -19,7 +20,10 @@ namespace FlameSky
 
         private void FlameSkyNotes_Load(object sender, EventArgs e)
         {
-
+            table = new DataTable();
+            table.Columns.Add("Title", typeof(String));
+            table.Columns.Add("Body", typeof(String));
+            SavedNotesView.DataSource = table;
         }
 
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
@@ -34,7 +38,38 @@ namespace FlameSky
 
         private void BtnRead_Click(object sender, EventArgs e)
         {
+            int index = SavedNotesView.CurrentCell.RowIndex;
+            if (index > -1)
+            {
+                NoteTitle.Text = table.Rows[index].ItemArray[0].ToString();
+                NotesBody.Text = table.Rows[index].ItemArray[1].ToString();
+            }
+        }
 
+        private void BtnNew_Click(object sender, EventArgs e)
+        {
+            NoteTitle.Clear();
+            NotesBody.Clear();
+
+        }
+
+        private void BtnSave_Click(object sender, EventArgs e)
+        {
+            table.Rows.Add(NoteTitle.Text, NotesBody.Text);
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int index = SavedNotesView.CurrentCell.RowIndex;
+                table.Rows[index].Delete();
+            }
+            catch (Exception)
+            {
+
+            }
+            
         }
     }
 }

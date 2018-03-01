@@ -104,6 +104,7 @@
             this.BtnNew.TabIndex = 4;
             this.BtnNew.Text = "New";
             this.BtnNew.UseSelectable = true;
+            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
             // 
             // BtnSave
             // 
@@ -114,6 +115,7 @@
             this.BtnSave.TabIndex = 5;
             this.BtnSave.Text = "Save";
             this.BtnSave.UseSelectable = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // BtnRead
             // 
@@ -135,15 +137,18 @@
             this.BtnDelete.TabIndex = 7;
             this.BtnDelete.Text = "Delete";
             this.BtnDelete.UseSelectable = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // SavedNotesView
             // 
             this.SavedNotesView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.SavedNotesView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.SavedNotesView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.SavedNotesView.Location = new System.Drawing.Point(474, 103);
+            this.SavedNotesView.Location = new System.Drawing.Point(474, 74);
             this.SavedNotesView.Name = "SavedNotesView";
-            this.SavedNotesView.Size = new System.Drawing.Size(336, 249);
+            this.SavedNotesView.ReadOnly = true;
+            this.SavedNotesView.Size = new System.Drawing.Size(336, 278);
             this.SavedNotesView.TabIndex = 8;
             // 
             // FlameSkyNotes
