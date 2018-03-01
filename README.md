@@ -8,7 +8,7 @@ Version in Progress: 5.0.0.0
 Developer: [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors)
 
 
-The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flamesky.weebly.com
+The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flamesky.weebly.com .    FlameSky capitalizes on the power of CefSharp and the simple UI of winforms to make a browser that is powerful, and loads fast. Anyone can contribute to this project regardless of experience. However, the maintainers will be selective in publishing official builds because faulty builds can bring bad press to this project - and in this way, to us developers.
 
 The FlameSky project's goals are:
 1. Create a browser that is advanced, and meets modern standards
