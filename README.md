@@ -29,6 +29,12 @@ Because FlameSky is an open source project, it is built by volunteers who invest
 
 FlameSky Contributors is a collective identity for those who contribute. Due to the difficulty in accrediting everyone individual by individual, this collective identity is used
 
+# What is the rendering Engine we use?
+We use CefSharp a wrapper of the Chromium browser in Windows Forms
+
+# What is the language FlameSky is mainly written in?
+Winforms C#
+
 # Why is SharpBrowser considered a 'FlameSky Contributor'?
 
 Sharpbrowser, is considered a contributor, because this software was a fork of their software until FlameSky ended its relationship as a fork of SharpBrowser.
