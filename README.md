@@ -21,6 +21,7 @@ The FlameSky project's goals are:
 
 
 
+
 FlameSky is maintained by Andrew Jose {who built FlameSky's earlier  proprietary versions (FlameSky 3.7 and below, and Cubicle Web Browser), before he made FlameSky open source)}
 
 # Who are contributors, and what is 'FlameSky Contributors'?

@@ -16,6 +16,7 @@ using AutoUpdaterDotNET;
 namespace FlameSky
 {
 
+    
     /// <summary>
     /// The main SharpBrowser form, supporting multiple tabs.
     /// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
@@ -27,16 +28,18 @@ namespace FlameSky
         private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
        
         public static MainForm Instance;
-        string DefaultSearchEngine;
-
+        
+       
         public static string Branding = "FlameSky";
-        public static string UserAgent = "Mozilla/5.0 (Windows 7; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.1.3282.186 Safari/537.36 FlameSky/5.0";
+
+       
+        public static string UserAgent = "FlameSky/5.0.0.0 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.2987.110 Safari/537.36";
         public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
         public static string NewTabURL = "about:blank";
-        public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
-        public static string AdulteryURL = "sharpbrowser://storage/adulterywebsite.html";
-        public static string FileNotFoundURL = "sharpbrowser://storage/errors/notFound.html";
-        public static string CannotConnectURL = "sharpbrowser://storage/errors/cannotConnect.html";
+        public static string DownloadsURL = "flamesky://storage/downloads.html";
+        public static string AdulteryURL = "flamesky://storage/adulterywebsite.html";
+        public static string FileNotFoundURL = "flamesky://storage/errors/notFound.html";
+        public static string CannotConnectURL = "flamesky://storage/errors/cannotConnect.html";
 
 
         public static string SearchURL = FlameSky.Properties.Settings.Default.DefaultSearchEngine;
@@ -47,13 +50,15 @@ namespace FlameSky
 
         public string AppPath = GetConfPath("FlameSky");
         public string browserhistory = GetConfPath("FlameSky\\BrowserHistory.txt");
+       
       
         public MainForm() {
 
             Instance = this;
-
+           
+            
             InitializeComponent();
-
+            FlameSky.Properties.Settings.Default.BrowserHistoryFilepath = browserhistory;
             // Check AppData path
             if (!Directory.Exists(AppPath))
             {
@@ -211,12 +216,12 @@ namespace FlameSky
 
 
             settings.RegisterScheme(new CefCustomScheme {
-                SchemeName = "sharpbrowser",
+                SchemeName = "flamesky",
                 SchemeHandlerFactory = new SchemeHandlerFactory()
             });
 
             settings.UserAgent = UserAgent;
-
+            
             settings.IgnoreCertificateErrors = true;
 
             settings.CachePath = GetAppDir("Cache");
@@ -300,11 +305,11 @@ namespace FlameSky
 
                 Uri.TryCreate(url, UriKind.Absolute, out outUri);
 
-                if (!(urlLower.StartsWith("http") || urlLower.StartsWith("sharpbrowser"))) {
+                if (!(urlLower.StartsWith("http") || urlLower.StartsWith("flamesky"))) {
                     if (outUri == null || outUri.Scheme != Uri.UriSchemeFile) newUrl = "http://" + url;
                 }
 
-                if (urlLower.StartsWith("sharpbrowser:") ||
+                if (urlLower.StartsWith("flamesky:") ||
 
                     // load URL if it seems valid
                     (Uri.TryCreate(newUrl, UriKind.Absolute, out outUri)
@@ -345,7 +350,7 @@ namespace FlameSky
             }
 
         }
-        public void UpdateBrowserHistory(string URL, string DateAccessed, string TimeAccessed, string DocumentTitle)
+        public void UpdateBrowserHistory(string URL,  string DateTimeAccessed, string DocumentTitle)
         {
 
             try
@@ -354,7 +359,7 @@ namespace FlameSky
 
                 {
 
-                    File.AppendAllText(browserhistory, DateAccessed + "  " + TimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
+                    File.AppendAllText(browserhistory, DateTimeAccessed + "  " + DocumentTitle + "  " + URL + Environment.NewLine);
                    
 
 
@@ -402,7 +407,7 @@ namespace FlameSky
 			return (url == "" || url == "about:blank");
 		}
 		private bool IsBlankOrSystem(string url) {
-			return (url == "" || url.BeginsWith("about:") || url.BeginsWith("chrome:") || url.BeginsWith("sharpbrowser:"));
+			return (url == "" || url.BeginsWith("about:") || url.BeginsWith("chrome:") || url.BeginsWith("flamesky:"));
 		}
 
 		public void AddBlankWindow() {
@@ -421,7 +426,7 @@ namespace FlameSky
 			Process.Start(info);
 		}
 		public void AddBlankTab() {
-			AddNewBrowserTab("");
+			AddNewBrowserTab(Properties.Settings.Default.Homepage);
 			this.InvokeOnParent(delegate() {
 				TxtURL.Focus();
 			});
@@ -491,7 +496,7 @@ namespace FlameSky
 			// save tab obj in tabstrip
 			tabStrip.Tag = tab;
 
-			if (url.StartsWith("sharpbrowser:")) {
+			if (url.StartsWith("flamesky:")) {
 				browser.RegisterAsyncJsObject("host", host,null);
 			}
 			return tab;
@@ -670,11 +675,11 @@ namespace FlameSky
 
                         string url = currentFullURL.ToString();
 
-                        string timeaccessed = DateTime.Now.ToString("h:mm:ss tt");
-                        string dateaccessed = DateTime.Today.ToString("dd/mm/yyyy");
+                        string datetimeaccessed = DateTime.Now.ToString();
+                        
                         string DocumentTitle = e.Title.ToString();
 
-                        UpdateBrowserHistory(url, dateaccessed, timeaccessed,DocumentTitle);
+                        UpdateBrowserHistory(url, datetimeaccessed,DocumentTitle);
                     });
                 }
                 catch (Exception)

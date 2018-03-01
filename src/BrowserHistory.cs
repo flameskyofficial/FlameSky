@@ -23,7 +23,7 @@ namespace FlameSky
         {
             try
            {
-               using (StreamReader r = new StreamReader(@"C:\ProgramData\FlameSky\BrowserHistory.txt"))
+               using (StreamReader r = new StreamReader(@FlameSky.Properties.Settings.Default.BrowserHistoryFilepath))
                 {
                    string line;
                    while ((line = r.ReadLine()) != null)
@@ -107,7 +107,7 @@ namespace FlameSky
         {
             try
             {
-                FileStream fs = new FileStream(@"C:\ProgramData\FlameSky\BrowserHistory.txt", FileMode.Truncate, FileAccess.Write)
+                FileStream fs = new FileStream(@FlameSky.Properties.Settings.Default.BrowserHistoryFilepath, FileMode.Truncate, FileAccess.Write)
                 {
 
                 };
