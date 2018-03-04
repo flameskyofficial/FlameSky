@@ -8,17 +8,7 @@ Version in Progress: 5.0.0.0
 Developer: [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors)
 
 
-The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flamesky.weebly.com .    FlameSky capitalizes on the power of CefSharp and the simple UI of winforms to make a browser that is powerful, and loads fast. Anyone can contribute to this project regardless of experience. However, the maintainers will be selective in publishing official builds because faulty builds can bring bad press to this project - and in this way, to us developers.
-
-The FlameSky project's goals are:
-1. Create a browser that is advanced, and meets modern standards
-2. A swiss army knife like browser.
-3. Create a browser which will be have solutions to the needs other browsers do not meet. 
-4. A browser that is well equipped with useful tools which will help users.
-5. A browser which is user-centric.
-6. A browser which will be useful and trustworthy that it can be confidently used by users as their main web browser.
-7. To help hobbyists/beginning/progessional programmers an experience, they can be proud of.
-
+The FlameSky web browser is developed by the contributors to FlameSky (those who commit code after FlameSky was forked from SharpBrowser) - The project's website is www.flamesky.weebly.com .    FlameSky capitalizes on the power of CefSharp and the simple UI of winforms to make a browser that is powerful, and loads fast. 
 
 
 
@@ -39,13 +29,6 @@ Winforms C#
 
 Sharpbrowser, is considered a contributor, because this software was a fork of their software until FlameSky ended its relationship as a fork of SharpBrowser.
 
-# Some talents we need
-1) People who can work with XML and C# simultaneously
-2) People who know how to work with databases.
-
-# How must I as a developer, look at this project?
-
-To make a successful product, we believe one must build it as if they are building it for themselves. Developers are encouraged to work on this web browser as if it is something they will use. Working in this project, will also help one get contributions counted (which one can show in his/her resume). 
 
 # What role does FlameSky Organization play?
 FlameSky Organization is just the administrators of FlameSky. Andrew Jose, is the CEO of FlameSky (CEO is the admin). His job is to market this software as much as possible.
