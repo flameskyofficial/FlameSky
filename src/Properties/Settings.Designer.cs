@@ -71,5 +71,17 @@ namespace FlameSky.Properties {
                 this["BrowserHistoryFilepath"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\FlameSky.mdf;" +
+            "Integrated Security=True;Persist Security Info=False;Connect Timeout=30;Column E" +
+            "ncryption Setting=Enabled")]
+        public string FlameSkyConnectionString {
+            get {
+                return ((string)(this["FlameSkyConnectionString"]));
+            }
+        }
     }
 }

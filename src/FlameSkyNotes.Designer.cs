@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FlameSkyNotes));
             this.TitleLabel = new MetroFramework.Controls.MetroLabel();
             this.NoteTitle = new MetroFramework.Controls.MetroTextBox();
@@ -37,7 +38,17 @@
             this.BtnRead = new MetroFramework.Controls.MetroButton();
             this.BtnDelete = new MetroFramework.Controls.MetroButton();
             this.SavedNotesView = new System.Windows.Forms.DataGridView();
+            this.flameSkyDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.flameSkyDataSet = new FlameSky.FlameSkyDataSet();
+            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tableTableAdapter = new FlameSky.FlameSkyDataSetTableAdapters.TableTableAdapter();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.SavedNotesView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flameSkyDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flameSkyDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // TitleLabel
@@ -143,13 +154,59 @@
             // 
             this.SavedNotesView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.SavedNotesView.AutoGenerateColumns = false;
             this.SavedNotesView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.SavedNotesView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.SavedNotesView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.titleDataGridViewTextBoxColumn,
+            this.contentDataGridViewTextBoxColumn});
+            this.SavedNotesView.DataSource = this.tableBindingSource;
             this.SavedNotesView.Location = new System.Drawing.Point(474, 74);
             this.SavedNotesView.Name = "SavedNotesView";
             this.SavedNotesView.ReadOnly = true;
             this.SavedNotesView.Size = new System.Drawing.Size(336, 278);
             this.SavedNotesView.TabIndex = 8;
+            // 
+            // flameSkyDataSetBindingSource
+            // 
+            this.flameSkyDataSetBindingSource.DataSource = this.flameSkyDataSet;
+            this.flameSkyDataSetBindingSource.Position = 0;
+            // 
+            // flameSkyDataSet
+            // 
+            this.flameSkyDataSet.DataSetName = "FlameSkyDataSet";
+            this.flameSkyDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tableBindingSource
+            // 
+            this.tableBindingSource.DataMember = "Table";
+            this.tableBindingSource.DataSource = this.flameSkyDataSetBindingSource;
+            // 
+            // tableTableAdapter
+            // 
+            this.tableTableAdapter.ClearBeforeFill = true;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // titleDataGridViewTextBoxColumn
+            // 
+            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
+            this.titleDataGridViewTextBoxColumn.HeaderText = "Title";
+            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.titleDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // contentDataGridViewTextBoxColumn
+            // 
+            this.contentDataGridViewTextBoxColumn.DataPropertyName = "Content";
+            this.contentDataGridViewTextBoxColumn.HeaderText = "Content";
+            this.contentDataGridViewTextBoxColumn.Name = "contentDataGridViewTextBoxColumn";
+            this.contentDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // FlameSkyNotes
             // 
@@ -169,6 +226,9 @@
             this.Text = "FlameSky Notes";
             this.Load += new System.EventHandler(this.FlameSkyNotes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SavedNotesView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flameSkyDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flameSkyDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +244,12 @@
         private MetroFramework.Controls.MetroButton BtnRead;
         private MetroFramework.Controls.MetroButton BtnDelete;
         private System.Windows.Forms.DataGridView SavedNotesView;
+        private System.Windows.Forms.BindingSource flameSkyDataSetBindingSource;
+        private FlameSkyDataSet flameSkyDataSet;
+        private System.Windows.Forms.BindingSource tableBindingSource;
+        private FlameSkyDataSetTableAdapters.TableTableAdapter tableTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn contentDataGridViewTextBoxColumn;
     }
 }
