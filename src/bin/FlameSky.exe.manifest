@@ -259,14 +259,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11184568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11157944">
       <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8wLbV4aFbdAwNHc9rLrx5qWaDKVrlOf5q5KVFz3/DkU=</dsig:DigestValue>
+        <dsig:DigestValue>n7/AGPnn1Mpa6etIplm3drNSCytr+0627R5o4zU6zyA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -346,24 +346,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>Yd3s/nnMCtfi/lT4+3cV5TJgwdFM1SsJNvl3U+WD3IM=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="FlameSky.mdf" size="8388608" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>M7lZX4JZsfUcPtt++QQbX55hidQdMD69t562+IWZS5U=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="FlameSky_log.ldf" size="8388608" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wEOcz85jUXM2kz9tqsnDAm2pPgIe1xortl0hjMN1QNQ=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -3986,3 +3986,283 @@ C:\fakepath(94,11-43): warning X3571: pow(f, e) will not work for negative f, us
 [0301/121826.259:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&uc=1&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.29tAKSAI8cc.O%2Fm%3D__features__%2Fam%3DIA%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo82FxkTgGRAoVn-fgFU3zdQ5QIqEw#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1519892866326&_gfid=I0_1519892866326&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=21660918 (0)
 [0301/121826.381:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://notifications.google.com' is therefore not allowed access.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&uc=1&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.29tAKSAI8cc.O%2Fm%3D__features__%2Fam%3DIA%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo82FxkTgGRAoVn-fgFU3zdQ5QIqEw#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1519892866326&_gfid=I0_1519892866326&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=21660918 (0)
 [0301/131744.133:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0307/135902.570:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='1P_JAR', domain='.google.com', path='/'}
+[0307/135902.617:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='NID', domain='.google.com', path='/'}
+[0307/135902.617:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0307/135923.606:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0307/135928.609:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0307/141119.240:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0307/141119.931:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0307/141141.196:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141141.196:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0307/141141.230:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141141.230:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0307/141143.275:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0307/141144.013:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='1P_JAR', domain='.google.com', path='/'}
+[0307/141144.013:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='NID', domain='.google.com', path='/'}
+[0307/141144.013:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0307/141144.216:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141144.216:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0307/141144.216:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141155.336:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0307/141211.192:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141211.192:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141212.072:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141217.106:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141217.126:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141221.881:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141221.881:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141221.894:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141223.256:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141223.256:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141223.288:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141226.678:INFO:CONSOLE(1259)] "Download the Apollo DevTools for a better development experience: https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm", source: https://cdn.kastatic.org/genfiles/javascript/en/apollo-package-b95e1f.js (1259)
+[0307/141226.935:INFO:CONSOLE(443)] "
+    _/    _/  _/    _/    _/_/    _/      _/
+   _/  _/    _/    _/  _/    _/  _/_/    _/
+  _/_/      _/_/_/_/  _/_/_/_/  _/  _/  _/
+ _/  _/    _/    _/  _/    _/  _/    _/_/
+_/    _/  _/    _/  _/    _/  _/      _/
+
+      _/_/      _/_/_/    _/_/    _/_/_/    _/_/_/_/  _/      _/  _/      _/
+   _/    _/  _/        _/    _/  _/    _/  _/        _/_/  _/_/    _/  _/
+  _/_/_/_/  _/        _/_/_/_/  _/    _/  _/_/_/    _/  _/  _/      _/
+ _/    _/  _/        _/    _/  _/    _/  _/        _/      _/      _/
+_/    _/    _/_/_/  _/    _/  _/_/_/    _/_/_/_/  _/      _/      _/
+
+Interested in working with us? See https://www.khanacademy.org/careers.
+Just peeking under the hood? Try starting with
+KAdefine.require("./javascript/shared-package/ka.js");
+", source: https://www.khanacademy.org/ (443)
+[0307/141226.937:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141226.937:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141226.947:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141226.956:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141226.956:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141226.965:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141228.282:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://ak.sail-horizon.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.khanacademy.org/ (0)
+[0307/141231.629:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141231.629:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0307/141235.786:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0307/141235.787:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0307/141237.875:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141237.876:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0307/141241.996:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0307/141241.997:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0307/141353.822:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0307/141353.840:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0307/141357.043:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141357.043:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0307/141357.043:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141357.044:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0307/141359.182:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0307/141359.381:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141359.381:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0307/141359.381:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141410.061:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0307/141419.448:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0307/141425.650:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: http://www.popupcheck.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[0307/141434.550:INFO:CONSOLE(1)] "Uncaught ReferenceError: StartTest is not defined", source: http://www.popupcheck.com/#test-popup-blocker (1)
+[0307/141437.943:INFO:CONSOLE(1)] "Uncaught ReferenceError: StartTest is not defined", source: http://www.popupcheck.com/#test-popup-blocker (1)
+[0307/141450.709:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: http://www.popupcheck.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[0307/141501.694:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://web.archive.org/web/*/http://www.popupcheck.com/freescan/popup/popups.js (1)
+[0307/141501.695:INFO:CONSOLE(15)] "Uncaught ReferenceError: PopupWindow is not defined", source: http://www.popupcheck.com/freescan/popup/test_load2a.asp (15)
+[0307/141504.352:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: http://www.popupcheck.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[0307/141509.963:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0307/141658.602:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0307/141658.603:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0307/141659.938:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141659.938:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0307/141659.938:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141659.939:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0307/141702.820:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0307/141840.829:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0307/141840.831:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0307/141842.319:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141842.319:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0307/141842.319:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141842.319:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0307/141844.356:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0307/141844.385:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/141844.385:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0307/141844.385:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/141854.773:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0307/141855.930:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141855.931:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141856.130:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141900.173:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141900.173:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0307/141904.226:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0307/141904.226:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0307/141904.871:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141904.871:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141904.922:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141905.474:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141905.477:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141905.596:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141905.702:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 55
+[0307/141905.702:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 25
+[0307/141905.703:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 23
+[0307/141905.703:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0307/141905.727:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 49
+[0307/141906.270:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141906.271:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0307/141910.322:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0307/141910.322:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0307/141915.238:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0307/141916.939:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141917.096:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 101
+[0307/141917.272:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 99
+[0307/141917.300:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0307/141917.503:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 97
+[0307/141917.682:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 95
+[0307/141917.749:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 93
+[0307/141918.326:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 91
+[0307/141919.281:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 89
+[0307/141919.391:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 87
+[0307/141919.426:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 85
+[0307/141919.441:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 83
+[0307/141919.660:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 81
+[0307/141919.795:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 79
+[0307/141920.173:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 77
+[0307/141926.554:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0307/141926.698:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141926.698:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141926.873:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\N5Lbe1fynPA1KT8BFvAiGw.woff2 error:-4
+[0307/141926.874:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\UbXx3E_TVHvOc89N28P2jA.woff2 error:-4
+[0307/141926.874:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\tZdhd9Zzj0I2MwoD56osIw.woff2 error:-4
+[0307/141926.884:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 87
+[0307/141926.919:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\owYYXKukxFDFjr0ZO8NXh1tXRa8TVwTICgirnJhmVJw.woff2 error:-4
+[0307/141926.973:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\PfybUH-csLekLIU-pU-o7w.woff2 error:-4
+[0307/141926.983:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\O4NhV7_qs9r9seTo7fnsVFtXRa8TVwTICgirnJhmVJw.woff2 error:-4
+[0307/141926.995:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\k3k702ZOKiLJc3WVjuplzPk_vArhqVIZ0nv9q090hN8.woff2 error:-4
+[0307/141927.012:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\PRmiXeptR36kaC0GEAetxu1D72Odf4OjIqZb-Gnl-lg.woff2 error:-4
+[0307/141927.025:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\UyYrYy3ltEffJV9QueSi4RMqLTuTcCB1SOLxqYT-GVg.woff2 error:-4
+[0307/141927.038:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\Q_pTky3Sc3ubRibGToTAYpahrVjgKywcGv7JzbgTzMk.woff2 error:-4
+[0307/141927.073:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.076:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.076:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141927.083:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.085:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.085:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.086:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.086:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.087:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.088:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.089:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.345:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 85
+[0307/141927.477:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\N5Lbe1fynPA1KT8BFvAiGw.woff2 error:-4
+[0307/141927.477:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\UbXx3E_TVHvOc89N28P2jA.woff2 error:-4
+[0307/141927.487:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\tZdhd9Zzj0I2MwoD56osIw.woff2 error:-4
+[0307/141927.504:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\owYYXKukxFDFjr0ZO8NXh1tXRa8TVwTICgirnJhmVJw.woff2 error:-4
+[0307/141927.505:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\PfybUH-csLekLIU-pU-o7w.woff2 error:-4
+[0307/141927.506:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\O4NhV7_qs9r9seTo7fnsVFtXRa8TVwTICgirnJhmVJw.woff2 error:-4
+[0307/141927.507:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\k3k702ZOKiLJc3WVjuplzPk_vArhqVIZ0nv9q090hN8.woff2 error:-4
+[0307/141927.508:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\PRmiXeptR36kaC0GEAetxu1D72Odf4OjIqZb-Gnl-lg.woff2 error:-4
+[0307/141927.509:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\UyYrYy3ltEffJV9QueSi4RMqLTuTcCB1SOLxqYT-GVg.woff2 error:-4
+[0307/141927.510:WARNING:obfuscated_file_util.cc(1184)] Failed to get origin+type directory: filesystem:https://docs.google.com/persistent/docs\fonts\Q_pTky3Sc3ubRibGToTAYpahrVjgKywcGv7JzbgTzMk.woff2 error:-4
+[0307/141927.609:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.614:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.616:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.623:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.624:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.626:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.626:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.626:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.626:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141927.627:INFO:CONSOLE(0)] "Access to Font at 'flamesky://storage/errors/cannotConnect.html' from origin 'https://docs.google.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://docs.google.com' is therefore not allowed access.", source: https://docs.google.com/document/d/1BqN3MSbxBlH-XVPnv7SeVJMZbj5LWZfa3K57xIA5dUE/edit?ouid=104881918504095300966&usp=docs_home&ths=true (0)
+[0307/141928.996:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 83
+[0307/141936.857:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0307/141937.432:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141937.444:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0307/141937.494:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0307/141940.694:INFO:CONSOLE(0)] "Blink deferred a task in order to make scrolling smoother. Your timer and network tasks should take less than 50ms to run to avoid this. Please see https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail and https://crbug.com/574343#c40 for more information.", source: https://docs.google.com/document/u/0/?tgif=d (0)
+[0307/141943.653:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141945.024:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141945.024:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141945.090:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141945.166:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141945.166:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141945.229:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141945.354:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141945.355:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141945.486:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141950.433:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/141950.433:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/141950.502:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/141955.149:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/141955.150:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/142001.144:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142001.144:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142001.176:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142002.250:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142002.251:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142002.261:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142002.283:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142002.283:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142002.291:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142002.298:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142002.298:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142002.306:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142030.876:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://web.archive.org/web/*/https://www.getgobot.com/app/connect/weebly/751531669123180127/14581514/gobot.js (1)
+[0307/142031.323:INFO:CONSOLE(0)] "Failed to decode downloaded font: http://flamesky.weebly.com/files/theme/fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2?1519591028", source: http://flamesky.weebly.com/ (0)
+[0307/142031.324:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://flamesky.weebly.com/ (0)
+[0307/142031.878:INFO:CONSOLE(0)] "Failed to decode downloaded font: http://flamesky.weebly.com/files/theme/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2?1519591028", source: http://flamesky.weebly.com/ (0)
+[0307/142031.880:INFO:CONSOLE(0)] "OTS parsing error: Failed to convert WOFF 2.0 font to SFNT", source: http://flamesky.weebly.com/ (0)
+[0307/142032.212:INFO:CONSOLE(0)] "Failed to decode downloaded font: http://flamesky.weebly.com/files/theme/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff?1519591028", source: http://flamesky.weebly.com/ (0)
+[0307/142032.213:INFO:CONSOLE(0)] "OTS parsing error: incorrect file size in WOFF header", source: http://flamesky.weebly.com/ (0)
+[0307/142032.557:INFO:CONSOLE(0)] "Failed to decode downloaded font: http://flamesky.weebly.com/files/theme/fonts/f26faddb-86cc-4477-a253-1e1287684336.woff?1519591028", source: http://flamesky.weebly.com/ (0)
+[0307/142032.557:INFO:CONSOLE(0)] "OTS parsing error: incorrect file size in WOFF header", source: http://flamesky.weebly.com/ (0)
+[0307/142050.072:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142050.074:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142050.145:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142052.969:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0307/142053.010:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 101
+[0307/142053.098:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 99
+[0307/142053.331:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0307/142053.419:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 97
+[0307/142053.420:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 95
+[0307/142053.421:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 93
+[0307/142053.421:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 91
+[0307/142053.432:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 89
+[0307/142053.560:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 87
+[0307/142053.904:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 85
+[0307/142053.904:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 83
+[0307/142053.906:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 81
+[0307/142054.006:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 79
+[0307/142054.349:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 77
+[0307/142054.756:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 105
+[0307/142054.985:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 75
+[0307/142055.136:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 73
+[0307/142055.304:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 71
+[0307/142055.497:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 117
+[0307/142055.498:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0307/142055.588:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0307/142055.617:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142055.617:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142056.584:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142101.989:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/142101.989:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0307/142108.743:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142108.743:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142108.761:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142109.184:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142109.184:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142109.300:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142109.375:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142109.375:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142109.386:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/142109.391:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0307/142109.392:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0307/142109.402:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0307/143056.776:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0307/143058.998:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0307/143145.140:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/143145.140:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0307/143145.140:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/143145.141:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0307/143148.861:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0307/143158.281:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0307/143158.285:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0307/143158.285:ERROR:disk_cache.cc(169)] Unable to create cache
+[0307/143229.403:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)

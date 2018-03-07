@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="FlameSky.exe.manifest" size="20657">
+    <dependentAssembly dependencyType="install" codebase="FlameSky.exe.manifest" size="19803">
       <assemblyIdentity name="FlameSky.exe" version="5.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>I9kU3gQ0EJ58iPBtauYE+hCBEi815tPgzV9iiSHfv1s=</dsig:DigestValue>
+        <dsig:DigestValue>/WFSXyPZ5WpNHlgc+SS1Dsx+UksyqfSZOnvp53XiuIo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

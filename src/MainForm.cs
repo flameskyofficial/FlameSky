@@ -418,99 +418,106 @@ namespace FlameSky
 			return (url == "" || url.BeginsWith("about:") || url.BeginsWith("chrome:") || url.BeginsWith("flamesky:"));
 		}
 
-		public void AddBlankWindow() {
 
-			// open a new instance of the browser
+        public void AddBlankWindow()
+        {
 
-			ProcessStartInfo info = new ProcessStartInfo(Application.ExecutablePath, "");
-			//info.WorkingDirectory = workingDir ?? exePath.GetPathDir(true);
-			info.LoadUserProfile = true;
+            // open a new instance of the browser
 
-			info.UseShellExecute = false;
-			info.RedirectStandardError = true;
-			info.RedirectStandardOutput = true;
-			info.RedirectStandardInput = true;
+            ProcessStartInfo info = new ProcessStartInfo(Application.ExecutablePath, "");
+            //info.WorkingDirectory = workingDir ?? exePath.GetPathDir(true);
+            info.LoadUserProfile = true;
 
-			Process.Start(info);
-		}
-		public void AddBlankTab() {
-			AddNewBrowserTab(Properties.Settings.Default.Homepage);
-			this.InvokeOnParent(delegate() {
-				TxtURL.Focus();
-			});
-		}
+            info.UseShellExecute = false;
+            info.RedirectStandardError = true;
+            info.RedirectStandardOutput = true;
+            info.RedirectStandardInput = true;
 
-		public ChromiumWebBrowser AddNewBrowserTab(string url, bool focusNewTab = true, string refererUrl = null) {
-			return (ChromiumWebBrowser)this.Invoke((Func<ChromiumWebBrowser>)delegate {
+            Process.Start(info);
+        }
+        public void AddBlankTab()
+        {
+            AddNewBrowserTab("");
+            this.InvokeOnParent(delegate () {
+                TxtURL.Focus();
+            });
+        }
 
-				// check if already exists
-				foreach (FATabStripItem tab in TabPages.Items) {
-					SharpTab tab2 = (SharpTab)tab.Tag;
-					if (tab2 != null && (tab2.CurURL == url)) {
-						TabPages.SelectedItem = tab;
-						return tab2.Browser;
-					}
-				}
+        public ChromiumWebBrowser AddNewBrowserTab(string url, bool focusNewTab = true, string refererUrl = null)
+        {
+            return (ChromiumWebBrowser)this.Invoke((Func<ChromiumWebBrowser>)delegate {
 
-				FATabStripItem tabStrip = new FATabStripItem();
-				tabStrip.Title = "New Tab";
-				TabPages.Items.Insert(TabPages.Items.Count - 1, tabStrip);
-				newStrip = tabStrip;
+                // check if already exists
+                foreach (FATabStripItem tab in TabPages.Items)
+                {
+                    SharpTab tab2 = (SharpTab)tab.Tag;
+                    if (tab2 != null && (tab2.CurURL == url))
+                    {
+                        TabPages.SelectedItem = tab;
+                        return tab2.Browser;
+                    }
+                }
 
-				SharpTab newTab = AddNewBrowser(newStrip, url);
-				newTab.RefererURL = refererUrl;
-				if (focusNewTab) timer1.Enabled = true;
-				return newTab.Browser;
-			});
-		}
-		private SharpTab AddNewBrowser(FATabStripItem tabStrip, String url) {
-			if (url == "") url = NewTabURL;
-			ChromiumWebBrowser browser = new ChromiumWebBrowser(url);
+                FATabStripItem tabStrip = new FATabStripItem();
+                tabStrip.Title = "New Tab";
+                TabPages.Items.Insert(TabPages.Items.Count - 1, tabStrip);
+                newStrip = tabStrip;
 
-			// set config
-			ConfigureBrowser(browser);
+                SharpTab newTab = AddNewBrowser(newStrip, url);
+                newTab.RefererURL = refererUrl;
+                if (focusNewTab) timer1.Enabled = true;
+                return newTab.Browser;
+            });
+        }
+        private SharpTab AddNewBrowser(FATabStripItem tabStrip, String url)
+        {
+            if (url == "") url = NewTabURL;
+            ChromiumWebBrowser browser = new ChromiumWebBrowser(url);
 
-			// set layout
-			browser.Dock = DockStyle.Fill;
-			tabStrip.Controls.Add(browser);
-			browser.BringToFront();
+            // set config
+            ConfigureBrowser(browser);
 
-			// add events
-			browser.StatusMessage += Browser_StatusMessage;
-			browser.LoadingStateChanged += Browser_LoadingStateChanged;
-			browser.TitleChanged += Browser_TitleChanged;
-			browser.LoadError += Browser_LoadError;
-			browser.AddressChanged += Browser_URLChanged;
+            // set layout
+            browser.Dock = DockStyle.Fill;
+            tabStrip.Controls.Add(browser);
+            browser.BringToFront();
+
+            // add events
+            browser.StatusMessage += Browser_StatusMessage;
+            browser.LoadingStateChanged += Browser_LoadingStateChanged;
+            browser.TitleChanged += Browser_TitleChanged;
+            browser.LoadError += Browser_LoadError;
+            browser.AddressChanged += Browser_URLChanged;
             browser.DownloadHandler = dHandler;
-           
-            
-			browser.MenuHandler = mHandler;
-			browser.LifeSpanHandler = lHandler;
-			browser.KeyboardHandler = kHandler;
-			browser.RequestHandler = rHandler;
-            browser.DisplayHandler = Dsphandler;
+            browser.MenuHandler = mHandler;
+            browser.LifeSpanHandler = lHandler;
+            browser.KeyboardHandler = kHandler;
+            browser.RequestHandler = rHandler;
 
-			// new tab obj
-			SharpTab tab = new SharpTab {
-				IsOpen = true,
-				Browser = browser,
-				Tab = tabStrip,
-				OrigURL = url,
-				CurURL = url,
-				Title = "New Tab",
-				DateCreated = DateTime.Now
-			};
+            // new tab obj
+            SharpTab tab = new SharpTab
+            {
+                IsOpen = true,
+                Browser = browser,
+                Tab = tabStrip,
+                OrigURL = url,
+                CurURL = url,
+                Title = "New Tab",
+                DateCreated = DateTime.Now
+            };
 
-			// save tab obj in tabstrip
-			tabStrip.Tag = tab;
+            // save tab obj in tabstrip
+            tabStrip.Tag = tab;
 
-			if (url.StartsWith("flamesky:")) {
-				browser.RegisterAsyncJsObject("host", host,null);
-			}
-			return tab;
-		}
+            if (url.StartsWith("flamesky:"))
+            {
+                browser.RegisterAsyncJsObject("host", host, null);
+            }
+            return tab;
+        }
 
-		public SharpTab GetTabByBrowser(IWebBrowser browser) {
+
+        public SharpTab GetTabByBrowser(IWebBrowser browser) {
 			foreach (FATabStripItem tab2 in TabPages.Items) {
 				SharpTab tab = (SharpTab)(tab2.Tag);
 				if (tab != null && tab.Browser == browser) {

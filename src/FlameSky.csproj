@@ -101,11 +101,6 @@
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\JSON.cs" />
-    <Compile Include="FlameSkyDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FlameSkyDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="FlameSkyNotes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,17 +204,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FlameSkyDataSet.xsc">
-      <DependentUpon>FlameSkyDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="FlameSkyDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>FlameSkyDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="FlameSkyDataSet.xss">
-      <DependentUpon>FlameSkyDataSet.xsd</DependentUpon>
-    </None>
     <None Include="FlameSky_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -230,13 +214,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
-    <Content Include="FlameSky.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="FlameSky_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>FlameSky.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\FlameSkyAppsIcon.png" />
     <None Include="Resources\makefg %282%292.png" />
     <None Include="Resources\FlameSkyStopIcon1.png" />
