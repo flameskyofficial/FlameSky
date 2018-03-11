@@ -93,6 +93,7 @@
             this.facebookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.instagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.educationalToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -512,7 +513,8 @@
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dualWorldToolStripMenuItem});
+            this.dualWorldToolStripMenuItem,
+            this.educationalToolsToolStripMenuItem});
             this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -522,7 +524,7 @@
             // dualWorldToolStripMenuItem
             // 
             this.dualWorldToolStripMenuItem.Name = "dualWorldToolStripMenuItem";
-            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.dualWorldToolStripMenuItem.Text = "Add Notes";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
             // 
@@ -753,6 +755,13 @@
             this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
             this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click_1);
             // 
+            // educationalToolsToolStripMenuItem
+            // 
+            this.educationalToolsToolStripMenuItem.Name = "educationalToolsToolStripMenuItem";
+            this.educationalToolsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.educationalToolsToolStripMenuItem.Text = "Educational Tools";
+            this.educationalToolsToolStripMenuItem.Click += new System.EventHandler(this.educationalToolsToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -850,6 +859,7 @@
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
         private System.Windows.Forms.ToolStripMenuItem dualWorldToolStripMenuItem;
         private System.Windows.Forms.ComboBox TxtURL;
+        private System.Windows.Forms.ToolStripMenuItem educationalToolsToolStripMenuItem;
     }
 }
 

@@ -18,6 +18,14 @@ namespace FlameSky {
 		private const int OpenLinkInNewTab = 26507;
 		private const int CloseTab = 40007;
 		private const int RefreshTab = 40008;
+        private const int Undo = 110;
+        private const int Redo = 111;
+        private const int Print = 131;
+        private const int Cut = 112;
+        private const int Copy = 113;
+        private const int Paste = 114;
+        private const int Delete = 115;
+        private const int SelectAll = 116;
 		MainForm myForm;
 
 		private string lastSelText = "";
@@ -37,6 +45,7 @@ namespace FlameSky {
 			// to copy text
 			if (parameters.SelectionText.CheckIfValid()) {
 				model.AddItem(CefMenuCommand.Copy, "Copy");
+
 				model.AddSeparator();
 			}
 
@@ -45,29 +54,43 @@ namespace FlameSky {
 			if (parameters.LinkUrl != "") {
 				model.AddItem((CefMenuCommand)OpenLinkInNewTab, "Open link in new tab");
 				model.AddItem((CefMenuCommand)CopyLinkAddress, "Copy link");
-				model.AddSeparator();
+
+                
+                model.AddSeparator();
 			}
 
 			if (parameters.HasImageContents && parameters.SourceUrl.CheckIfValid()) {
-				
-				// RIGHT CLICKED ON IMAGE
 
-			}
+                // RIGHT CLICKED ON IMAGE
+                model.AddItem((CefMenuCommand)SaveImageAs, "Save Image As");
+            }
 
 			if (parameters.SelectionText != null) {
 
-				// TEXT IS SELECTED
+                // TEXT IS SELECTED
+                model.AddItem((CefMenuCommand)Copy, "Copy");
+                model.AddItem((CefMenuCommand)Undo, "Undo");
+                model.AddItem((CefMenuCommand)Paste, "Paste");
+                model.AddItem((CefMenuCommand)SelectAll, "Select all");
+                model.AddItem((CefMenuCommand)Redo, "Redo");
+                model.AddItem((CefMenuCommand)Cut, "Cut");
+                
+            
+                model.AddItem((CefMenuCommand)Delete, "Delete");
 
-			}
+            }
 
 			//Add new custom menu items
 			//#if DEBUG
 			model.AddItem((CefMenuCommand)ShowDevTools, "Developer tools");
 			model.AddItem(CefMenuCommand.ViewSource, "View source");
-			model.AddSeparator();
-			//#endif
+            model.AddItem((CefMenuCommand)SaveAsPdf, "Save as PDF");
+          
+            model.AddSeparator();
+            
+            //#endif
 
-			model.AddItem((CefMenuCommand)RefreshTab, "Refresh tab");
+            model.AddItem((CefMenuCommand)RefreshTab, "Refresh tab");
 			model.AddItem((CefMenuCommand)CloseTab, "Close tab");
 
 		}

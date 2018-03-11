@@ -1607,6 +1607,11 @@ namespace FlameSky
         {
             return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), directory);
         }
+
+        private void educationalToolsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Education().Show();
+        }
     }
 }
 
