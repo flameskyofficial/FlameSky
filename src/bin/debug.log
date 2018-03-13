@@ -4266,3 +4266,28 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0307/143158.285:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
 [0307/143158.285:ERROR:disk_cache.cc(169)] Unable to create cache
 [0307/143229.403:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0313/122113.402:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0313/122113.436:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0313/122114.117:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0313/122120.229:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0313/122120.236:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_drive.google.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0313/122126.882:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0313/122126.883:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0313/122126.901:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0313/122127.438:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0313/122127.439:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0313/122127.453:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0313/122132.019:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0313/122132.019:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0313/122132.029:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0313/122132.035:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0313/122132.036:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0313/122132.045:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0313/122133.423:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0313/122133.423:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0313/122137.706:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0313/122137.706:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0313/122139.817:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0313/122139.817:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0313/122143.908:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0313/122143.908:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.

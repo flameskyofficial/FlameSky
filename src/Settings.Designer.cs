@@ -216,7 +216,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Settings";
-            this.Style = MetroFramework.MetroColorStyle.Red;
+           
             this.Text = "Settings ";
             this.Load += new System.EventHandler(this.Settings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

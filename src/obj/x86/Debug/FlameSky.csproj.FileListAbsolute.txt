@@ -240,3 +240,6 @@ C:\Users\Jonathan\OneDrive - Novastream Hosting & Web Solutions AB\Privat\Jonath
 C:\Users\Jonathan\OneDrive - Novastream Hosting & Web Solutions AB\Privat\Jonathan\Projekt\Flamesky\src\obj\x86\Debug\FlameSky.exe
 C:\Users\Jonathan\OneDrive - Novastream Hosting & Web Solutions AB\Privat\Jonathan\Projekt\Flamesky\src\obj\x86\Debug\FlameSky.pdb
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.Education.resources
+C:\Users\andre\source\repos\FlameSky 5\src\bin\ControlzEx.dll
+C:\Users\andre\source\repos\FlameSky 5\src\bin\System.Windows.Interactivity.dll
+C:\Users\andre\source\repos\FlameSky 5\src\bin\ControlzEx.pdb
