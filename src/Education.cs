@@ -20,7 +20,11 @@ namespace FlameSky
 
         private void Education_Load(object sender, EventArgs e)
         {
-            
+            // TODO: This line of code loads data into the 'flameSkyPlannerDataSet.Tasktable' table. You can move, or remove it, as needed.
+            this.tasktableTableAdapter.Fill(this.flameSkyPlannerDataSet.Tasktable);
+            // TODO: This line of code loads data into the 'flameSkyPlannerDataSet.Timetable' table. You can move, or remove it, as needed.
+
+
         }
 
         private void htmlPanel1_Click(object sender, EventArgs e)

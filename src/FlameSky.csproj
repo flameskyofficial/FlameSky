@@ -113,6 +113,17 @@
     <Compile Include="FlameSkyNotes.Designer.cs">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FlameSkyPlannerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FlameSkyTimeTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FlameSkyTimeTable.Designer.cs">
+      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Handlers\DisplayHandler.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -152,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FlameSkyNotes.resx">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlameSkyTimeTable.resx">
+      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -219,6 +233,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="FlameSkyPlannerDataSet.xsc">
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FlameSkyPlannerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FlameSkyPlannerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FlameSkyPlannerDataSet.xss">
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
+    </None>
     <None Include="FlameSky_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -229,6 +254,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
+    <Content Include="FlameSkyPlanner.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\FlameSkyAppsIcon.png" />
     <None Include="Resources\makefg %282%292.png" />
     <None Include="Resources\FlameSkyStopIcon1.png" />

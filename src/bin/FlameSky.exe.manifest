@@ -271,14 +271,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11161528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="11199928">
       <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hnIXRTyCZcDcunJlZUPSf45GD/1WZ1M8Ol2XyAkFk9Q=</dsig:DigestValue>
+        <dsig:DigestValue>n+X53SlnRGm9W2ZDvGT+p/ZgFc6C45pr6LdHRxtPwM4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -354,13 +354,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FlameSky.exe.config" size="3457">
+  <file name="FlameSky.exe.config" size="3688">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>RBJjTP0nPfxkrab4k7HMo2+iTdg40MAe9E80H0knlKU=</dsig:DigestValue>
+      <dsig:DigestValue>IFrb8KhAJI9fAVlU0n+HeGq2ojxWKH4u0T0amm6bjTU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="FlameSky.ico" size="310730">
@@ -370,6 +370,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>Yd3s/nnMCtfi/lT4+3cV5TJgwdFM1SsJNvl3U+WD3IM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FlameSkyPlanner.accdb" size="749568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ktXASVMlyeDpaaUv4cKktRXexbYX/xDqRXXDX4rGmO4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

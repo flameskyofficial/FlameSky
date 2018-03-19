@@ -83,5 +83,16 @@ namespace FlameSky.Properties {
                 return ((string)(this["FlameSkyConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\FlameSkyPlanner.acc" +
+            "db")]
+        public string FlameSkyPlannerConnectionString {
+            get {
+                return ((string)(this["FlameSkyPlannerConnectionString"]));
+            }
+        }
     }
 }
