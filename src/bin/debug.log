@@ -4291,3 +4291,7 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0313/122139.817:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
 [0313/122143.908:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
 [0313/122143.908:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0325/134058.419:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://i-msdn.sec.s-msft.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://msdn.microsoft.com/en-us/library/0f92s97z.aspx (0)
+[0325/134059.663:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://i2-msdn.sec.s-msft.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://msdn.microsoft.com/en-us/library/0f92s97z.aspx (0)
+[0325/140819.159:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0325/140824.440:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.

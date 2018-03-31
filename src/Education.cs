@@ -25,8 +25,8 @@ namespace FlameSky
             // TODO: This line of code loads data into the 'flameSkyPlannerDataSet.Timetable' table. You can move, or remove it, as needed.
             this.timetableTableAdapter.Fill(this.flameSkyPlannerDataSet.Timetable);
             timetableBindingSource.DataSource = this.flameSkyPlannerDataSet.Timetable;
-
-
+            DataGridView.DataSource = timetableBindingSource;
+           
         }
 
         private void htmlPanel1_Click(object sender, EventArgs e)
@@ -38,7 +38,10 @@ namespace FlameSky
         {
             try
             {
-
+                this.Validate();
+                this.timetableBindingSource.EndEdit();
+                this.timetableTableAdapter.Update(this.flameSkyPlannerDataSet.Timetable);
+                this.flameSkyPlannerDataSet.AcceptChanges();
             }
             catch
             {
@@ -58,6 +61,27 @@ namespace FlameSky
             Titleoftaskinput.Focus();
             this.flameSkyPlannerDataSet.Timetable.AddTimetableRow(this.flameSkyPlannerDataSet.Timetable.NewTimetableRow());
             timetableBindingSource.MoveLast();
+        }
+
+        private void DataGridView_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Delete)
+            {
+                try
+                {
+                    timetableBindingSource.RemoveCurrent();
+                }
+                catch
+                {
+
+                }
+            }
+        }
+
+        private void metroTextBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

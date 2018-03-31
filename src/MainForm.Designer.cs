@@ -64,6 +64,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.educationalToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -93,7 +94,7 @@
             this.facebookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.instagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.educationalToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parentalControlsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -415,13 +416,14 @@
             this.newTabToolStripMenuItem,
             this.closeTabToolStripMenuItem,
             this.newWindowToolStripMenuItem,
+            this.parentalControlsToolStripMenuItem,
             this.downloadsToolStripMenuItem,
             this.historyToolStripMenuItem,
             this.settingsToolStripMenuItem,
             this.developerToolsToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.MenuStripDropDown.Name = "contextMenuStrip1";
-            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 212);
+            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 260);
             // 
             // newTabToolStripMenuItem
             // 
@@ -527,6 +529,13 @@
             this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.dualWorldToolStripMenuItem.Text = "Add Notes";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
+            // 
+            // educationalToolsToolStripMenuItem
+            // 
+            this.educationalToolsToolStripMenuItem.Name = "educationalToolsToolStripMenuItem";
+            this.educationalToolsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.educationalToolsToolStripMenuItem.Text = "Educational Tools";
+            this.educationalToolsToolStripMenuItem.Click += new System.EventHandler(this.educationalToolsToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -755,12 +764,12 @@
             this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
             this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click_1);
             // 
-            // educationalToolsToolStripMenuItem
+            // parentalControlsToolStripMenuItem
             // 
-            this.educationalToolsToolStripMenuItem.Name = "educationalToolsToolStripMenuItem";
-            this.educationalToolsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.educationalToolsToolStripMenuItem.Text = "Educational Tools";
-            this.educationalToolsToolStripMenuItem.Click += new System.EventHandler(this.educationalToolsToolStripMenuItem_Click);
+            this.parentalControlsToolStripMenuItem.Name = "parentalControlsToolStripMenuItem";
+            this.parentalControlsToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
+            this.parentalControlsToolStripMenuItem.Text = "Parental Controls";
+            this.parentalControlsToolStripMenuItem.Click += new System.EventHandler(this.parentalControlsToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -860,6 +869,7 @@
         private System.Windows.Forms.ToolStripMenuItem dualWorldToolStripMenuItem;
         private System.Windows.Forms.ComboBox TxtURL;
         private System.Windows.Forms.ToolStripMenuItem educationalToolsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parentalControlsToolStripMenuItem;
     }
 }
 

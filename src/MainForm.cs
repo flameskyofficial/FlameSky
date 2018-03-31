@@ -1612,6 +1612,19 @@ namespace FlameSky
         {
             new Education().Show();
         }
+
+        private void parentalControlsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.ParentalControlsSignUpFirstTime != false)
+            {
+                new FirstTimeParentalControls().Show();
+            }
+            else
+            {
+                new Parental_Control().Show();
+            }
+           
+        }
     }
 }
 

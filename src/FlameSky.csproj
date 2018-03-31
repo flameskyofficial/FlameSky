@@ -107,6 +107,12 @@
     <Compile Include="Education.Designer.cs">
       <DependentUpon>Education.cs</DependentUpon>
     </Compile>
+    <Compile Include="FirstTimeParentalControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstTimeParentalControls.Designer.cs">
+      <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlameSkyNotes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,12 @@
       <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Handlers\DisplayHandler.cs" />
+    <Compile Include="Parental Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parental Control.Designer.cs">
+      <DependentUpon>Parental Control.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -161,6 +173,9 @@
     <EmbeddedResource Include="Education.resx">
       <DependentUpon>Education.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FirstTimeParentalControls.resx">
+      <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FlameSkyNotes.resx">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parental Control.resx">
+      <DependentUpon>Parental Control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -257,6 +275,7 @@
     <Content Include="FlameSkyPlanner.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\eagle-303417_960_720.png" />
     <None Include="Resources\FlameSkyAppsIcon.png" />
     <None Include="Resources\makefg %282%292.png" />
     <None Include="Resources\FlameSkyStopIcon1.png" />

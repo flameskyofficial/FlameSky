@@ -94,5 +94,77 @@ namespace FlameSky.Properties {
                 return ((string)(this["FlameSkyPlannerConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ParentalControlsSignUpFirstTime {
+            get {
+                return ((bool)(this["ParentalControlsSignUpFirstTime"]));
+            }
+            set {
+                this["ParentalControlsSignUpFirstTime"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ParentalAuthorityUsername {
+            get {
+                return ((string)(this["ParentalAuthorityUsername"]));
+            }
+            set {
+                this["ParentalAuthorityUsername"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ParentalAuthorityPassword {
+            get {
+                return ((string)(this["ParentalAuthorityPassword"]));
+            }
+            set {
+                this["ParentalAuthorityPassword"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ParentalAuthorityLockEnabled {
+            get {
+                return ((bool)(this["ParentalAuthorityLockEnabled"]));
+            }
+            set {
+                this["ParentalAuthorityLockEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AntiPornPA {
+            get {
+                return ((bool)(this["AntiPornPA"]));
+            }
+            set {
+                this["AntiPornPA"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AntiSocialMediaPA {
+            get {
+                return ((bool)(this["AntiSocialMediaPA"]));
+            }
+            set {
+                this["AntiSocialMediaPA"] = value;
+            }
+        }
     }
 }
