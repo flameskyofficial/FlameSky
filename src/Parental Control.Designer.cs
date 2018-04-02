@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parental_Control));
-            this.BanPornCheckbox = new MetroFramework.Controls.MetroCheckBox();
-            this.BanSocialMediaCheckbox = new MetroFramework.Controls.MetroCheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.EditPassword = new MetroFramework.Controls.MetroLink();
             this.EditUsername = new MetroFramework.Controls.MetroLink();
@@ -42,52 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.EnableParentalAuthorityCheckbox = new System.Windows.Forms.CheckBox();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // BanPornCheckbox
-            // 
-            this.BanPornCheckbox.AutoSize = true;
-            this.BanPornCheckbox.Location = new System.Drawing.Point(15, 54);
-            this.BanPornCheckbox.Name = "BanPornCheckbox";
-            this.BanPornCheckbox.Size = new System.Drawing.Size(73, 15);
-            this.BanPornCheckbox.TabIndex = 0;
-            this.BanPornCheckbox.Text = "Anti Porn";
-            this.BanPornCheckbox.UseSelectable = true;
-            // 
-            // BanSocialMediaCheckbox
-            // 
-            this.BanSocialMediaCheckbox.AutoSize = true;
-            this.BanSocialMediaCheckbox.Location = new System.Drawing.Point(15, 19);
-            this.BanSocialMediaCheckbox.Name = "BanSocialMediaCheckbox";
-            this.BanSocialMediaCheckbox.Size = new System.Drawing.Size(186, 15);
-            this.BanSocialMediaCheckbox.TabIndex = 2;
-            this.BanSocialMediaCheckbox.Text = "Social Media (And dating sites)";
-            this.BanSocialMediaCheckbox.UseSelectable = true;
-            this.BanSocialMediaCheckbox.CheckedChanged += new System.EventHandler(this.BanSocialMediaCheckbox_CheckedChanged);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.metroLabel1);
-            this.groupBox1.Controls.Add(this.BanSocialMediaCheckbox);
-            this.groupBox1.Controls.Add(this.BanPornCheckbox);
-            this.groupBox1.Location = new System.Drawing.Point(34, 87);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(438, 174);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "The Ban panel";
-            // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(15, 83);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(408, 76);
-            this.metroLabel1.TabIndex = 3;
-            this.metroLabel1.Text = "Please know that it is impossible to block each and  every website in \r\nthe above" +
-    " categories. This cannot replace discipling of children.\r\n\r\n";
             // 
             // groupBox2
             // 
@@ -98,7 +50,7 @@
             this.groupBox2.Controls.Add(this.ParentalAuthorityUsernameTextBox);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.EnableParentalAuthorityCheckbox);
-            this.groupBox2.Location = new System.Drawing.Point(34, 267);
+            this.groupBox2.Location = new System.Drawing.Point(23, 63);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(438, 162);
             this.groupBox2.TabIndex = 4;
@@ -214,13 +166,14 @@
             this.EnableParentalAuthorityCheckbox.TabIndex = 0;
             this.EnableParentalAuthorityCheckbox.Text = "Enable Parental Authority Protection for Browser History and Settings";
             this.EnableParentalAuthorityCheckbox.UseVisualStyleBackColor = true;
+            this.EnableParentalAuthorityCheckbox.CheckedChanged += new System.EventHandler(this.EnableParentalAuthorityCheckbox_CheckedChanged);
             // 
             // materialFlatButton1
             // 
             this.materialFlatButton1.AutoSize = true;
             this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.Location = new System.Drawing.Point(145, 438);
+            this.materialFlatButton1.Location = new System.Drawing.Point(790, 377);
             this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFlatButton1.Name = "materialFlatButton1";
@@ -234,16 +187,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 485);
+            this.ClientSize = new System.Drawing.Size(1047, 439);
             this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Parental_Control";
             this.Text = "Parental Control";
             this.Load += new System.EventHandler(this.Parental_Control_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -252,10 +202,6 @@
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroCheckBox BanPornCheckbox;
-        private MetroFramework.Controls.MetroCheckBox BanSocialMediaCheckbox;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private MetroFramework.Controls.MetroLink EditPassword;
         private MetroFramework.Controls.MetroLink EditUsername;
@@ -265,6 +211,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox EnableParentalAuthorityCheckbox;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }

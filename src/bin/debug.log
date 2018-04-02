@@ -4295,3 +4295,108 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0325/134059.663:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://i2-msdn.sec.s-msft.com will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://msdn.microsoft.com/en-us/library/0f92s97z.aspx (0)
 [0325/140819.159:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
 [0325/140824.440:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/120436.120:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/120441.293:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/120446.310:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/120628.969:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dna8twue3dlxq.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/ (0)
+[0402/120631.083:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d24n15hnbwhuhn.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/ (0)
+[0402/120634.448:INFO:CONSOLE(1)] "[Amplitude] WARNING: Property key "exp_education_variant" with invalid value type null, ignoring", source: https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.7.0-min.gz.js (1)
+[0402/120636.144:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\000\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0402/120636.144:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0402/120636.262:WARNING:spdy_session.cc(2861)] Received WINDOW_UPDATE for invalid stream 11
+[0402/120636.267:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0402/120636.909:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dna8twue3dlxq.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/ (0)
+[0402/120637.712:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://d24n15hnbwhuhn.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/ (0)
+[0402/120638.506:INFO:CONSOLE(1)] "[Amplitude] WARNING: Property key "exp_education_variant" with invalid value type null, ignoring", source: https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.7.0-min.gz.js (1)
+[0402/120640.453:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0402/120640.454:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0402/120642.528:ERROR:sandbox_directory_database.cc(946)] SandboxDirectoryDatabase failed at: Init@../../storage/browser/fileapi/sandbox_directory_database.cc:747 with error: IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\File System\003\t\Paths/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0402/120642.528:WARNING:sandbox_directory_database.cc(759)] Corrupted SandboxDirectoryDatabase detected. Attempting to repair.
+[0402/120646.647:WARNING:sandbox_directory_database.cc(768)] Failed to repair SandboxDirectoryDatabase.
+[0402/120646.648:WARNING:sandbox_directory_database.cc(771)] Clearing SandboxDirectoryDatabase.
+[0402/120716.436:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dna8twue3dlxq.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/ (0)
+[0402/120726.190:INFO:CONSOLE(0)] "The SSL certificate used to load resources from https://dna8twue3dlxq.cloudfront.net will be distrusted in the future. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.", source: https://www.canva.com/design/DACzXYwThAc/6-2PnD6bpjhVfF4ylnKBdg/edit (0)
+[0402/120920.336:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0402/121325.634:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0402/121327.925:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 39
+[0402/121328.638:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 43
+[0402/121332.887:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0402/121333.424:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0402/121334.038:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 27
+[0402/121334.250:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0402/121353.883:INFO:CONSOLE(0)] "Blink deferred a task in order to make scrolling smoother. Your timer and network tasks should take less than 50ms to run to avoid this. Please see https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail and https://crbug.com/574343#c40 for more information.", source: https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=MfTBWrLNLsGiU9LtgegD&q=Jack+disney+transparent+bg&oq=Jack+disney+transparent+bg&gs_l=psy-ab.3...2513.21075.0.21233.30.27.3.0.0.0.370.3763.0j9j5j3.17.0....0...1c.1.64.psy-ab..10.14.2363...0j0i67k1j0i30k1j0i5i30k1j0i13k1j0i13i30k1j0i13i5i30k1j0i8i30k1.0.BIP1ZCRukqg (0)
+[0402/121430.759:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0402/121430.799:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0402/121431.775:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0402/121453.332:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 55
+[0402/121540.339:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=fvTBWoSSAciwUfushZgE&q=guz+transparent+bg&oq=guz+transparent+bg&gs_l=psy-ab.3...14405.14956.0.15077.3.3.0.0.0.0.189.189.0j1.1.0....0...1c.1.64.psy-ab..2.0.0....0.cIcNhaDCgj0#imgrc=9jT_-9jrDhrePM:' was loaded over HTTPS, but requested an insecure image 'http://pixel.nymag.com/imgs/daily/vulture/2015/08/25/25-bd-wong-chatroom-silo.w245.h368.png'. This content should also be served over HTTPS.", source: https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=fvTBWoSSAciwUfushZgE&q=guz+transparent+bg&oq=guz+transparent+bg&gs_l=psy-ab.3...14405.14956.0.15077.3.3.0.0.0.0.189.189.0j1.1.0....0...1c.1.64.psy-ab..2.0.0....0.cIcNhaDCgj0#imgrc=9jT_-9jrDhrePM: (0)
+[0402/121548.124:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=fvTBWoSSAciwUfushZgE&q=guz+transparent+bg&oq=guz+transparent+bg&gs_l=psy-ab.3...14405.14956.0.15077.3.3.0.0.0.0.189.189.0j1.1.0....0...1c.1.64.psy-ab..2.0.0....0.cIcNhaDCgj0#imgdii=YxBXJPG3aT-tvM:&imgrc=9jT_-9jrDhrePM:' was loaded over HTTPS, but requested an insecure image 'http://weclipart.com/gimg/11ABFBEACDE43903/gus3.gif'. This content should also be served over HTTPS.", source: https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=fvTBWoSSAciwUfushZgE&q=guz+transparent+bg&oq=guz+transparent+bg&gs_l=psy-ab.3...14405.14956.0.15077.3.3.0.0.0.0.189.189.0j1.1.0....0...1c.1.64.psy-ab..2.0.0....0.cIcNhaDCgj0#imgdii=YxBXJPG3aT-tvM:&imgrc=9jT_-9jrDhrePM: (0)
+[0402/121720.227:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0402/121720.369:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0402/121741.960:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0402/121742.046:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 3
+[0402/121742.167:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 5
+[0402/121744.293:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 11
+[0402/121753.453:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 13
+[0402/121753.929:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0402/121754.035:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0402/121813.581:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 9
+[0402/121814.252:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 15
+[0402/121814.400:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0402/121814.744:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0402/121825.481:INFO:CONSOLE(0)] "Blink deferred a task in order to make scrolling smoother. Your timer and network tasks should take less than 50ms to run to avoid this. Please see https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail and https://crbug.com/574343#c40 for more information.", source: https://www.google.com.qa/search?hl=en&biw=1364&bih=636&tbm=isch&sa=1&ei=RvXBWozhDIWrU4aKuZAI&q=jaq+and+Gus+disney+transparent+bg&oq=jaq+and+Gus+disney+transparent+bg&gs_l=psy-ab.3...14795.17679.0.17787.10.10.0.0.0.0.321.1106.0j2j2j1.5.0....0...1c.1.64.psy-ab..7.0.0....0.inOewYqwqg4 (0)
+[0402/123424.126:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/123429.650:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://www.canva.com' is therefore not allowed access.", source: https://www.canva.com/ (0)
+[0402/144101.573:INFO:CONSOLE(0)] "WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost", source: https://www.canva.com/design/DACzXYwThAc/6-2PnD6bpjhVfF4ylnKBdg/edit (0)
+[0402/144101.820:INFO:CONSOLE(0)] "WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost", source: https://www.canva.com/design/DACzXYwThAc/6-2PnD6bpjhVfF4ylnKBdg/edit (0)
+[0402/145050.846:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192601.804:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192601.815:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192606.809:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192606.820:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192611.812:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192611.823:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192615.825:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192616.255:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192616.815:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192616.826:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0402/192628.886:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://www.canva.com' is therefore not allowed access.", source: https://www.canva.com/ (0)
+[0402/192629.180:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://www.canva.com' is therefore not allowed access.", source: https://www.canva.com/ (0)
+[0402/210352.785:INFO:CONSOLE(200)] "
+%cStop!", source: https://www.facebook.com/rsrc.php/v3/yJ/r/8M9-UsG1gW_.js (200)
+[0402/210352.827:INFO:CONSOLE(200)] "
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account.", source: https://www.facebook.com/rsrc.php/v3/yJ/r/8M9-UsG1gW_.js (200)
+[0402/210352.829:INFO:CONSOLE(200)] "
+%cSee https://www.facebook.com/selfxss for more information.", source: https://www.facebook.com/rsrc.php/v3/yJ/r/8M9-UsG1gW_.js (200)
+[0402/210352.832:INFO:CONSOLE(200)] "
+%c", source: https://www.facebook.com/rsrc.php/v3/yJ/r/8M9-UsG1gW_.js (200)
+[0402/210441.986:INFO:CONSOLE(359)] "Uncaught (in promise) Error: The manifest specifies content that cannot be displayed on this browser/platform.", source: https://www.facebook.com/rsrc.php/v3/y2/r/Ji4NnlREwqt.js (359)
+[0402/210443.167:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.167:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210443.256:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210443.356:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.357:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210443.704:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210443.715:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.715:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210443.749:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210443.765:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.765:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210443.774:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210443.778:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.779:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210443.800:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210443.806:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210443.806:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210444.142:INFO:CONSOLE(0)] "Refused to connect to 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm".
+", source: https://www.facebook.com/ (0)
+[0402/210444.189:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0402/210444.190:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0402/210444.228:INFO:CONSOLE(0)] "Refused to load the script 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self'".
+", source: https://www.facebook.com/ (0)
+[0402/211119.079:ERROR:broker_win.cc(138)] Error sending sync broker message

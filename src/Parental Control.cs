@@ -19,20 +19,9 @@ namespace FlameSky
 
         private void Parental_Control_Load(object sender, EventArgs e)
         {
-            EditUsername.Text = Properties.Settings.Default.ParentalAuthorityUsername;
-            EditPassword.Text = Properties.Settings.Default.ParentalAuthorityPassword;
-            if (Properties.Settings.Default.AntiPornPA == true)
-            {
-                BanPornCheckbox.Checked = true;
-            }
-            if (Properties.Settings.Default.AntiSocialMediaPA == true)
-            {
-                BanSocialMediaCheckbox.Checked = true;
-            }
-            if (Properties.Settings.Default.AntiSocialMediaPA == true)
-            {
-                BanSocialMediaCheckbox.Checked = true;
-            }
+            ParentalAuthorityUsernameTextBox.Text = Properties.Settings.Default.ParentalAuthorityUsername;
+            ParentalAuthorityPasswordTextBox.Text = Properties.Settings.Default.ParentalAuthorityPassword;
+            
             if (Properties.Settings.Default.ParentalAuthorityLockEnabled == true)
             {
                 EnableParentalAuthorityCheckbox.Checked = true;
@@ -50,12 +39,9 @@ namespace FlameSky
             ParentalAuthorityPasswordTextBox.Enabled = true;
         }
 
-        private void BanSocialMediaCheckbox_CheckedChanged(object sender, EventArgs e)
+        private void EnableParentalAuthorityCheckbox_CheckedChanged(object sender, EventArgs e)
         {
-            if (BanSocialMediaCheckbox.Checked)
-            {
-                
-            }
+            Properties.Settings.Default.ParentalAuthorityLockEnabled = true;
         }
     }
 }

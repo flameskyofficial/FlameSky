@@ -166,5 +166,17 @@ namespace FlameSky.Properties {
                 this["AntiSocialMediaPA"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AntiPornListPath {
+            get {
+                return ((string)(this["AntiPornListPath"]));
+            }
+            set {
+                this["AntiPornListPath"] = value;
+            }
+        }
     }
 }

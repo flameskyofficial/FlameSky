@@ -12,7 +12,7 @@ using System.Threading;
 using System.Web;
 using System.Windows.Forms;
 using AutoUpdaterDotNET;
-
+using System.Net;
 
 namespace FlameSky
 {
@@ -42,6 +42,7 @@ namespace FlameSky
         public static string AdulteryURL = "flamesky://storage/adulterywebsite.html";
         public static string FileNotFoundURL = "flamesky://storage/errors/notFound.html";
         public static string CannotConnectURL = "flamesky://storage/errors/cannotConnect.html";
+        public static string ParentalAuthorityBlockURL = "flamesky://storage/errors/parentalauthorityaccessdenied";
 
 
         public static string SearchURL = FlameSky.Properties.Settings.Default.DefaultSearchEngine;
@@ -52,15 +53,19 @@ namespace FlameSky
 
         public string AppPath = GetConfPath("FlameSky");
         public string browserhistory = GetConfPath("FlameSky\\BrowserHistory.txt");
+        
        
       
         public MainForm() {
 
             Instance = this;
-           
             
+           
+
+
             InitializeComponent();
             FlameSky.Properties.Settings.Default.BrowserHistoryFilepath = browserhistory;
+            
             // Check AppData path
             if (!Directory.Exists(AppPath))
             {
@@ -90,8 +95,9 @@ namespace FlameSky
           
             
                 InitBrowser();
-            
-            
+           
+
+
             SetFormTitle(null);
 
         }
@@ -122,15 +128,15 @@ namespace FlameSky
 
                
             }).Start();
-
-            
-
-             
-            
-
-
-
            
+
+
+
+
+
+
+
+
 
 
 
@@ -660,9 +666,10 @@ namespace FlameSky
 
                         CurTab.DateCreated = DateTime.Now;
                         string address = e.Address;
-                        
+                       
+                       
 
-                        
+
 
 
 
@@ -748,11 +755,10 @@ namespace FlameSky
 				if (e.IsLoading) {
 
                     try {
-                        
 
-                            
-                                   
 
+
+                       
 
                         LoadingIndicator.Image = FlameSky.Properties.Resources.CircularLoadingIndicator;
 
@@ -1411,8 +1417,15 @@ namespace FlameSky
 
         private void settingsToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            Form SettingsForm = new Settings();
-            SettingsForm.Show();
+            if (Properties.Settings.Default.ParentalAuthorityLockEnabled)
+            {
+                new SettingsParentalAuthority().Show();
+            }
+            else
+            {
+                Form SettingsForm = new Settings();
+                SettingsForm.Show();
+            }
         }
 
         private void downloadsToolStripMenuItem_Click_1(object sender, EventArgs e)
