@@ -41,6 +41,8 @@ FlameSky Organization is just the administrators of FlameSky. Andrew Jose, is th
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
 - Developer tools
+- Parental Controls (with password protection for settings and erasing history)
+- Sticky notes
 - Search bar (also highlights all instances)
 - Download manager
 - Download Location Dialog (Asks where to download file)
