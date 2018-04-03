@@ -40,6 +40,7 @@ FlameSky Organization is just the administrators of FlameSky. Andrew Jose, is th
 - Tabbed browsing
 - Address bar (also opens Google)
 - Back, Forward, Stop, Refresh
+- Auto Update 
 - Developer tools
 - Parental Controls (with password protection for settings and erasing history)
 - Sticky notes
@@ -81,6 +82,7 @@ Ctrl+F		| Open search bar (Enter to find next, Esc to close)
 - `Data/JSON.cs` - fast JSON serializer/deserializer
 - `bin` - Binaries are included in the `bin` folder due to the complex CefSharp setup required. Don't empty this folder.
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
+- `updater.xml` - This file in our GitHub helps to ensure that the Updater functions.
 
 ## Credits
 - [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors) - The volunteers who contributed code to this project
