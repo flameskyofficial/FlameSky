@@ -21,6 +21,11 @@ namespace FlameSky
 
         private void BrowserHistory_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.ParentalAuthorityLockEnabled)
+            {
+                metroButton1.Visible = false;
+                materialLabel1.Visible = true;
+            }
             try
            {
                using (StreamReader r = new StreamReader(@FlameSky.Properties.Settings.Default.BrowserHistoryFilepath))

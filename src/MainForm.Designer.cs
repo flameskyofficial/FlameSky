@@ -56,15 +56,17 @@
             this.newTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parentalControlsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.downloadsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enableFlashPlayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.educationalToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flameSkyTimetableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -88,13 +90,16 @@
             this.codecademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.khanAcademyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.citationGeneratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.researchDatabaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripDropDownButton();
             this.pinterestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.twitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.facebookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.instagramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.parentalControlsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripSplitButton();
+            this.PATimeLimit = new System.Windows.Forms.Timer(this.components);
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -421,9 +426,11 @@
             this.historyToolStripMenuItem,
             this.settingsToolStripMenuItem,
             this.developerToolsToolStripMenuItem,
+            this.aboutToolStripMenuItem,
+            this.enableFlashPlayerToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.MenuStripDropDown.Name = "contextMenuStrip1";
-            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 260);
+            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 312);
             // 
             // newTabToolStripMenuItem
             // 
@@ -451,6 +458,14 @@
             this.newWindowToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.newWindowToolStripMenuItem.Text = "New Window";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click_1);
+            // 
+            // parentalControlsToolStripMenuItem
+            // 
+            this.parentalControlsToolStripMenuItem.Image = global::FlameSky.Properties.Resources.makefg1;
+            this.parentalControlsToolStripMenuItem.Name = "parentalControlsToolStripMenuItem";
+            this.parentalControlsToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
+            this.parentalControlsToolStripMenuItem.Text = "Parental Controls";
+            this.parentalControlsToolStripMenuItem.Click += new System.EventHandler(this.parentalControlsToolStripMenuItem_Click);
             // 
             // downloadsToolStripMenuItem
             // 
@@ -487,6 +502,13 @@
             this.developerToolsToolStripMenuItem.Text = "Developer Tools";
             this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
             // 
+            // enableFlashPlayerToolStripMenuItem
+            // 
+            this.enableFlashPlayerToolStripMenuItem.Name = "enableFlashPlayerToolStripMenuItem";
+            this.enableFlashPlayerToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
+            this.enableFlashPlayerToolStripMenuItem.Text = "Enable Flash Player";
+            this.enableFlashPlayerToolStripMenuItem.Click += new System.EventHandler(this.enableFlashPlayerToolStripMenuItem_Click);
+            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
@@ -503,7 +525,8 @@
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
-            this.toolStripStatusLabel4});
+            this.toolStripStatusLabel4,
+            this.toolStripStatusLabel5});
             this.statusStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.statusStrip1.Location = new System.Drawing.Point(0, 651);
             this.statusStrip1.Name = "statusStrip1";
@@ -516,7 +539,7 @@
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dualWorldToolStripMenuItem,
-            this.educationalToolsToolStripMenuItem});
+            this.flameSkyTimetableToolStripMenuItem});
             this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -526,16 +549,16 @@
             // dualWorldToolStripMenuItem
             // 
             this.dualWorldToolStripMenuItem.Name = "dualWorldToolStripMenuItem";
-            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dualWorldToolStripMenuItem.Text = "Add Notes";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
             // 
-            // educationalToolsToolStripMenuItem
+            // flameSkyTimetableToolStripMenuItem
             // 
-            this.educationalToolsToolStripMenuItem.Name = "educationalToolsToolStripMenuItem";
-            this.educationalToolsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.educationalToolsToolStripMenuItem.Text = "Educational Tools";
-            this.educationalToolsToolStripMenuItem.Click += new System.EventHandler(this.educationalToolsToolStripMenuItem_Click);
+            this.flameSkyTimetableToolStripMenuItem.Name = "flameSkyTimetableToolStripMenuItem";
+            this.flameSkyTimetableToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.flameSkyTimetableToolStripMenuItem.Text = "FlameSky Timetable";
+            this.flameSkyTimetableToolStripMenuItem.Click += new System.EventHandler(this.flameSkyTimetableToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -671,7 +694,8 @@
             this.edxToolStripMenuItem,
             this.codecademyToolStripMenuItem,
             this.khanAcademyToolStripMenuItem,
-            this.citationGeneratorToolStripMenuItem});
+            this.citationGeneratorToolStripMenuItem,
+            this.researchDatabaseToolStripMenuItem});
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             this.toolStripStatusLabel3.Size = new System.Drawing.Size(73, 24);
             this.toolStripStatusLabel3.Text = "Education";
@@ -717,6 +741,13 @@
             this.citationGeneratorToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.citationGeneratorToolStripMenuItem.Text = "Citefast (Citation Generator)";
             this.citationGeneratorToolStripMenuItem.Click += new System.EventHandler(this.citationGeneratorToolStripMenuItem_Click_1);
+            // 
+            // researchDatabaseToolStripMenuItem
+            // 
+            this.researchDatabaseToolStripMenuItem.Name = "researchDatabaseToolStripMenuItem";
+            this.researchDatabaseToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.researchDatabaseToolStripMenuItem.Text = "Research Databases List";
+            this.researchDatabaseToolStripMenuItem.Click += new System.EventHandler(this.researchDatabaseToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel4
             // 
@@ -764,12 +795,23 @@
             this.whatsappWebToolStripMenuItem.Text = "Whatsapp Web";
             this.whatsappWebToolStripMenuItem.Click += new System.EventHandler(this.whatsappWebToolStripMenuItem_Click_1);
             // 
-            // parentalControlsToolStripMenuItem
+            // toolStripStatusLabel5
             // 
-            this.parentalControlsToolStripMenuItem.Name = "parentalControlsToolStripMenuItem";
-            this.parentalControlsToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
-            this.parentalControlsToolStripMenuItem.Text = "Parental Controls";
-            this.parentalControlsToolStripMenuItem.Click += new System.EventHandler(this.parentalControlsToolStripMenuItem_Click);
+            this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(118, 24);
+            this.toolStripStatusLabel5.Text = "FlameSky Website";
+            this.toolStripStatusLabel5.ButtonClick += new System.EventHandler(this.toolStripStatusLabel5_ButtonClick);
+            // 
+            // PATimeLimit
+            // 
+            this.PATimeLimit.Tick += new System.EventHandler(this.PATimeLimit_Tick);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -868,8 +910,13 @@
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
         private System.Windows.Forms.ToolStripMenuItem dualWorldToolStripMenuItem;
         private System.Windows.Forms.ComboBox TxtURL;
-        private System.Windows.Forms.ToolStripMenuItem educationalToolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem parentalControlsToolStripMenuItem;
+        private System.Windows.Forms.Timer PATimeLimit;
+        private System.Windows.Forms.ToolStripMenuItem enableFlashPlayerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flameSkyTimetableToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem researchDatabaseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripStatusLabel5;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 

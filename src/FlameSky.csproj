@@ -100,12 +100,18 @@
     <Compile Include="BrowserHistory.Designer.cs">
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data\JSON.cs" />
-    <Compile Include="Education.cs">
+    <Compile Include="AboutBox1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Education.Designer.cs">
-      <DependentUpon>Education.cs</DependentUpon>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\JSON.cs" />
+    <Compile Include="FlameSkyTimeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlameSkyTimeTable.Designer.cs">
+      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
     </Compile>
     <Compile Include="FirstTimeParentalControls.cs">
       <SubType>Form</SubType>
@@ -124,11 +130,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FlameSkyTimeTable.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="FlashForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FlameSkyTimeTable.Designer.cs">
-      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
+    <Compile Include="FlashForm.Designer.cs">
+      <DependentUpon>FlashForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Handlers\DisplayHandler.cs" />
     <Compile Include="Parental Control.cs">
@@ -141,6 +147,12 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLimitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimeLimitForm.Designer.cs">
+      <DependentUpon>TimeLimitForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs">
       <SubType>Form</SubType>
@@ -176,8 +188,11 @@
     <EmbeddedResource Include="BrowserHistory.resx">
       <DependentUpon>BrowserHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Education.resx">
-      <DependentUpon>Education.cs</DependentUpon>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlameSkyTimeTable.resx">
+      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FirstTimeParentalControls.resx">
       <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
@@ -185,8 +200,8 @@
     <EmbeddedResource Include="FlameSkyNotes.resx">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FlameSkyTimeTable.resx">
-      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
+    <EmbeddedResource Include="FlashForm.resx">
+      <DependentUpon>FlashForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -204,6 +219,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TimeLimitForm.resx">
+      <DependentUpon>TimeLimitForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,9 +245,6 @@
     <Reference Include="CefSharp.WinForms">
       <HintPath>bin\CefSharp.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll</HintPath>
-    </Reference>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
@@ -242,6 +257,7 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
@@ -251,9 +267,6 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>packages\ControlzEx.3.0.2.4\lib\net45\System.Windows.Interactivity.dll</HintPath>
-    </Reference>
     <Reference Include="System.XML" />
     <Reference Include="TabStrip">
       <HintPath>bin\TabStrip.dll</HintPath>
@@ -284,6 +297,8 @@
     <Content Include="FlameSkyPlanner.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\makefg2.png" />
+    <None Include="Resources\makefg1.png" />
     <None Include="Resources\eagle-303417_960_720.png" />
     <None Include="Resources\FlameSkyAppsIcon.png" />
     <None Include="Resources\makefg %282%292.png" />

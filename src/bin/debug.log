@@ -4400,3 +4400,4 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0402/210444.228:INFO:CONSOLE(0)] "Refused to load the script 'flamesky://storage/errors/cannotConnect.html' because it violates the following Content Security Policy directive: "script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self'".
 ", source: https://www.facebook.com/ (0)
 [0402/211119.079:ERROR:broker_win.cc(138)] Error sending sync broker message
+[0403/122433.687:ERROR:broker_win.cc(59)] Error reading broker pipe: The pipe has been ended. (0x6D)

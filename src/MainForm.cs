@@ -8,16 +8,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using System.Threading;
 using System.Web;
 using System.Windows.Forms;
 using AutoUpdaterDotNET;
-using System.Net;
+using Microsoft.VisualBasic;
+using FlameSky.Properties;
+using FlameSky.Data;
 
 namespace FlameSky
 {
 
-    
+
     /// <summary>
     /// The main SharpBrowser form, supporting multiple tabs.
     /// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
@@ -32,7 +33,7 @@ namespace FlameSky
         
        
         public static string Branding = "FlameSky";
-
+        
        
         public static string UserAgent = "FlameSky/5.0.0.0 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.2987.110 Safari/537.36";
         public static string HomepageURL = FlameSky.Properties.Settings.Default.Homepage;
@@ -110,7 +111,14 @@ namespace FlameSky
        
 
         private void MainForm_Load(object sender, EventArgs e) {
-
+            if (Properties.Settings.Default.FlashFirstTime) //Ensures that flash install notif happens only once.
+            {
+                new FlashForm().Show();
+                Properties.Settings.Default.FlashFirstTime = false;
+                Properties.Settings.Default.Save();
+               
+            }
+            
 
 
             
@@ -129,8 +137,20 @@ namespace FlameSky
                
             }).Start();
            
+            if (Properties.Settings.Default.TimeLimitEnabled)//Checks if Parental Authority Time Limit is enabled.
+            {
+                PATimeLimit.Enabled = true;
+                //PATimeLimit.Interval = Properties.Settings.Default.Time;
+                PATimeLimit.Interval = 1;
+                PATimeLimit.Start();
+                
+                
+            }
+            else
+            {
 
-
+                PATimeLimit.Enabled = false;
+            }
 
 
 
@@ -756,7 +776,7 @@ namespace FlameSky
 
                     try {
 
-
+                        
 
                        
 
@@ -1623,20 +1643,72 @@ namespace FlameSky
 
         private void educationalToolsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Education().Show();
+            new FlameSkyTimeTable().Show();
         }
 
         private void parentalControlsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Properties.Settings.Default.ParentalControlsSignUpFirstTime != false)
+            if (Properties.Settings.Default.ParentalControlsSignUpFirstTime == true)
             {
                 new FirstTimeParentalControls().Show();
             }
             else
             {
-                new Parental_Control().Show();
+
+                string response = Microsoft.VisualBasic.Interaction.InputBox("Validate that you are a parent to access the panel. If you forgot your password, please reinstall this browser", "Parental Authority", "Password");
+                if (response == Properties.Settings.Default.ParentalAuthorityPassword)
+                {
+                    
+                    new Parental_Control().Show();
+                }
+                else
+                {
+                    MessageBox.Show("Wrong Password");
+                   
+                }
+               
             }
            
+        }
+
+        private void PATimeLimit_Tick(object sender, EventArgs e)
+        {
+            this.Hide();
+            string response = Microsoft.VisualBasic.Interaction.InputBox("Validate that you are a parent to use beyond curfew. If you make a mistake, the browser closes - so be careful.", "Parental Authority", "Password");
+            if (response == Properties.Settings.Default.ParentalAuthorityPassword)
+            {
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Password. Closing session");
+                this.Close();
+            }
+        }
+
+        private void enableFlashPlayerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FlashForm().Show();
+        }
+
+        private void flameSkyTimetableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FlameSkyTimeTable().Show();
+        }
+
+        private void researchDatabaseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://library.csuohio.edu/research/databases/index.html");
+        }
+
+        private void toolStripStatusLabel5_ButtonClick(object sender, EventArgs e)
+        {
+            CurBrowser.Load("http://flamesky.weebly.com");
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AboutBox1().Show();
         }
     }
 }

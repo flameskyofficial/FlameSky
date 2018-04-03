@@ -158,6 +158,7 @@
             this.Resizable = false;
             this.Text = "Parental Authority Checkpoint";
             this.Load += new System.EventHandler(this.SettingsParentalAuthority_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SettingsParentalAuthority_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -121,6 +121,9 @@
   <data name="DisabledBackIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DisabledBackIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FlameSky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlameSky.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DeveloperToolsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeveloperToolsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,6 +141,9 @@
   </data>
   <data name="SplashScreenSwing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SplashScreenSwing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="makefg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\makefg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +163,8 @@
   <data name="CircularLoadingIndicator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CircularLoadingIndicator.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FlameSky" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FlameSky.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eagle-303417_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eagle-303417_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LoadingCompletedIndicator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoadingCompletedIndicator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +190,7 @@
   <data name="RemoveTabIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\makefg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eagle-303417_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eagle-303417_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="makefg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makefg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -51,9 +51,18 @@ namespace FlameSky.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
-            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
-            "tring>www.flamesky.weebly.com</string>\r\n</ArrayOfString>")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>www.flamesky.weebly.com</string>
+  <string>www.google.com</string>
+  <string>www.instagram.com</string>
+  <string>www.pastorjerome.org</string>
+  <string>www.aljazeera.com</string>
+  <string>www.foxnews.com</string>
+  <string>www.cnn.com</string>
+  <string>www.timesofisrael.com</string>
+  <string>www.prezi.com</string>
+</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection URLHistory {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["URLHistory"]));
@@ -146,36 +155,36 @@ namespace FlameSky.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool AntiPornPA {
+        public bool TimeLimitEnabled {
             get {
-                return ((bool)(this["AntiPornPA"]));
+                return ((bool)(this["TimeLimitEnabled"]));
             }
             set {
-                this["AntiPornPA"] = value;
+                this["TimeLimitEnabled"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool AntiSocialMediaPA {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Time {
             get {
-                return ((bool)(this["AntiSocialMediaPA"]));
+                return ((int)(this["Time"]));
             }
             set {
-                this["AntiSocialMediaPA"] = value;
+                this["Time"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string AntiPornListPath {
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool FlashFirstTime {
             get {
-                return ((string)(this["AntiPornListPath"]));
+                return ((bool)(this["FlashFirstTime"]));
             }
             set {
-                this["AntiPornListPath"] = value;
+                this["FlashFirstTime"] = value;
             }
         }
     }

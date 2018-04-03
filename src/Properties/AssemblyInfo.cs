@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FlameSky")]
 [assembly: AssemblyDescription("The FlameSky Open Source Project")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("The FlameSky Project")]
+[assembly: AssemblyCompany("FlameSky Contributors")]
 [assembly: AssemblyProduct("FlameSky")]
 [assembly: AssemblyCopyright("Copyright © 2018 The FlameSky OpenSource Project")]
 [assembly: AssemblyTrademark("")]
@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("ef19e884-45b7-4cde-8b5a-4d2bcede2e0c")]

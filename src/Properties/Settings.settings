@@ -12,6 +12,14 @@
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;string&gt;www.flamesky.weebly.com&lt;/string&gt;
+  &lt;string&gt;www.google.com&lt;/string&gt;
+  &lt;string&gt;www.instagram.com&lt;/string&gt;
+  &lt;string&gt;www.pastorjerome.org&lt;/string&gt;
+  &lt;string&gt;www.aljazeera.com&lt;/string&gt;
+  &lt;string&gt;www.foxnews.com&lt;/string&gt;
+  &lt;string&gt;www.cnn.com&lt;/string&gt;
+  &lt;string&gt;www.timesofisrael.com&lt;/string&gt;
+  &lt;string&gt;www.prezi.com&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="BrowserHistoryFilepath" Type="System.String" Scope="User">
@@ -45,14 +53,14 @@
     <Setting Name="ParentalAuthorityLockEnabled" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="AntiPornPA" Type="System.Boolean" Scope="User">
+    <Setting Name="TimeLimitEnabled" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="AntiSocialMediaPA" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+    <Setting Name="Time" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="AntiPornListPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="FlashFirstTime" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

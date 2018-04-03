@@ -38,7 +38,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.EnableParentalAuthorityCheckbox = new System.Windows.Forms.CheckBox();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Hour2 = new MetroFramework.Controls.MetroRadioButton();
+            this.Hour1Min30 = new MetroFramework.Controls.MetroRadioButton();
+            this.Hour1 = new MetroFramework.Controls.MetroRadioButton();
+            this.Min30 = new MetroFramework.Controls.MetroRadioButton();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroLink1 = new MetroFramework.Controls.MetroLink();
+            this.metroLink2 = new MetroFramework.Controls.MetroLink();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -96,7 +106,7 @@
             this.ParentalAuthorityPasswordTextBox.Location = new System.Drawing.Point(111, 92);
             this.ParentalAuthorityPasswordTextBox.MaxLength = 32767;
             this.ParentalAuthorityPasswordTextBox.Name = "ParentalAuthorityPasswordTextBox";
-            this.ParentalAuthorityPasswordTextBox.PasswordChar = '*';
+            this.ParentalAuthorityPasswordTextBox.PasswordChar = '\0';
             this.ParentalAuthorityPasswordTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.ParentalAuthorityPasswordTextBox.SelectedText = "";
             this.ParentalAuthorityPasswordTextBox.SelectionLength = 0;
@@ -107,6 +117,8 @@
             this.ParentalAuthorityPasswordTextBox.UseSelectable = true;
             this.ParentalAuthorityPasswordTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.ParentalAuthorityPasswordTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.ParentalAuthorityPasswordTextBox.TextChanged += new System.EventHandler(this.ParentalAuthorityPasswordTextBox_TextChanged);
+            this.ParentalAuthorityPasswordTextBox.Click += new System.EventHandler(this.ParentalAuthorityPasswordTextBox_Click);
             // 
             // label2
             // 
@@ -147,6 +159,7 @@
             this.ParentalAuthorityUsernameTextBox.UseSelectable = true;
             this.ParentalAuthorityUsernameTextBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.ParentalAuthorityUsernameTextBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.ParentalAuthorityUsernameTextBox.TextChanged += new System.EventHandler(this.ParentalAuthorityUsernameTextBox_TextChanged);
             // 
             // label1
             // 
@@ -173,7 +186,7 @@
             this.materialFlatButton1.AutoSize = true;
             this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.Location = new System.Drawing.Point(790, 377);
+            this.materialFlatButton1.Location = new System.Drawing.Point(121, 460);
             this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFlatButton1.Name = "materialFlatButton1";
@@ -182,20 +195,129 @@
             this.materialFlatButton1.TabIndex = 5;
             this.materialFlatButton1.Text = "Authorize all decisions (Save)";
             this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.Hour2);
+            this.groupBox1.Controls.Add(this.Hour1Min30);
+            this.groupBox1.Controls.Add(this.Hour1);
+            this.groupBox1.Controls.Add(this.Min30);
+            this.groupBox1.Controls.Add(this.metroCheckBox1);
+            this.groupBox1.Controls.Add(this.metroLabel1);
+            this.groupBox1.Location = new System.Drawing.Point(23, 231);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(439, 220);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Browsing Limit";
+            // 
+            // Hour2
+            // 
+            this.Hour2.AutoSize = true;
+            this.Hour2.Location = new System.Drawing.Point(296, 163);
+            this.Hour2.Name = "Hour2";
+            this.Hour2.Size = new System.Drawing.Size(62, 15);
+            this.Hour2.TabIndex = 7;
+            this.Hour2.Text = "2 hours";
+            this.Hour2.UseSelectable = true;
+            this.Hour2.CheckedChanged += new System.EventHandler(this.Hour2_CheckedChanged);
+            // 
+            // Hour1Min30
+            // 
+            this.Hour1Min30.AutoSize = true;
+            this.Hour1Min30.Location = new System.Drawing.Point(296, 109);
+            this.Hour1Min30.Name = "Hour1Min30";
+            this.Hour1Min30.Size = new System.Drawing.Size(118, 15);
+            this.Hour1Min30.TabIndex = 6;
+            this.Hour1Min30.Text = "1 hour 30 minutes";
+            this.Hour1Min30.UseSelectable = true;
+            this.Hour1Min30.CheckedChanged += new System.EventHandler(this.Hour1Min30_CheckedChanged);
+            // 
+            // Hour1
+            // 
+            this.Hour1.AutoSize = true;
+            this.Hour1.Location = new System.Drawing.Point(15, 163);
+            this.Hour1.Name = "Hour1";
+            this.Hour1.Size = new System.Drawing.Size(57, 15);
+            this.Hour1.TabIndex = 5;
+            this.Hour1.Text = "1 hour";
+            this.Hour1.UseSelectable = true;
+            this.Hour1.CheckedChanged += new System.EventHandler(this.Hour1_CheckedChanged);
+            // 
+            // Min30
+            // 
+            this.Min30.AutoSize = true;
+            this.Min30.Location = new System.Drawing.Point(15, 109);
+            this.Min30.Name = "Min30";
+            this.Min30.Size = new System.Drawing.Size(81, 15);
+            this.Min30.TabIndex = 4;
+            this.Min30.Text = "30 minutes";
+            this.Min30.UseSelectable = true;
+            this.Min30.CheckedChanged += new System.EventHandler(this.Min30_CheckedChanged);
+            // 
+            // metroCheckBox1
+            // 
+            this.metroCheckBox1.AutoSize = true;
+            this.metroCheckBox1.Location = new System.Drawing.Point(15, 20);
+            this.metroCheckBox1.Name = "metroCheckBox1";
+            this.metroCheckBox1.Size = new System.Drawing.Size(80, 15);
+            this.metroCheckBox1.TabIndex = 3;
+            this.metroCheckBox1.Text = "Time Limit";
+            this.metroCheckBox1.UseSelectable = true;
+            this.metroCheckBox1.CheckedChanged += new System.EventHandler(this.metroCheckBox1_CheckedChanged);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(15, 38);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(380, 57);
+            this.metroLabel1.TabIndex = 0;
+            this.metroLabel1.Text = "This sets the limit on the hours, a person can browse the intenet.\r\nHowever you w" +
+    "ill be able to use your parental authority, to \r\ndisable this for one session af" +
+    "ter the limit is reached.";
+            // 
+            // metroLink1
+            // 
+            this.metroLink1.Location = new System.Drawing.Point(270, 521);
+            this.metroLink1.Name = "metroLink1";
+            this.metroLink1.Size = new System.Drawing.Size(211, 23);
+            this.metroLink1.TabIndex = 7;
+            this.metroLink1.Text = "Delete Browser History";
+            this.metroLink1.UseSelectable = true;
+            this.metroLink1.Click += new System.EventHandler(this.metroLink1_Click);
+            // 
+            // metroLink2
+            // 
+            this.metroLink2.Location = new System.Drawing.Point(23, 523);
+            this.metroLink2.Name = "metroLink2";
+            this.metroLink2.Size = new System.Drawing.Size(137, 23);
+            this.metroLink2.TabIndex = 8;
+            this.metroLink2.Text = "Delete my PA account";
+            this.metroLink2.UseSelectable = true;
+            this.metroLink2.Click += new System.EventHandler(this.metroLink2_Click);
             // 
             // Parental_Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 439);
+            this.ClientSize = new System.Drawing.Size(485, 569);
+            this.Controls.Add(this.metroLink2);
+            this.Controls.Add(this.metroLink1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.groupBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Parental_Control";
             this.Text = "Parental Control";
             this.Load += new System.EventHandler(this.Parental_Control_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,5 +333,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox EnableParentalAuthorityCheckbox;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
+        private MetroFramework.Controls.MetroRadioButton Hour2;
+        private MetroFramework.Controls.MetroRadioButton Hour1Min30;
+        private MetroFramework.Controls.MetroRadioButton Hour1;
+        private MetroFramework.Controls.MetroRadioButton Min30;
+        private MetroFramework.Controls.MetroLink metroLink1;
+        private MetroFramework.Controls.MetroLink metroLink2;
     }
 }
