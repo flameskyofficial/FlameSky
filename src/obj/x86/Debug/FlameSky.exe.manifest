@@ -224,49 +224,49 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="193024">
-      <assemblyIdentity name="CefSharp" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="CefSharp" version="63.0.3.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ogIIYT7VbTm1qcwimsMKSCD2RaO31gbpDaTxrEc3Gpg=</dsig:DigestValue>
+        <dsig:DigestValue>PjqZ6mAB7m+R1RDAT0gCnjYAVCJczjaOX94d5a8PmO4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1256960">
-      <assemblyIdentity name="CefSharp.Core" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1257984">
+      <assemblyIdentity name="CefSharp.Core" version="63.0.3.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cOQtKrM0ffRWbncQ+vpKmjChvffRwytI6heG3a9DcRo=</dsig:DigestValue>
+        <dsig:DigestValue>5NRM9Lbr1LcOao9prQqRnIyhqSwij0j/+arh1ZYvJY8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="28672">
-      <assemblyIdentity name="CefSharp.WinForms" version="63.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="CefSharp.WinForms" version="63.0.3.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rUqihvxJPhLFcE2UA0/SAcZzDjF4WiNR7zk+r6oq1r0=</dsig:DigestValue>
+        <dsig:DigestValue>zRQe+PMH46g/AtpJYzl5lPnGX+z1cjJJrcOpaSYseS4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="12803512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="12764600">
       <assemblyIdentity name="FlameSky" version="5.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VCUEgZ3BZ/wo0w4vtssO2xfuMtJUBgyMqaLnZjyGyTs=</dsig:DigestValue>
+        <dsig:DigestValue>jDcEGNO6r9MXqiKX0GVTSlXOaF1k70hmd9/DOBhuDhI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -346,15 +346,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>Yd3s/nnMCtfi/lT4+3cV5TJgwdFM1SsJNvl3U+WD3IM=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="FlameSkyPlanner.accdb" size="749568">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ktXASVMlyeDpaaUv4cKktRXexbYX/xDqRXXDX4rGmO4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

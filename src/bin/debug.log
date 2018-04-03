@@ -4401,3 +4401,24 @@ KAdefine.require("./javascript/shared-package/ka.js");
 ", source: https://www.facebook.com/ (0)
 [0402/211119.079:ERROR:broker_win.cc(138)] Error sending sync broker message
 [0403/122433.687:ERROR:broker_win.cc(59)] Error reading broker pipe: The pipe has been ended. (0x6D)
+[0403/162605.279:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0403/162605.406:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0403/162635.825:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/162635.827:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0403/162636.494:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/162636.494:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0403/162643.465:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0403/162644.419:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/162644.419:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0403/162644.419:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/162654.352:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/162749.416:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0403/162749.416:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0403/162750.928:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/162750.953:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0403/162750.967:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/162750.972:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0403/162753.067:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0403/162753.176:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/162753.176:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0403/162753.176:ERROR:disk_cache.cc(169)] Unable to create cache

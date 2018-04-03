@@ -1641,10 +1641,7 @@ namespace FlameSky
             return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), directory);
         }
 
-        private void educationalToolsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new FlameSkyTimeTable().Show();
-        }
+      
 
         private void parentalControlsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1691,10 +1688,7 @@ namespace FlameSky
             new FlashForm().Show();
         }
 
-        private void flameSkyTimetableToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new FlameSkyTimeTable().Show();
-        }
+        
 
         private void researchDatabaseToolStripMenuItem_Click(object sender, EventArgs e)
         {

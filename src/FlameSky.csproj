@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.props" Condition="Exists('packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.props')" />
-  <Import Project="packages\CefSharp.Common.63.0.2\build\CefSharp.Common.props" Condition="Exists('packages\CefSharp.Common.63.0.2\build\CefSharp.Common.props')" />
+  <Import Project="packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.props" Condition="Exists('packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.props')" />
+  <Import Project="packages\CefSharp.Common.63.0.3\build\CefSharp.Common.props" Condition="Exists('packages\CefSharp.Common.63.0.3\build\CefSharp.Common.props')" />
   <Import Project="packages\cef.redist.x86.3.3239.1723\build\cef.redist.x86.props" Condition="Exists('packages\cef.redist.x86.3.3239.1723\build\cef.redist.x86.props')" />
   <Import Project="packages\cef.redist.x64.3.3239.1723\build\cef.redist.x64.props" Condition="Exists('packages\cef.redist.x64.3.3239.1723\build\cef.redist.x64.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -107,12 +107,6 @@
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\JSON.cs" />
-    <Compile Include="FlameSkyTimeTable.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FlameSkyTimeTable.Designer.cs">
-      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
-    </Compile>
     <Compile Include="FirstTimeParentalControls.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,11 +118,6 @@
     </Compile>
     <Compile Include="FlameSkyNotes.Designer.cs">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FlameSkyPlannerDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="FlashForm.cs">
       <SubType>Form</SubType>
@@ -190,9 +179,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FlameSkyTimeTable.resx">
-      <DependentUpon>FlameSkyTimeTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FirstTimeParentalControls.resx">
       <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
@@ -273,17 +259,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FlameSkyPlannerDataSet.xsc">
-      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="FlameSkyPlannerDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>FlameSkyPlannerDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="FlameSkyPlannerDataSet.xss">
-      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
-    </None>
     <None Include="FlameSky_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -294,9 +269,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
-    <Content Include="FlameSkyPlanner.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Resources\makefg2.png" />
     <None Include="Resources\makefg1.png" />
     <None Include="Resources\eagle-303417_960_720.png" />
@@ -349,13 +321,13 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\cef.redist.x64.3.3239.1723\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\cef.redist.x64.3.3239.1723\build\cef.redist.x64.props'))" />
     <Error Condition="!Exists('packages\cef.redist.x86.3.3239.1723\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\cef.redist.x86.3.3239.1723\build\cef.redist.x86.props'))" />
-    <Error Condition="!Exists('packages\CefSharp.Common.63.0.2\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.63.0.2\build\CefSharp.Common.props'))" />
-    <Error Condition="!Exists('packages\CefSharp.Common.63.0.2\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.63.0.2\build\CefSharp.Common.targets'))" />
-    <Error Condition="!Exists('packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.props'))" />
-    <Error Condition="!Exists('packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.targets'))" />
+    <Error Condition="!Exists('packages\CefSharp.Common.63.0.3\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.63.0.3\build\CefSharp.Common.props'))" />
+    <Error Condition="!Exists('packages\CefSharp.Common.63.0.3\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.63.0.3\build\CefSharp.Common.targets'))" />
+    <Error Condition="!Exists('packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.props'))" />
+    <Error Condition="!Exists('packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.targets'))" />
   </Target>
-  <Import Project="packages\CefSharp.Common.63.0.2\build\CefSharp.Common.targets" Condition="Exists('packages\CefSharp.Common.63.0.2\build\CefSharp.Common.targets')" />
-  <Import Project="packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.targets" Condition="Exists('packages\CefSharp.WinForms.63.0.2\build\CefSharp.WinForms.targets')" />
+  <Import Project="packages\CefSharp.Common.63.0.3\build\CefSharp.Common.targets" Condition="Exists('packages\CefSharp.Common.63.0.3\build\CefSharp.Common.targets')" />
+  <Import Project="packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.targets" Condition="Exists('packages\CefSharp.WinForms.63.0.3\build\CefSharp.WinForms.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

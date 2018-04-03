@@ -61,12 +61,12 @@
             this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.developerToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enableFlashPlayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.flameSkyTimetableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +99,6 @@
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripSplitButton();
             this.PATimeLimit = new System.Windows.Forms.Timer(this.components);
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -430,7 +429,7 @@
             this.enableFlashPlayerToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.MenuStripDropDown.Name = "contextMenuStrip1";
-            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 312);
+            this.MenuStripDropDown.Size = new System.Drawing.Size(199, 290);
             // 
             // newTabToolStripMenuItem
             // 
@@ -502,6 +501,13 @@
             this.developerToolsToolStripMenuItem.Text = "Developer Tools";
             this.developerToolsToolStripMenuItem.Click += new System.EventHandler(this.developerToolsToolStripMenuItem_Click_1);
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
             // enableFlashPlayerToolStripMenuItem
             // 
             this.enableFlashPlayerToolStripMenuItem.Name = "enableFlashPlayerToolStripMenuItem";
@@ -538,8 +544,7 @@
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dualWorldToolStripMenuItem,
-            this.flameSkyTimetableToolStripMenuItem});
+            this.dualWorldToolStripMenuItem});
             this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -549,16 +554,9 @@
             // dualWorldToolStripMenuItem
             // 
             this.dualWorldToolStripMenuItem.Name = "dualWorldToolStripMenuItem";
-            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dualWorldToolStripMenuItem.Text = "Add Notes";
+            this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.dualWorldToolStripMenuItem.Text = "Add Notes (Sticky notes)";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
-            // 
-            // flameSkyTimetableToolStripMenuItem
-            // 
-            this.flameSkyTimetableToolStripMenuItem.Name = "flameSkyTimetableToolStripMenuItem";
-            this.flameSkyTimetableToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.flameSkyTimetableToolStripMenuItem.Text = "FlameSky Timetable";
-            this.flameSkyTimetableToolStripMenuItem.Click += new System.EventHandler(this.flameSkyTimetableToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -806,13 +804,6 @@
             // 
             this.PATimeLimit.Tick += new System.EventHandler(this.PATimeLimit_Tick);
             // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -913,7 +904,6 @@
         private System.Windows.Forms.ToolStripMenuItem parentalControlsToolStripMenuItem;
         private System.Windows.Forms.Timer PATimeLimit;
         private System.Windows.Forms.ToolStripMenuItem enableFlashPlayerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem flameSkyTimetableToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem researchDatabaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripSplitButton toolStripStatusLabel5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
