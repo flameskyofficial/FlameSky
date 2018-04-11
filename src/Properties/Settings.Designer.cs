@@ -187,5 +187,16 @@ namespace FlameSky.Properties {
                 this["FlashFirstTime"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"|DataDirectory|\\Personal contact m" +
+            "anager.accdb\"")]
+        public string Personal_contact_managerConnectionString {
+            get {
+                return ((string)(this["Personal_contact_managerConnectionString"]));
+            }
+        }
     }
 }

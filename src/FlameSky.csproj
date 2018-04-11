@@ -113,11 +113,28 @@
     <Compile Include="FirstTimeParentalControls.Designer.cs">
       <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
     </Compile>
+    <Compile Include="FlameSky Contacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlameSky Contacts.Designer.cs">
+      <DependentUpon>FlameSky Contacts.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlameSkyNotes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FlameSkyNotes.Designer.cs">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlameSkyPlanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlameSkyPlanner.Designer.cs">
+      <DependentUpon>FlameSkyPlanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlameSkyPlannerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="FlashForm.cs">
       <SubType>Form</SubType>
@@ -131,6 +148,11 @@
     </Compile>
     <Compile Include="Parental Control.Designer.cs">
       <DependentUpon>Parental Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_contact_managerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Personal_contact_managerDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -183,8 +205,14 @@
     <EmbeddedResource Include="FirstTimeParentalControls.resx">
       <DependentUpon>FirstTimeParentalControls.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FlameSky Contacts.resx">
+      <DependentUpon>FlameSky Contacts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FlameSkyNotes.resx">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlameSkyPlanner.resx">
+      <DependentUpon>FlameSkyPlanner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FlashForm.resx">
       <DependentUpon>FlashForm.cs</DependentUpon>
@@ -259,8 +287,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="FlameSkyPlannerDataSet.xsc">
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FlameSkyPlannerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FlameSkyPlannerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FlameSkyPlannerDataSet.xss">
+      <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
+    </None>
     <None Include="FlameSky_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="Personal_contact_managerDataSet.xsc">
+      <DependentUpon>Personal_contact_managerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Personal_contact_managerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Personal_contact_managerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Personal_contact_managerDataSet.xss">
+      <DependentUpon>Personal_contact_managerDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -269,6 +319,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
+    <Content Include="FlameSkyPlanner.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Personal contact manager.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\makefg2.png" />
     <None Include="Resources\makefg1.png" />
     <None Include="Resources\eagle-303417_960_720.png" />

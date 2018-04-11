@@ -67,6 +67,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flameSkyPlannerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,6 +100,7 @@
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripSplitButton();
             this.PATimeLimit = new System.Windows.Forms.Timer(this.components);
+            this.flameSkyContactsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -544,7 +546,9 @@
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dualWorldToolStripMenuItem});
+            this.dualWorldToolStripMenuItem,
+            this.flameSkyPlannerToolStripMenuItem,
+            this.flameSkyContactsToolStripMenuItem});
             this.toolStripSplitButton1.Image = global::FlameSky.Properties.Resources.FlameSkyAppsIcon;
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -557,6 +561,13 @@
             this.dualWorldToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.dualWorldToolStripMenuItem.Text = "Add Notes (Sticky notes)";
             this.dualWorldToolStripMenuItem.Click += new System.EventHandler(this.dualWorldToolStripMenuItem_Click);
+            // 
+            // flameSkyPlannerToolStripMenuItem
+            // 
+            this.flameSkyPlannerToolStripMenuItem.Name = "flameSkyPlannerToolStripMenuItem";
+            this.flameSkyPlannerToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.flameSkyPlannerToolStripMenuItem.Text = "FlameSky Planner";
+            this.flameSkyPlannerToolStripMenuItem.Click += new System.EventHandler(this.flameSkyPlannerToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -804,6 +815,13 @@
             // 
             this.PATimeLimit.Tick += new System.EventHandler(this.PATimeLimit_Tick);
             // 
+            // flameSkyContactsToolStripMenuItem
+            // 
+            this.flameSkyContactsToolStripMenuItem.Name = "flameSkyContactsToolStripMenuItem";
+            this.flameSkyContactsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.flameSkyContactsToolStripMenuItem.Text = "FlameSky Contacts";
+            this.flameSkyContactsToolStripMenuItem.Click += new System.EventHandler(this.flameSkyContactsToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -907,6 +925,8 @@
         private System.Windows.Forms.ToolStripMenuItem researchDatabaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripSplitButton toolStripStatusLabel5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flameSkyPlannerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem flameSkyContactsToolStripMenuItem;
     }
 }
 

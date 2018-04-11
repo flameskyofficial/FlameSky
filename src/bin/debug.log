@@ -4422,3 +4422,58 @@ KAdefine.require("./javascript/shared-package/ka.js");
 [0403/162753.176:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
 [0403/162753.176:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
 [0403/162753.176:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/175458.537:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0403/175458.740:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0403/175509.199:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/175509.200:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0403/175509.200:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/175509.202:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0403/175511.349:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0403/175511.695:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/175511.695:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0403/175511.695:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/175520.193:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/175528.407:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0403/175528.409:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0403/175529.333:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0403/175529.334:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0403/175529.822:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0403/175531.064:INFO:CONSOLE(1146)] "<link rel=preload> must have a valid `as` value", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vflH0ZZzd/desktop_polymer.js (1146)
+[0403/175533.523:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/175533.524:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/175533.719:INFO:CONSOLE(0)] "Uncaught (in promise) Unable to open IndexedDB.", source: https://www.youtube.com/watch?v=huFra1mnIVE (0)
+[0403/180529.342:ERROR:tcp_socket_win.cc(335)] bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+[0403/180529.344:ERROR:devtools_http_handler.cc(249)] Cannot start http server for devtools. Stop devtools.
+[0403/180530.606:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/180530.606:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\GPUCache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_GPUCache_000
+[0403/180530.606:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/180530.606:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0403/180532.644:ERROR:service_worker_storage.cc(1953)] Failed to delete the database: Database operation failed
+[0403/180532.672:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0403/180532.678:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0403/180532.678:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\Cache to C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\old_Cache_001
+[0403/180532.678:ERROR:disk_cache.cc(169)] Unable to create cache
+[0403/180545.926:ERROR:service_manager.cc(157)] Connection InterfaceProviderSpec prevented service: content_renderer from binding interface: blink::mojom::ReportingServiceProxy exposed by: content_browser
+[0403/180545.929:INFO:CONSOLE(0)] "Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to https://goo.gl/EGXzpw for possible migration paths.", source:  (0)
+[0403/180546.193:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/180546.505:WARNING:extension_protocols.cc(477)] Failed to GetPathForExtension: invalid
+[0403/180546.505:WARNING:url_request_job_manager.cc(90)] Failed to map: chrome-extension://invalid/
+[0403/180546.757:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: flamesky://storage/errors/cannotConnect.html (1)
+[0403/180549.884:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/180549.885:ERROR:indexed_db_backing_store.cc(951)] Unable to open backing store, not trying to recover - IO error: C:\Documents and Settings\All Users\Application Data\FlameSky\Cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: No further details. (ChromeMethodBFE: 15::LockFile::1)
+[0403/180549.904:INFO:CONSOLE(0)] "Uncaught (in promise) Unable to open IndexedDB.", source: https://www.youtube.com/?gl=QA (0)
+[0403/180550.656:INFO:CONSOLE(3280)] "paper-tooltip:", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vflH0ZZzd/desktop_polymer.js (3280)
+[0403/180550.977:INFO:CONSOLE(3280)] "paper-tooltip:", source: https://s.ytimg.com/yts/jsbin/desktop_polymer-vflH0ZZzd/desktop_polymer.js (3280)
+[0411/133435.636:ERROR:cookie_monster.cc(1253)] Found 1 duplicate cookies for host='google.com', with {name='SIDCC', domain='.google.com', path='/'}
+[0411/135613.222:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 1
+[0411/151147.158:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0411/151147.188:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0411/151147.189:WARNING:backend_impl.cc(1823)] Destroying invalid entry.
+[0411/191049.382:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191054.489:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191059.494:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191100.192:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191100.795:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191100.804:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0411/191116.825:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&uc=1&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.wjAGE-AVlTo.O%2Fm%3D__features__%2Fam%3DAAE%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo-gY863zTybf8wCUIW8gIU8UfC49g#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1523447121048&_gfid=I0_1523447121048&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=10828375 (0)
+[0411/191126.135:INFO:CONSOLE(0)] "Failed to load flamesky://storage/errors/cannotConnect.html: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://notifications.google.com' is therefore not allowed access.", source: https://notifications.google.com/u/0/widget?sourceid=1&hl=en&origin=https%3A%2F%2Fwww.google.com&uc=1&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.wjAGE-AVlTo.O%2Fm%3D__features__%2Fam%3DAAE%2Frt%3Dj%2Fd%3D1%2Frs%3DAHpOoo-gY863zTybf8wCUIW8gIU8UfC49g#pid=1&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2Creauth%2CsetNotificationWidgetHeight%2CsetNotificationWidgetSize%2CswitchTo%2CnavigateTo%2CsetNotificationText%2CsetNotificationAnimation%2CgetNotificationText%2CvalidateUser%2C_ready&id=I0_1523447121048&_gfid=I0_1523447121048&parent=https%3A%2F%2Fwww.google.com&pfname=&rpctoken=10828375 (0)

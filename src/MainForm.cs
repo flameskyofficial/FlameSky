@@ -40,10 +40,10 @@ namespace FlameSky
         public static string NewTabURL = "about:blank";
         public static string DownloadsURL = "flamesky://storage/downloads.html";
 
-        public static string AdulteryURL = "flamesky://storage/adulterywebsite.html";
+       
         public static string FileNotFoundURL = "flamesky://storage/errors/notFound.html";
         public static string CannotConnectURL = "flamesky://storage/errors/cannotConnect.html";
-        public static string ParentalAuthorityBlockURL = "flamesky://storage/errors/parentalauthorityaccessdenied";
+        
 
 
         public static string SearchURL = FlameSky.Properties.Settings.Default.DefaultSearchEngine;
@@ -744,15 +744,11 @@ namespace FlameSky
 			browser.Tag = text;
 
             // get tab of given browser
-            try // deals with the exception issue that arose when full screen was tried.
-            {
+            // deals with the exception issue that arose when full screen was tried.
+            
                 FATabStripItem tabStrip = (FATabStripItem)browser.Parent;
                 tabStrip.Title = text;
-            }
-            catch (Exception)
-            {
-
-            }
+           
 			 
 
 
@@ -1357,7 +1353,7 @@ namespace FlameSky
 
         private void toolStripStatusLabel1_Click_1(object sender, EventArgs e)
         {
-            CurBrowser.Load(AdulteryURL);
+           
         }
 
         private void newWindowToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1414,6 +1410,8 @@ namespace FlameSky
                 MenuStripDropDown.Show(Menu, new Point(0, Menu.Height));
             }
         }
+
+        
 
         private void newTabToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -1703,6 +1701,16 @@ namespace FlameSky
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new AboutBox1().Show();
+        }
+
+        private void flameSkyPlannerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FlameSkyPlanner().Show();
+        }
+
+        private void flameSkyContactsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FlameSky_Contacts().Show();
         }
     }
 }
