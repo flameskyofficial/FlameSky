@@ -3,7 +3,7 @@
 
 # Flamesky (Web Browser)
 
-Version in Progress: 5.0.0.1
+Version in Progress: 5.1
 
 Developer: [FlameSky Contributors](https://github.com/flameskyofficial/FlameSky/graphs/contributors)
 
