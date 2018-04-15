@@ -39,6 +39,7 @@
             this.BtnBack = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.PanelToolbar = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.Menu = new System.Windows.Forms.Button();
             this.AddressBarPanel = new System.Windows.Forms.Panel();
             this.TxtURL = new System.Windows.Forms.ComboBox();
@@ -68,6 +69,7 @@
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.dualWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.flameSkyPlannerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flameSkyContactsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.alJazeeraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jerusalemPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -100,7 +102,6 @@
             this.whatsappWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripSplitButton();
             this.PATimeLimit = new System.Windows.Forms.Timer(this.components);
-            this.flameSkyContactsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             this.AddressBarPanel.SuspendLayout();
@@ -204,6 +205,7 @@
             // PanelToolbar
             // 
             this.PanelToolbar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.PanelToolbar.Controls.Add(this.button1);
             this.PanelToolbar.Controls.Add(this.Menu);
             this.PanelToolbar.Controls.Add(this.AddressBarPanel);
             this.PanelToolbar.Controls.Add(this.BtnForward);
@@ -216,6 +218,22 @@
             this.PanelToolbar.Name = "PanelToolbar";
             this.PanelToolbar.Size = new System.Drawing.Size(934, 27);
             this.PanelToolbar.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackgroundImage = global::FlameSky.Properties.Resources.iconmonstr_favorite_8_240;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button1.Location = new System.Drawing.Point(887, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(23, 23);
+            this.button1.TabIndex = 6;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Menu
             // 
@@ -244,7 +262,7 @@
             this.AddressBarPanel.Controls.Add(this.LoadingIndicator);
             this.AddressBarPanel.Location = new System.Drawing.Point(83, 1);
             this.AddressBarPanel.Name = "AddressBarPanel";
-            this.AddressBarPanel.Size = new System.Drawing.Size(828, 23);
+            this.AddressBarPanel.Size = new System.Drawing.Size(799, 23);
             this.AddressBarPanel.TabIndex = 4;
             this.AddressBarPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.AddressBarPanel_Paint);
             // 
@@ -279,7 +297,7 @@
             this.TxtURL.FormattingEnabled = true;
             this.TxtURL.Location = new System.Drawing.Point(23, 0);
             this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(803, 21);
+            this.TxtURL.Size = new System.Drawing.Size(774, 21);
             this.TxtURL.TabIndex = 1;
             this.TxtURL.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.TxtURL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtURL_KeyDown_1);
@@ -505,6 +523,7 @@
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.Image = global::FlameSky.Properties.Resources.iconmonstr_info_7_240;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.aboutToolStripMenuItem.Text = "About";
@@ -568,6 +587,13 @@
             this.flameSkyPlannerToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.flameSkyPlannerToolStripMenuItem.Text = "FlameSky Planner";
             this.flameSkyPlannerToolStripMenuItem.Click += new System.EventHandler(this.flameSkyPlannerToolStripMenuItem_Click);
+            // 
+            // flameSkyContactsToolStripMenuItem
+            // 
+            this.flameSkyContactsToolStripMenuItem.Name = "flameSkyContactsToolStripMenuItem";
+            this.flameSkyContactsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.flameSkyContactsToolStripMenuItem.Text = "FlameSky Contacts";
+            this.flameSkyContactsToolStripMenuItem.Click += new System.EventHandler(this.flameSkyContactsToolStripMenuItem_Click);
             // 
             // toolStripStatusLabel1
             // 
@@ -815,13 +841,6 @@
             // 
             this.PATimeLimit.Tick += new System.EventHandler(this.PATimeLimit_Tick);
             // 
-            // flameSkyContactsToolStripMenuItem
-            // 
-            this.flameSkyContactsToolStripMenuItem.Name = "flameSkyContactsToolStripMenuItem";
-            this.flameSkyContactsToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
-            this.flameSkyContactsToolStripMenuItem.Text = "FlameSky Contacts";
-            this.flameSkyContactsToolStripMenuItem.Click += new System.EventHandler(this.flameSkyContactsToolStripMenuItem_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -927,6 +946,7 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem flameSkyPlannerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem flameSkyContactsToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

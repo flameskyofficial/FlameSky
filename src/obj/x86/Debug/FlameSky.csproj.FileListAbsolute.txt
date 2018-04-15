@@ -249,3 +249,5 @@ C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.FlameSkyPlanne
 C:\Users\andre\source\repos\FlameSky 5\src\bin\FlameSkyPlanner.accdb
 C:\Users\andre\source\repos\FlameSky 5\src\bin\Personal contact manager.accdb
 C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.FlameSky_Contacts.resources
+C:\Users\andre\source\repos\FlameSky 5\src\bin\FlameSkyFavorites.accdb
+C:\Users\andre\source\repos\FlameSky 5\src\obj\x86\Debug\FlameSky.FlameSkyFavorites.resources

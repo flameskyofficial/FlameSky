@@ -203,6 +203,26 @@ namespace FlameSky.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconmonstr_favorite_8_240 {
+            get {
+                object obj = ResourceManager.GetObject("iconmonstr-favorite-8-240", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconmonstr_info_7_240 {
+            get {
+                object obj = ResourceManager.GetObject("iconmonstr-info-7-240", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LoadingCompletedIndicator {
             get {
                 object obj = ResourceManager.GetObject("LoadingCompletedIndicator", resourceCulture);

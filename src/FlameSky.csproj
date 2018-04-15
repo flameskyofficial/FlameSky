@@ -119,6 +119,17 @@
     <Compile Include="FlameSky Contacts.Designer.cs">
       <DependentUpon>FlameSky Contacts.cs</DependentUpon>
     </Compile>
+    <Compile Include="FlameSkyFavorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlameSkyFavorites.Designer.cs">
+      <DependentUpon>FlameSkyFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlameSkyFavoritesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlameSkyFavoritesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FlameSkyNotes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +219,9 @@
     <EmbeddedResource Include="FlameSky Contacts.resx">
       <DependentUpon>FlameSky Contacts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FlameSkyFavorites.resx">
+      <DependentUpon>FlameSkyFavorites.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FlameSkyNotes.resx">
       <DependentUpon>FlameSkyNotes.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +301,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="FlameSkyFavoritesDataSet.xsc">
+      <DependentUpon>FlameSkyFavoritesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FlameSkyFavoritesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FlameSkyFavoritesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FlameSkyFavoritesDataSet.xss">
+      <DependentUpon>FlameSkyFavoritesDataSet.xsd</DependentUpon>
+    </None>
     <None Include="FlameSkyPlannerDataSet.xsc">
       <DependentUpon>FlameSkyPlannerDataSet.xsd</DependentUpon>
     </None>
@@ -319,12 +344,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlameSky.ico" />
+    <Content Include="FlameSkyFavorites.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="FlameSkyPlanner.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Personal contact manager.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\iconmonstr-favorite-8-240.png" />
+    <None Include="Resources\iconmonstr-info-7-240.png" />
     <None Include="Resources\makefg2.png" />
     <None Include="Resources\makefg1.png" />
     <None Include="Resources\eagle-303417_960_720.png" />

@@ -1712,6 +1712,11 @@ namespace FlameSky
         {
             new FlameSky_Contacts().Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new FlameSkyFavorites().Show();
+        }
     }
 }
 
