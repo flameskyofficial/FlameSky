@@ -259,14 +259,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="13551032">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlameSky.exe" size="13551544">
       <assemblyIdentity name="FlameSky" version="5.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i+nc9MxXXSjOP1lqdE/R109Tt+6hASM9rP2v47j4S8U=</dsig:DigestValue>
+        <dsig:DigestValue>TztmPj4arDv74/vcw+B9N8kqjegJZHLh0u3jhKV78eY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
